@@ -1,0 +1,2683 @@
+{
+  "categories": [
+    {
+      "id": "minimal",
+      "name": "Minimal & Functional",
+      "accent": "#5b8def",
+      "blurb": "Restraint, whitespace, grid discipline. Content does the talking."
+    },
+    {
+      "id": "editorial",
+      "name": "Editorial & Typographic",
+      "accent": "#e0533d",
+      "blurb": "Magazine logic on the web — display type, columns, hierarchy as art."
+    },
+    {
+      "id": "retro",
+      "name": "Retro & Nostalgia",
+      "accent": "#e8a33d",
+      "blurb": "Borrowed from print, arcades and old operating systems."
+    },
+    {
+      "id": "brutalist",
+      "name": "Brutalist & Raw",
+      "accent": "#111111",
+      "blurb": "Exposed structure, default type, hard edges, deliberate friction."
+    },
+    {
+      "id": "tactile",
+      "name": "Skeuomorphic & Tactile",
+      "accent": "#8b93a7",
+      "blurb": "Surfaces you want to touch — shadow, depth, material realism."
+    },
+    {
+      "id": "maximal",
+      "name": "Maximalist & Expressive",
+      "accent": "#f0356b",
+      "blurb": "Loud colour, illustration and personality turned all the way up."
+    },
+    {
+      "id": "organic",
+      "name": "Organic & Earthy",
+      "accent": "#8a9a72",
+      "blurb": "Natural palettes, soft arcs, calm pacing, human warmth."
+    },
+    {
+      "id": "cinematic",
+      "name": "Dark & Cinematic",
+      "accent": "#c9a227",
+      "blurb": "Dark grounds, dramatic light, film-set staging."
+    },
+    {
+      "id": "photo",
+      "name": "Photography-Led",
+      "accent": "#7d6a58",
+      "blurb": "The image is the interface; typography stays out of the way."
+    },
+    {
+      "id": "future",
+      "name": "Futuristic & Tech",
+      "accent": "#00d3a7",
+      "blurb": "Glass, glow, data and machined precision."
+    },
+    {
+      "id": "luxury",
+      "name": "Luxury & Fashion",
+      "accent": "#2b3a8f",
+      "blurb": "Couture pacing — thin serifs, wide letterspacing, generous air."
+    },
+    {
+      "id": "experimental",
+      "name": "Experimental & Art Direction",
+      "accent": "#6b4bd6",
+      "blurb": "Rules broken on purpose. Collage, texture, type as sculpture."
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted (new)",
+      "accent": "#ff8a3d",
+      "blurb": "Images found in /resources that have not been classified yet."
+    }
+  ],
+  "styles": [
+    {
+      "id": "neumorphism",
+      "title": "Neumorphism / Soft UI",
+      "category": "tactile",
+      "image": "resources/0568d2e491f5ed5c86e4a419a985c76c.jpg",
+      "short": "Monochrome surfaces where every element is extruded from the same background using twin light and dark shadows.",
+      "long": "Neumorphism keeps a single off-white or light-grey background and makes components appear pressed into or raised out of it, using a pale highlight on one corner and a soft grey shadow on the opposite one. Nothing has a border and almost nothing has a fill — depth is the only affordance. It is beautiful and notoriously low-contrast, so accent colours are reserved for the one or two actions that matter.",
+      "keywords": [
+        "soft ui",
+        "dual shadow",
+        "monochrome",
+        "extruded",
+        "low contrast",
+        "rounded squircle",
+        "minimal accents"
+      ],
+      "palette": [
+        "#e9edf0",
+        "#e6e9ef",
+        "#d3dbe6",
+        "#ff7272",
+        "#489cc1"
+      ],
+      "traits": {
+        "Typography": "Geometric sans (Gilroy, Poppins) with wide tracking on headings, very light weights for body.",
+        "Layout": "Generous padding, large corner radii (20–32px), floating cards on a flat field.",
+        "Colour": "One background tone plus a lighter and darker derivative; saturated accents used sparingly.",
+        "Motion": "Press states that invert the shadow direction — outset becomes inset."
+      },
+      "prompt": "Full-page website UI screenshot in neumorphic soft-UI style, single light grey #E9EDF0 background, every card and button extruded from the background with a white top-left highlight and soft grey bottom-right shadow, no borders, no fills, large squircle corner radii, geometric sans-serif typography with wide letterspacing, one coral and one blue accent used only on primary actions, mobile app screens floating on the page, clean product photography, soft diffused studio light, ultra sharp interface render, 1440px desktop viewport"
+    },
+    {
+      "id": "vintage-newspaper",
+      "title": "Vintage Newspaper",
+      "category": "retro",
+      "image": "resources/0b6f95a8a02e3403c1ed831be11e2c5c.jpg",
+      "short": "A broadsheet transplanted to the browser — masthead, rules, drop caps and multi-column body copy on aged paper.",
+      "long": "This style borrows the full grammar of 19th- and 20th-century print journalism: an all-caps masthead in a fat display serif, a dateline and volume number, hairline rules dividing every zone, three-to-four text columns, drop caps opening each story and halftone-treated photography. The paper texture and slightly warped ink do the heavy lifting; the layout itself is deliberately dense and un-modern.",
+      "keywords": [
+        "broadsheet",
+        "masthead",
+        "drop cap",
+        "hairline rules",
+        "multi-column",
+        "halftone",
+        "aged paper",
+        "letterpress"
+      ],
+      "palette": [
+        "#efe7d5",
+        "#e3d9c2",
+        "#2b2620",
+        "#8a7b5f"
+      ],
+      "traits": {
+        "Typography": "Didone or slab display for the masthead, old-style serif for body, italic standfirsts, small caps subheads.",
+        "Layout": "Rigid vertical columns with visible dividing rules; centred headline stacks; boxed pull-quotes.",
+        "Colour": "Cream and newsprint tan with near-black ink; a single muted spot colour at most.",
+        "Motion": "Almost none — page turns and simple fades keep the print illusion intact."
+      },
+      "prompt": "Full-page website screenshot designed as a vintage newspaper front page, aged cream newsprint texture, huge all-caps Didone masthead across the top, dateline and volume number, thin double horizontal rules separating sections, four columns of justified serif body text with ornamental drop caps, black-and-white halftone photograph of a 1950s street scene with caption, boxed pull-quote with hairline border, small circular letterpress badge, ink slightly bleeding into the paper, warm sepia palette, flat scan lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "sliced-monochrome",
+      "title": "Sliced Monochrome Editorial",
+      "category": "editorial",
+      "image": "resources/0b87adda2faff44d8c585f013351a89b.jpg",
+      "short": "A single greyscale photograph cut into offset vertical panels, captioned like a gallery wall label.",
+      "long": "One high-contrast black-and-white image is sliced into vertical bands of varying height and nudged out of alignment, so the eye reassembles the subject while reading the gaps as rhythm. Typography is tiny, all-caps and set in a fine serif at the bottom edge, treated as a wall label rather than a headline. The whole composition lives or dies on the quality of the light in the source photograph.",
+      "keywords": [
+        "greyscale",
+        "sliced panels",
+        "offset grid",
+        "high fashion",
+        "wall label",
+        "negative space",
+        "shadow play"
+      ],
+      "palette": [
+        "#ffffff",
+        "#d8d8d8",
+        "#4a4a4a",
+        "#0a0a0a"
+      ],
+      "traits": {
+        "Typography": "Fine transitional serif, all caps, heavy letterspacing, 11–13px, no bold anywhere.",
+        "Layout": "5–7 vertical slices with staggered top and bottom edges; caption block anchored bottom-left.",
+        "Colour": "Pure greyscale; the only 'colour' is the tonal gradient of the photograph.",
+        "Motion": "Slices drift at different parallax speeds on scroll."
+      },
+      "prompt": "Editorial web page, pure white background, one high-contrast black and white close-up portrait sliced into six vertical panels of different heights and offset vertically, dramatic leaf shadows falling across the face, soft grayscale gradient from dark at top to light at bottom, tiny all-caps fine serif caption paragraph at the bottom with wide letterspacing, small barcode mark in the corner, gallery wall-label restraint, enormous negative space, ultra sharp, 1440px desktop viewport"
+    },
+    {
+      "id": "retro-flat-textured",
+      "title": "Retro Flat & Textured",
+      "category": "retro",
+      "image": "resources/0f762bf9c69353dabffa118532e67b16.jpg",
+      "short": "Early-2010s indie web: speckled paper, ultra-condensed slab headlines and long ribbon graphics folding down the page.",
+      "long": "A warm speckled cream background carries chunky condensed slab or gothic headlines set tight and all-caps, small dark label chips for section titles, and long flat ribbon shapes that fold at 90 degrees to lead the eye down the page. Colour is a muted mid-century quartet — sage, dusty teal, wheat, burnt orange. It reads handmade and confident rather than corporate.",
+      "keywords": [
+        "paper texture",
+        "condensed slab",
+        "ribbon graphic",
+        "muted palette",
+        "label chip",
+        "flat illustration",
+        "indie web"
+      ],
+      "palette": [
+        "#f3e3c3",
+        "#5c7a6d",
+        "#d9cb96",
+        "#d9744a",
+        "#332f2b"
+      ],
+      "traits": {
+        "Typography": "Ultra-condensed gothic display (League Gothic style) at huge sizes, humanist sans for body.",
+        "Layout": "Single wide column with full-bleed graphic ribbons; two-column feature blocks.",
+        "Colour": "Speckled cream ground, four muted mid-century accents, near-black ink.",
+        "Motion": "Simple anchored scrolling; the ribbons imply movement without animating."
+      },
+      "prompt": "Full-page website screenshot in retro flat indie style, speckled warm cream paper texture background, enormous ultra-condensed all-caps slab headline in dark charcoal, four long flat ribbon stripes in sage green, dusty teal, wheat and burnt orange folding at a right angle across the layout, small dark label chips containing section titles, three flat browser-window portfolio thumbnails in a row, dotted divider rules, mid-century muted palette, 2011 indie web aesthetic, 1440px desktop viewport"
+    },
+    {
+      "id": "emerald-supper-club",
+      "title": "Emerald Supper Club",
+      "category": "cinematic",
+      "image": "resources/1269fe54b56a6bd889c27ca41815787f.jpg",
+      "short": "Deep green and gold, warm tungsten photography and a filmic 1970s-hotel-bar mood.",
+      "long": "Saturated forest-green bands frame lush, warm-lit photography — velvet, brass, glassware, mustard silk. Headlines mix a high-contrast serif with an italic accent word, and body copy stays small and quiet so the imagery holds the room. Grids are asymmetric and gallery-like, with images cropped tight enough to feel like film stills rather than stock.",
+      "keywords": [
+        "deep green",
+        "tungsten light",
+        "velvet",
+        "film still",
+        "serif italic",
+        "gallery grid",
+        "moody luxe"
+      ],
+      "palette": [
+        "#0f3d2e",
+        "#1c1c1c",
+        "#e8c33f",
+        "#f3ede4"
+      ],
+      "traits": {
+        "Typography": "High-contrast display serif for headings with an italic word for emphasis; wide-tracked caps for nav.",
+        "Layout": "Full-bleed hero strips alternating with tight mosaic image grids.",
+        "Colour": "Forest green and near-black grounds, cream text, gold and mustard highlights from the photography.",
+        "Motion": "Slow crossfades and horizontal carousels; nothing bounces."
+      },
+      "prompt": "Full-page website screenshot for a photography studio, deep emerald green header band with cream serif logotype, full-bleed warm tungsten-lit editorial photograph of a woman in a mustard silk dress holding a cream vintage telephone in a wood-panelled bar, high-contrast serif headline with one italic word, small cream body paragraph, circular arrow carousel buttons, below a charcoal section with a tight asymmetric mosaic of twelve moody portfolio images, gold and red accents, filmic 1970s supper-club mood, 1440px desktop viewport"
+    },
+    {
+      "id": "terracotta-editorial",
+      "title": "Terracotta Editorial Portfolio",
+      "category": "editorial",
+      "image": "resources/145e905549149a41fc1bebfa7c522485.jpg",
+      "short": "Burnt-orange fields, oversized italic serif and loose ribbon squiggles behind small greyscale photos.",
+      "long": "Big flat terracotta blocks alternate with bone-white ones, and an enormous display serif — often part roman, part italic — runs across the seam. Thin hand-drawn ribbon lines meander behind the type as a watermark, and small desaturated fashion photographs are dropped in at irregular sizes. Skills and services get pill or circle treatments so the page never feels like a CV.",
+      "keywords": [
+        "terracotta",
+        "display serif",
+        "italic mix",
+        "squiggle line",
+        "colour block",
+        "greyscale photo",
+        "circle pills"
+      ],
+      "palette": [
+        "#d24e2c",
+        "#f4ece1",
+        "#2a2a2a",
+        "#ffffff"
+      ],
+      "traits": {
+        "Typography": "Large Didone or transitional serif; italic for the hero word; small all-caps tracked labels.",
+        "Layout": "Full-width colour bands with overlapping photo insets breaking the band edges.",
+        "Colour": "One dominant warm earth tone plus bone white; photography desaturated so it never competes.",
+        "Motion": "Type reveals line-by-line; squiggles draw themselves on scroll."
+      },
+      "prompt": "Full-page portfolio website screenshot, flat burnt terracotta orange background, enormous cream display serif word set partly in italic spanning the full width, thin lighter-orange hand-drawn squiggle ribbons meandering behind the type, three small black-and-white fashion photographs dropped in at irregular sizes overlapping the headline, bone-white second section with an italic serif subhead and small justified paragraph, three cream circles containing tiny all-caps skill labels, confident editorial art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "cinematic-architecture",
+      "title": "Cinematic Architecture Hero",
+      "category": "cinematic",
+      "image": "resources/157a959934b3469875ab67efb6c9c057.jpg",
+      "short": "Full-bleed moody landscape photography with a colossal display word split by a script accent, plus a glass info card.",
+      "long": "A single dramatic photograph — building, storm, terrain — fills the viewport, and a giant cream display word is laid over it with a contrasting calligraphic script for the second half of the name. A translucent frosted panel carries the project metadata in small print. Pill-shaped navigation floats at the top, and thin ruled columns of text anchor the bottom edge.",
+      "keywords": [
+        "full-bleed hero",
+        "split typography",
+        "script accent",
+        "frosted glass card",
+        "pill nav",
+        "overcast palette",
+        "metadata block"
+      ],
+      "palette": [
+        "#1d1c1a",
+        "#efe6d8",
+        "#6d6a63",
+        "#b6a893"
+      ],
+      "traits": {
+        "Typography": "Wide geometric or grotesk caps at 180px+, paired with a fine calligraphic script; 12px mono-ish captions.",
+        "Layout": "Edge-to-edge image, type overlaid at optical centre, metadata card offset lower-left, footer text columns.",
+        "Colour": "Desaturated stormy neutrals lifted by one warm cream.",
+        "Motion": "Slow scale-up on the hero image; text fades in after the image settles."
+      },
+      "prompt": "Full-page architecture studio website screenshot, full-bleed moody photograph of a dark modern cantilevered house on a grassy hillside under a stormy overcast sky, colossal cream display sans-serif word overlaid across the middle with the second half rendered in an elegant white calligraphic script, floating white pill-shaped navigation buttons at the top, translucent frosted glass information card with small project metadata lower left, two thin columns of small light-grey text at the bottom edge, desaturated cinematic colour grade, 1440px desktop viewport"
+    },
+    {
+      "id": "arcade-8bit",
+      "title": "8-Bit Arcade",
+      "category": "retro",
+      "image": "resources/15f5610fef5fbb7ba4b13bfa2aa958b5.jpg",
+      "short": "Black CRT ground, perspective grid horizon, chunky bitmap type with hard offset outlines and 1UP/HI-SCORE chrome.",
+      "long": "Everything is built to look like a coin-op attract screen: a pure black field, a white vanishing-point grid running to the horizon, a headline in a heavy bitmap face with a red fill and yellow outline, and interface furniture borrowed from arcade HUDs — 1UP, HI-SCORE, heart lives, blinking START/CONTINUE prompts. Content cards get pixel-stepped borders instead of curves.",
+      "keywords": [
+        "pixel type",
+        "CRT black",
+        "perspective grid",
+        "HUD chrome",
+        "hard outline",
+        "arcade cabinet",
+        "start screen"
+      ],
+      "palette": [
+        "#141414",
+        "#e8342a",
+        "#f5c518",
+        "#ffffff"
+      ],
+      "traits": {
+        "Typography": "Bitmap / pixel display faces with 2px offset outlines; monospace for all supporting copy.",
+        "Layout": "Centred attract-screen hero, then a strict grid of bordered content panels.",
+        "Colour": "Black ground, red and yellow primaries, white grid lines.",
+        "Motion": "Blinking cursors, step-wise (non-eased) transitions, scanline flicker."
+      },
+      "prompt": "Full-page website screenshot styled as a retro 8-bit arcade attract screen, pure black background, white perspective grid receding to a horizon line, huge chunky bitmap headline in red with a yellow hard offset outline, 1UP and HI-SCORE counters in the top corners, blinking START and CONTINUE menu prompts with a pixel arrow cursor, pixel-art heart life icons, content panels with stepped pixel borders and monospace text, a pixel joystick and red arcade cabinet illustration, no anti-aliasing, 1440px desktop viewport"
+    },
+    {
+      "id": "soft-minimal-product",
+      "title": "Soft Minimal Product",
+      "category": "minimal",
+      "image": "resources/167ac20a9d369935b0c0d84a0d566469.jpg",
+      "short": "Near-white studio backdrop, one product hero, pill navigation and lowercase type that the product physically occludes.",
+      "long": "A hushed off-white page where the product is photographed on an infinity backdrop and the wordmark is set in enormous lowercase behind it, so the object visibly interrupts the letterforms. Controls are small pills and circles; colour swatches and price sit in floating rounded cards. Section labels are tiny all-caps above hairline rules, and everything breathes.",
+      "keywords": [
+        "infinity backdrop",
+        "lowercase wordmark",
+        "occluded type",
+        "pill controls",
+        "swatch card",
+        "hairline rule",
+        "product hero"
+      ],
+      "palette": [
+        "#f4f4f4",
+        "#ffffff",
+        "#1a1a1a",
+        "#8fa8b0"
+      ],
+      "traits": {
+        "Typography": "Geometric sans in lowercase at display sizes; 11px all-caps tracked labels for sections.",
+        "Layout": "Full-width hero, then a clean three-up product grid, then an asymmetric feature mosaic.",
+        "Colour": "Whites and pale greys with muted product colours as the only saturation.",
+        "Motion": "Cursor-follow play buttons, gentle card lifts, no bounce."
+      },
+      "prompt": "Full-page e-commerce website screenshot, near-white seamless studio backdrop, a person in all-white clothing standing beside a light grey electric scooter, enormous lowercase geometric sans wordmark laid behind them so the scooter and body occlude several letters, small floating rounded card with circular colour swatches, pill-shaped navigation and a BUY NOW pill with a dark circular icon, below a clean three-column product grid on white cards with price and cart buttons, tiny all-caps section labels above hairline rules, calm minimal, 1440px desktop viewport"
+    },
+    {
+      "id": "swiss-poster",
+      "title": "Swiss / International Typographic",
+      "category": "editorial",
+      "image": "resources/19f3629635c4e09be34e61f75088b259.jpg",
+      "short": "Two colours, one grid, extended grotesk headlines and rules — objectivity as an aesthetic.",
+      "long": "The International Typographic Style reduces a page to a mathematical grid, flush-left ranged-right text, and one or two flat colours. Headlines are set in an extended or condensed grotesk at maximum size, horizontal rules separate every information band, and any illustration is a flat vector reduced to the same palette. Data — schedules, times, names — is laid out as a table and treated as ornament in its own right.",
+      "keywords": [
+        "grid system",
+        "grotesk",
+        "flush left",
+        "horizontal rules",
+        "two-colour",
+        "flat vector",
+        "tabular data"
+      ],
+      "palette": [
+        "#fdf6ec",
+        "#1b4dff",
+        "#ffffff",
+        "#0a0a0a"
+      ],
+      "traits": {
+        "Typography": "Extended grotesk for display, a high-contrast serif for secondary headlines, one text size for everything else.",
+        "Layout": "Strict modular grid; full-width rules; centred data tables; no decoration.",
+        "Colour": "One saturated primary against cream or white; the primary inverts for the footer band.",
+        "Motion": "Instant. Any animation would undermine the objectivity."
+      },
+      "prompt": "Full-page event website screenshot in Swiss International Typographic style, cream background, huge electric blue extended grotesk headline in two stacked lines, date and time set flush left and flush right on the same baseline, thin blue horizontal rules separating every band, flat vector illustration of a pale blue vintage convertible car, four evenly spaced all-caps labels in a row, a large high-contrast serif secondary headline centred, small blue paragraph column, row of monochrome sponsor logos, bottom section inverted to solid electric blue with a white serif headline and a white tabular schedule, 1440px desktop viewport"
+    },
+    {
+      "id": "retro-os",
+      "title": "Retro OS / Windows 95",
+      "category": "retro",
+      "image": "resources/1ac173521937020a3dc8932d1e1ab4f5.jpg",
+      "short": "Beige chrome, 1px borders, bevelled buttons, title bars with minimise-maximise-close and a blue selection highlight.",
+      "long": "A faithful revival of mid-90s desktop UI: window chrome with a saturated blue title bar, grey bevelled buttons with light top-left and dark bottom-right edges, 1px solid borders everywhere, checkbox and radio controls at 13px, and system-blue selection states. Type is a bitmap face for headings and a plain UI sans for everything else. Radii are 0 to 4px and shadows are forbidden.",
+      "keywords": [
+        "window chrome",
+        "bevelled button",
+        "title bar",
+        "1px border",
+        "system blue",
+        "bitmap heading",
+        "no shadows"
+      ],
+      "palette": [
+        "#f0f0f0",
+        "#a0a0a0",
+        "#0078d7",
+        "#e81123"
+      ],
+      "traits": {
+        "Typography": "Pixel/bitmap display face for H1, plain UI sans (Tahoma-like) for all body and controls.",
+        "Layout": "Panel-in-panel composition; toolbars, tab strips, status bars, modal dialogs.",
+        "Colour": "Greys and off-white with exactly one system blue accent and one alert red.",
+        "Motion": "None. Instant state changes, no easing."
+      },
+      "prompt": "Full-page website screenshot styled as a retro 1990s operating system UI kit, pale grey background with faint horizontal scanlines, blocky blue pixel headline, colour token swatch cards with checkerboard transparency, type scale specimen, a window header with minimise maximise and close boxes, bevelled grey buttons in normal hover and disabled states, a segmented progress bar, a text input with a blinking caret, active and inactive tabs, checkboxes, a blue speech-bubble toast, a small confirm modal with OK and Cancel, 1px solid borders everywhere, no rounded corners, no drop shadows, 1440px desktop viewport"
+    },
+    {
+      "id": "grid-exposed-sport",
+      "title": "Exposed-Grid Sport",
+      "category": "brutalist",
+      "image": "resources/1c2f6ee22050c858cf911a8f8e828177.jpg",
+      "short": "Visible layout grid lines, cut-out athlete photography, monospace micro-copy and one acid-green highlight bar.",
+      "long": "The underlying column grid is drawn on the page as faint lines and never hidden, so the composition reads like a designer's working file. Headlines are heavy grotesk in sentence case, all supporting copy is monospace and uppercase at 11px, and athletes are cut out from their backgrounds and dropped across grid intersections. One acid or lime bar sweeps behind the active row of a list.",
+      "keywords": [
+        "visible grid",
+        "cut-out photo",
+        "monospace caps",
+        "acid green",
+        "list highlight",
+        "off-white",
+        "oversized numerals"
+      ],
+      "palette": [
+        "#f2f2f0",
+        "#c8f04a",
+        "#111111",
+        "#8a8a8a"
+      ],
+      "traits": {
+        "Typography": "Heavy neo-grotesk for headings, uppercase monospace at 11px for every label and paragraph.",
+        "Layout": "12-column grid rendered as visible 1px lines; elements deliberately straddle columns.",
+        "Colour": "Paper white and black with a single fluorescent accent.",
+        "Motion": "Row highlight slides; cut-out figures parallax against the static grid."
+      },
+      "prompt": "Full-page sports club website screenshot, off-white background with the twelve column layout grid drawn as faint visible thin lines across the whole page, heavy black grotesk headline in two lines, a cut-out black and white photograph of a tennis player mid-leap placed across grid intersections, small uppercase monospace paragraphs with lime green bullet dots, a stacked list of three programme names where the active row is swept with a fluorescent lime green bar and a small circular arrow button, huge black numerals 12 15 and 10 scattered with tiny monospace captions, 1440px desktop viewport"
+    },
+    {
+      "id": "display-serif-cool",
+      "title": "Cool Display Serif",
+      "category": "editorial",
+      "image": "resources/1cfa6e289cace67570b2c970ec971cdc.jpg",
+      "short": "One saturated cool hue, an enormous high-contrast serif logotype and a sparse image grid with an empty crossed placeholder.",
+      "long": "A single cool colour — ice blue, klein, glacier — is used for every mark on a white page, including the photography, which is colour-graded to match. The name is set in a very large high-contrast serif with tight tracking, and imagery is placed in a wide, deliberately gappy grid where one cell is left as a crossed rectangle. Micro-copy is tiny, grey and set in a neutral sans.",
+      "keywords": [
+        "monochrome hue",
+        "display serif",
+        "gappy grid",
+        "crossed placeholder",
+        "colour-graded photos",
+        "editorial white"
+      ],
+      "palette": [
+        "#ffffff",
+        "#2b3fd6",
+        "#7f93ff",
+        "#c9d2ff"
+      ],
+      "traits": {
+        "Typography": "High-contrast Didone-ish serif at 120–200px; 11px neutral sans for all supporting text.",
+        "Layout": "Wide five-column image band with intentional empty cells; headline blocks span the full measure.",
+        "Colour": "White ground, one saturated cool hue at full strength plus two tints.",
+        "Motion": "Letterspacing tightens on load; images fade up in sequence."
+      },
+      "prompt": "Full-page hotel website screenshot, pure white background, enormous saturated blue high-contrast display serif logotype spanning the full width, a thin sans navigation bar above, a five-cell horizontal band of small blue-graded photographs of ice architecture with one cell left empty containing only a thin crossed rectangle placeholder, a second enormous blue serif headline in two lines with a small 01-03 counter, tiny grey sans paragraphs, generous white space, cold editorial art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "warm-neutral-folio",
+      "title": "Warm Neutral Personal Folio",
+      "category": "minimal",
+      "image": "resources/1f1e3467484661808a192f1ebba309b2.jpg",
+      "short": "Greige page, a condensed sans headline with one italic serif line, a cut-out portrait and a stat rail.",
+      "long": "Warm grey-beige replaces white as the ground, softening everything on it. The hero mixes a tight condensed sans with a single italic serif line for the role, sets a cut-out portrait inside a rounded arch, and runs a right-hand rail of oversized numeric stats. Below, four short capability columns sit under hairline rules, followed by a logo wall in a bordered table.",
+      "keywords": [
+        "greige",
+        "condensed sans",
+        "italic serif line",
+        "arch crop",
+        "stat rail",
+        "logo table",
+        "hairline dividers"
+      ],
+      "palette": [
+        "#d9d7d2",
+        "#efeeea",
+        "#141414",
+        "#8b8b86"
+      ],
+      "traits": {
+        "Typography": "Condensed grotesk display mixed with one italic serif line; 10px all-caps labels.",
+        "Layout": "Two-thirds hero with right stat rail, four-column capability row, bordered logo grid.",
+        "Colour": "Warm greys with black text; no accent colour at all.",
+        "Motion": "Numbers count up; sections fade in with slight upward drift."
+      },
+      "prompt": "Full-page personal portfolio website screenshot, warm greige background, condensed black sans-serif headline stacked over three lines with the middle line set in an italic serif, a cut-out photograph of a designer in a tan jacket masked inside a rounded arch shape, a black pill CONTACT ME button with a circular arrow, a right-hand vertical rail of four oversized statistics with tiny captions, four short capability columns separated by hairline vertical rules, a bordered eight-cell client logo table in pale grey, quiet confident art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "bridal-fullbleed",
+      "title": "Full-Bleed Bridal",
+      "category": "photo",
+      "image": "resources/251b68f3c4be30c813b1c3e17677bbe1.jpg",
+      "short": "Edge-to-edge romantic photography with a thin serif headline floating over it and a seamless six-up story grid.",
+      "long": "The hero is a single soft-focus photograph running the full width and most of the height, with a light-weight serif headline centred over it and a tiny tracked call-to-action beneath. Below, six images butt against each other with no gutters at all, each carrying a small caps location label and an italic couple name in the lower-left corner. Text sections are set in a fine serif with enormous leading.",
+      "keywords": [
+        "full bleed",
+        "no gutters",
+        "thin serif",
+        "overlay caption",
+        "soft focus",
+        "muted grade",
+        "romantic"
+      ],
+      "palette": [
+        "#a8adb2",
+        "#ffffff",
+        "#2c2c2c",
+        "#d7c4b6"
+      ],
+      "traits": {
+        "Typography": "Light-weight transitional serif for headings, italic for names, 10px tracked caps for labels.",
+        "Layout": "Zero-gutter mosaic grids; text sections centred in a narrow measure.",
+        "Colour": "Whatever the photography brings, muted; UI colour is white and near-black only.",
+        "Motion": "Slow ken-burns on the hero, crossfade slideshows."
+      },
+      "prompt": "Full-page wedding photography website screenshot, full-bleed soft-focus photograph of a bride holding a bouquet under a grey sky, thin light-weight white serif headline in two centred lines overlaid, tiny tracked all-caps call to action below, left and right arrow navigation, beneath it a seamless six-image grid with zero gutters showing ocean, couples and architecture, each image captioned in small white caps with an italic name, then a white section with two fine serif column headings and small grey body text, muted romantic colour grade, 1440px desktop viewport"
+    },
+    {
+      "id": "magazine-cover",
+      "title": "Magazine Cover Collage",
+      "category": "editorial",
+      "image": "resources/2667df4a7cbd1346a8611a4624779857.jpg",
+      "short": "A masthead the full width of the page, partially hidden behind the subject, with cover lines set as justified italic blocks.",
+      "long": "The defining move is the masthead–subject overlap: a huge lowercase geometric wordmark sits behind the model's head so the letters are half-occluded. The image itself is split into offset vertical panels, one in colour and the rest desaturated. Cover lines are small justified italic paragraphs pinned to the right edge, and a barcode anchors the bottom corner as pure typographic furniture.",
+      "keywords": [
+        "masthead overlap",
+        "cover lines",
+        "justified italic",
+        "panel split",
+        "barcode",
+        "issue line",
+        "duotone"
+      ],
+      "palette": [
+        "#141414",
+        "#ffffff",
+        "#b9a9a6",
+        "#6f6f6f"
+      ],
+      "traits": {
+        "Typography": "Very large lowercase geometric sans masthead; small justified italic serif for cover lines.",
+        "Layout": "Vertical panel split with an occluded masthead; text pinned to hard edges.",
+        "Colour": "Near-black ground, greyscale imagery, one panel left in muted colour.",
+        "Motion": "The masthead slides behind the subject on load."
+      },
+      "prompt": "Fashion magazine cover website screenshot, near-black background, a black and white portrait of a young man split into three offset vertical panels with the centre panel in muted colour, an enormous lowercase white geometric sans masthead spanning the full width and passing behind the subject's head so letters are occluded, small issue number and photography credit in the top left, a short justified italic serif cover-line paragraph pinned to the right edge, a barcode graphic in the lower right, editorial cover art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "pixel-lime",
+      "title": "Pixel Craft on Lime",
+      "category": "retro",
+      "image": "resources/285e5b97489fc8a9e73044e8b7e52fe0.jpg",
+      "short": "A flat pastel-lime field with oversized monochrome pixel-art illustration and monospace body copy.",
+      "long": "One saturated pastel colour fills the entire page — no white anywhere — and a single very large pixel-art illustration acts as the hero image. Every paragraph is monospace, left-aligned, at a fixed measure, and headings use a squared-off geometric sans. Section markers are short thick rules and zigzag lines rather than boxes, and buttons are simple 1px rectangles.",
+      "keywords": [
+        "flat pastel field",
+        "pixel art",
+        "monospace body",
+        "zigzag divider",
+        "1px button",
+        "no white",
+        "playful tech"
+      ],
+      "palette": [
+        "#d6efa2",
+        "#ffffff",
+        "#111111",
+        "#7fa64a"
+      ],
+      "traits": {
+        "Typography": "Squared geometric sans for headings, monospace for all body copy at a fixed 60ch measure.",
+        "Layout": "Wide single column with alternating two-up feature rows; browser chrome framing the page.",
+        "Colour": "One flat pastel ground, black type, white illustration fills.",
+        "Motion": "Step-wise hover states that snap rather than ease."
+      },
+      "prompt": "Full-page agency website screenshot inside a simple browser chrome frame, entire background a flat pastel lime green, a very large black and white pixel-art heart illustration on the left, a squared geometric sans headline and a monospace paragraph on the right, a short thick underline rule and a small zigzag divider line, a huge white pixel-style downward arrow, pixel-art icons of tools and a brain, feature blocks with monospace paragraphs and 1px outlined buttons, giant white quotation marks around a monospace pull-quote, 1440px desktop viewport"
+    },
+    {
+      "id": "mono-swiss-corporate",
+      "title": "Monochrome Swiss Corporate",
+      "category": "minimal",
+      "image": "resources/2c87cae12edd8c3df042cbb87fcc6ce7.jpg",
+      "short": "Pure black on white, a bold-and-light headline pair, faded landscape imagery and disciplined three-column feature rows.",
+      "long": "The most durable template on the web: white page, black type, one accent-free palette. Headlines pair a light weight with a bold weight of the same family on consecutive lines. Photography is high-key and faded so it merges into the white background. Features run as three columns with a line icon, a bold label and two lines of body, and forms sit in a pale grey card with a solid black submit button.",
+      "keywords": [
+        "black on white",
+        "weight contrast",
+        "faded imagery",
+        "three-column features",
+        "line icons",
+        "grey card form"
+      ],
+      "palette": [
+        "#ffffff",
+        "#f4f4f4",
+        "#000000",
+        "#767676"
+      ],
+      "traits": {
+        "Typography": "One neo-grotesk family, light and bold weights only; a serif reserved for pull-quotes.",
+        "Layout": "Centred 1140px measure, three-column feature rows, footer link columns.",
+        "Colour": "Black, white and two greys. No accent.",
+        "Motion": "Restrained fades; hover underlines."
+      },
+      "prompt": "Full-page brand website screenshot, pure white background, headline with the first line in a light weight and the second line in a heavy bold of the same neo-grotesk, a high-key faded black and white photograph of a snowy forested mountain ridge bleeding into the white background, a solid black rectangular button and a small underlined text link, a three-column feature row each with a fine line icon a bold label and two lines of grey body copy, a pale grey section containing a white newsletter card with two input fields and a black submit button, four-column footer link lists, 1440px desktop viewport"
+    },
+    {
+      "id": "golden-hour-theme",
+      "title": "Golden-Hour Photo Theme",
+      "category": "photo",
+      "image": "resources/2d1679854d06bd41627eab75bbbf1402.jpg",
+      "short": "Sunset-toned photography, a delicate letterspaced serif and a small hand-drawn logo mark on a white canvas.",
+      "long": "Warm amber and sepia photography sets the entire mood, and the interface stays deliberately fragile around it: a very small letterspaced serif wordmark centred over the hero image, a hand-drawn line-art crest as the logo, thin caps navigation and three-up image rows with generous white margins. Buttons are small dark rectangles with 9px tracked caps.",
+      "keywords": [
+        "golden hour",
+        "sepia grade",
+        "letterspaced serif",
+        "line-art crest",
+        "white margins",
+        "small caps buttons"
+      ],
+      "palette": [
+        "#e9e6e2",
+        "#c98a4b",
+        "#2f2a26",
+        "#ffffff"
+      ],
+      "traits": {
+        "Typography": "Fine serif with 0.3em letterspacing for the wordmark; 9–10px tracked caps everywhere else.",
+        "Layout": "Framed page (white margin around the whole design), full-width image bands, three-up thumbnails.",
+        "Colour": "Warm neutrals lifted by the amber of the photography.",
+        "Motion": "Crossfade galleries; text fades only."
+      },
+      "prompt": "Full-page photography theme website screenshot presented on a pale grey background with a white page frame, hero photograph of a family on a beach at golden hour with a mountain silhouette, a very small letterspaced white serif wordmark and thin all-caps navigation overlaid at the bottom of the image, a white section with a small hand-drawn mountain line-art crest, centred tracked all-caps welcome heading, three evenly spaced photographs in a row, then a full-width warm grassland photograph with a centred overlay heading and a small dark rectangular button, 1440px desktop viewport"
+    },
+    {
+      "id": "arch-beige-commerce",
+      "title": "Arch & Beige Commerce",
+      "category": "organic",
+      "image": "resources/303306847c40f0ba32472d168a757338.jpg",
+      "short": "Mushroom-taupe grounds, rounded arch containers, thin ellipse outlines and still-life product photography.",
+      "long": "A calm, slightly clay-toned neutral palette built from taupe, oatmeal and bone. Content sits inside arch and ellipse shapes rather than rectangles, and a single thin outlined ellipse is often drawn over the hero as a connecting device. Product photography is natural-light still life on plaster surfaces, and typography is a quiet letterspaced serif over a small neutral sans.",
+      "keywords": [
+        "taupe",
+        "arch container",
+        "thin ellipse",
+        "still life",
+        "letterspaced serif",
+        "sustainable",
+        "clay tones"
+      ],
+      "palette": [
+        "#a3907d",
+        "#f0ebe4",
+        "#ffffff",
+        "#4a4238"
+      ],
+      "traits": {
+        "Typography": "Letterspaced serif for headings, small neutral sans for navigation and body.",
+        "Layout": "Arch-topped page container; overlapping circular image masks; centred narrow text blocks.",
+        "Colour": "Taupe and oatmeal with white cards; no saturated colour anywhere.",
+        "Motion": "Soft parallax between the ellipse outline and the product images."
+      },
+      "prompt": "Full-page e-commerce website screenshot presented inside a large mushroom-taupe arch-topped frame with a small circle at the top, the page itself on warm bone white, a centred letterspaced serif brand headline, a thin outlined ellipse drawn over the composition, natural-light still life product photography of bottles brushes and ceramic vessels masked inside circles and rounded rectangles, small pill category labels, centred narrow paragraph in a quiet sans, a bottom photograph of oranges in a mesh bag beside a stack of books, calm sustainable brand art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "dark-condensed-brand",
+      "title": "Dark Condensed Branding",
+      "category": "cinematic",
+      "image": "resources/31b77a50323c4c4b1f9d0c68281db211.jpg",
+      "short": "Near-black page, condensed grotesk caps at enormous scale, greyed-out words and a gradient letterform as artwork.",
+      "long": "A case-study layout for a rebrand: charcoal ground, a huge condensed all-caps headline where one word is dropped to mid-grey to create rhythm, a serif intro paragraph, and vertical rotated labels running up the left margin. Section numbers are set at extreme scale, and a single letterform is rendered as a large gradient object — the brand's own type used as the hero image.",
+      "keywords": [
+        "condensed caps",
+        "greyed word",
+        "vertical labels",
+        "giant numerals",
+        "gradient letterform",
+        "case study",
+        "charcoal"
+      ],
+      "palette": [
+        "#131313",
+        "#ffffff",
+        "#8c8c8c",
+        "#ff2d55"
+      ],
+      "traits": {
+        "Typography": "Condensed grotesk caps for display, a transitional serif for the intro paragraph, tiny tracked caps for labels.",
+        "Layout": "Wide left margin holding rotated vertical labels; three-column value rows; oversized section numerals.",
+        "Colour": "Charcoal and white with one hot accent used only on the logo.",
+        "Motion": "Headline words stagger in; the gradient letterform rotates slowly."
+      },
+      "prompt": "Full-page branding case study website screenshot, near-black charcoal background, enormous white condensed all-caps headline over three lines with one word rendered in mid-grey, a small rotated vertical label in the left margin, a serif white intro paragraph, a thin horizontal rule, three columns each with a small circular numbered badge a bold caps label and grey body copy, below a very large white lowercase letterform with a top-to-bottom white-to-grey gradient beside a giant numeral 1 and a bold caps subhead, one small hot pink logotype, 1440px desktop viewport"
+    },
+    {
+      "id": "mono-agency",
+      "title": "Monochrome Creative Agency",
+      "category": "minimal",
+      "image": "resources/3308036fa6a6a50e7df2b968583b9539.jpg",
+      "short": "Greyscale everything — hero, portfolio, footer — with weight and scale doing all the differentiation.",
+      "long": "A classic agency one-pager stripped of colour entirely. The hero is a desaturated landscape with a two-tone wordmark, work is shown as a greyscale masonry grid behind a pill filter row, and the footer inverts to black. Because there is no colour, hierarchy comes purely from type weight, scale and the amount of air around each block.",
+      "keywords": [
+        "greyscale",
+        "pill filters",
+        "masonry grid",
+        "inverted footer",
+        "two-tone wordmark",
+        "weight hierarchy"
+      ],
+      "palette": [
+        "#ffffff",
+        "#e6e6e6",
+        "#1c1c1c",
+        "#9a9a9a"
+      ],
+      "traits": {
+        "Typography": "Wide-tracked light sans for the tagline, heavy sans for the wordmark, 11px caps for nav.",
+        "Layout": "Centred hero, pill filter row, four-column masonry, black footer band.",
+        "Colour": "Pure greyscale; images desaturated to match.",
+        "Motion": "Filter transitions reflow the grid; images desaturate on hover."
+      },
+      "prompt": "Full-page creative agency website screenshot, white background, hero band with a desaturated photograph of a mountain peak in cloud, a large two-tone all-caps wordmark where the second half is light grey, a small tracked tagline and a black pill button, a LATEST WORKS heading with a short underline, a row of three pill filter buttons in white black and black, a six-image greyscale masonry portfolio grid, a centred call to action with a black pill button, and an inverted solid black footer with a boxed logo and social icons, 1440px desktop viewport"
+    },
+    {
+      "id": "3d-colour-blocks",
+      "title": "3D Colour-Block Rooms",
+      "category": "maximal",
+      "image": "resources/34339bdb7bc1c2ba585e8381750a6d7b.jpg",
+      "short": "Rendered interiors in impossible saturated colours, stacked as full-width bands with almost no chrome.",
+      "long": "Each section is a full-bleed 3D render of a stylised room — fluted walls, rounded furniture, a single plant — bathed in one saturated hue: cobalt, tangerine, violet, teal. Typography sits directly on the render in a friendly geometric sans, and interface elements are reduced to a rectangle button and a caption. The colour changes completely between bands, which is the whole point.",
+      "keywords": [
+        "3D render",
+        "saturated blocks",
+        "fluted wall",
+        "rounded furniture",
+        "full-bleed bands",
+        "colour shift",
+        "CGI interior"
+      ],
+      "palette": [
+        "#1b3fd8",
+        "#f26722",
+        "#f5c518",
+        "#7a4bd4",
+        "#e8465c"
+      ],
+      "traits": {
+        "Typography": "Friendly geometric sans, medium weight, white on render; occasional script accent.",
+        "Layout": "Stacked full-width render bands; text pinned to one third of each band.",
+        "Colour": "A different saturated hue per band; no neutral ground at all.",
+        "Motion": "Bands scroll-snap; renders parallax inside their frames."
+      },
+      "prompt": "Full-page website screenshot composed of stacked full-bleed 3D rendered interior scenes each in one saturated colour, a cobalt blue scene with abstract blue foliage and a gradient card, a tangerine orange room with a fluted wall a red rounded armchair a large plant in a woven basket and a thin black floor lamp, a violet room with pink vertical rods and a yellow rounded stool, a teal band and a coral band with small centred captions and pill buttons, friendly geometric sans typography in white, glossy CGI lighting, maximalist colour, 1440px desktop viewport"
+    },
+    {
+      "id": "film-tone-grid",
+      "title": "Film-Tone Portfolio Grid",
+      "category": "photo",
+      "image": "resources/3a03cfbbfc64a660a3f129c048d17566.jpg",
+      "short": "Desert-warm film photography in a tight modular grid, with a circular monogram badge and a dark footer.",
+      "long": "A photographer's index page: one wide hero frame, then a dense modular grid of portrait and landscape crops sized to different spans so the composition reads as a contact sheet. A circular monogram badge overlaps the hero edge, the wordmark is tiny and heavily tracked, and the footer inverts to charcoal with a small link column and an email capture.",
+      "keywords": [
+        "contact sheet",
+        "modular spans",
+        "monogram badge",
+        "warm film grade",
+        "tracked wordmark",
+        "dark footer"
+      ],
+      "palette": [
+        "#efece7",
+        "#c08a6a",
+        "#2b2b2b",
+        "#ffffff"
+      ],
+      "traits": {
+        "Typography": "Tiny heavily tracked caps for everything; no display type at all.",
+        "Layout": "Hero frame, then a 4×3 modular grid mixing 1×1, 1×2 and 2×2 cells.",
+        "Colour": "Warm film neutrals; UI in charcoal and white only.",
+        "Motion": "Grid items lift and lighten on hover."
+      },
+      "prompt": "Full-page photographer portfolio website screenshot, warm off-white background, hero photograph of a couple standing in a desert at dusk with a circular white monogram badge overlapping the top edge, a tiny heavily letterspaced all-caps wordmark centred below, then a dense modular grid of warm-toned film photographs in mixed one-by-one one-by-two and two-by-two cells including portraits landscapes and a solid dark grey cell containing the monogram, a charcoal footer with a small link column a circular logo and an email subscribe form, 1440px desktop viewport"
+    },
+    {
+      "id": "doodle-brand",
+      "title": "Hand-Drawn Doodle Brand",
+      "category": "maximal",
+      "image": "resources/3d7b9c313ae4ad2bfbff66678a6e1b6f.jpg",
+      "short": "Marker-drawn characters, bubble lettering, wavy section edges and a shouting yellow-and-orange palette.",
+      "long": "Everything is drawn rather than typeset: rounded bubble headlines with thick uneven outlines, googly-eyed blob characters, hand-inked badges and speech splats. Section boundaries are wavy rather than straight, colours are primary and unapologetic, and the product photography is composited into the illustration rather than sitting apart from it. Body copy stays a plain compact sans so the page remains readable.",
+      "keywords": [
+        "bubble lettering",
+        "marker outline",
+        "blob characters",
+        "wavy edges",
+        "hand-inked badges",
+        "primary colours",
+        "FMCG"
+      ],
+      "palette": [
+        "#ffc21f",
+        "#f4623a",
+        "#48c9c0",
+        "#111111",
+        "#fff6e0"
+      ],
+      "traits": {
+        "Typography": "Custom hand-drawn bubble display for headlines; a compact grotesk for body; all-caps tiny labels.",
+        "Layout": "Full-width bands with wavy dividers; illustration bleeding past every edge.",
+        "Colour": "Yellow and orange dominant, teal and brown as support, black outlines throughout.",
+        "Motion": "Characters wobble and blink; badges rotate slowly."
+      },
+      "prompt": "Full-page food brand website screenshot, top band of hand-drawn marker illustrations of smiling blob characters in teal orange brown and pink on a coral background, a yellow navigation bar with a hand-lettered logo, a cream section with a wavy top edge showing three chocolate bar packages floating with drop shadows, black hand-inked circular vegan and gluten-free badges, then a saturated yellow section with enormous hand-drawn bubble lettering headlines with thick uneven black outlines, small compact sans paragraphs, a teal hand-drawn cactus and a smiling globe character, playful maximalist FMCG art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "type-specimen",
+      "title": "Type Specimen Poster",
+      "category": "editorial",
+      "image": "resources/3eb9a9d137bf4f49e072eda001d19371.jpg",
+      "short": "The typeface is the entire content — weights stacked at huge scale on black, with character sets set small below.",
+      "long": "A specimen page reduced to essentials: the family name and a catalogue number in a header rule, then the weight names — Light, Regular, Bold — set at maximum size in their own weights and tonal greys, stacked so they overlap the measure. Beneath a hairline rule, the full alphabet, numerals and punctuation are set at 11px in three small blocks. No imagery, no colour.",
+      "keywords": [
+        "specimen",
+        "weight stack",
+        "greyscale tones",
+        "hairline rule",
+        "glyph set",
+        "poster layout",
+        "catalogue number"
+      ],
+      "palette": [
+        "#0a0a0a",
+        "#ffffff",
+        "#b3b3b3",
+        "#6e6e6e"
+      ],
+      "traits": {
+        "Typography": "One family only, shown in three weights at display scale plus one 11px setting.",
+        "Layout": "Poster proportions; header rule, three stacked display lines, hairline rule, small glyph blocks.",
+        "Colour": "Black ground with white-to-grey type tones as the only variation.",
+        "Motion": "Weight axis interpolates on hover if variable."
+      },
+      "prompt": "Type specimen poster as a web page, solid black background, thin white horizontal rule at the top with the typeface name on the left and a catalogue number on the right, three enormous stacked words LIGHT REGULAR and BOLD each set in its own weight and in white light grey and mid grey, letterforms overlapping and cropped by the edges, a small right-hand list of the three style names, a second hairline rule, three small blocks of the full uppercase alphabet numerals and punctuation set at eleven pixels, no imagery, no colour, 1440px desktop viewport"
+    },
+    {
+      "id": "dark-product-showcase",
+      "title": "Dark Product Showcase",
+      "category": "cinematic",
+      "image": "resources/44637f40b63d3c2daddf8ef314a89b09.jpg",
+      "short": "Studio-lit objects on graphite, thin bracket rules around the wordmark and a single red call-to-action.",
+      "long": "A product landing page built like a catalogue plate. The object is lit as hero photography on a graphite gradient, the wordmark is centred inside thin bracket rules, and the only saturated element on the page is a small red button. Specifications are laid out in dark cards with tiny red dimension labels, and white sections are used as palate-cleansers between dark ones.",
+      "keywords": [
+        "graphite gradient",
+        "studio lighting",
+        "bracket rules",
+        "red CTA",
+        "spec cards",
+        "catalogue plate",
+        "alternating bands"
+      ],
+      "palette": [
+        "#1f2124",
+        "#ffffff",
+        "#e8323c",
+        "#3a3d42"
+      ],
+      "traits": {
+        "Typography": "Wide-tracked light caps for display, small sans for specs, red 9px caps for labels.",
+        "Layout": "Alternating dark and white bands; 3×2 spec card grid; centred section headings.",
+        "Colour": "Graphite, white and one red. Nothing else.",
+        "Motion": "360° product rotation on drag; cards raise slightly on hover."
+      },
+      "prompt": "Full-page product website screenshot, dark graphite gradient background, a centred wide-tracked white all-caps wordmark framed by thin bracket rules, a small saturated red rectangular BUY NOW button, a studio-lit photograph of a black and white chess set on a wooden board floating on the gradient, then a white section with a centred heading and a row of six black chess pieces on white, then a dark section with a three-by-two grid of cards each containing a white chess piece a bold caps name a small paragraph and tiny red dimension labels, catalogue-plate lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "industrial-realism",
+      "title": "Industrial Product Realism",
+      "category": "tactile",
+      "image": "resources/4923511c28c27456d200789f09f5716f.jpg",
+      "short": "Machined metal photographed against pure white — knurling, engraving and specular highlights as the entire design.",
+      "long": "A style that trusts the object completely: a precision-engineered product shot top-down on seamless white, every knurl, engraved numeral and brushed-aluminium highlight rendered sharp. The web layout around it is almost absent — no colour, minimal type, enormous margins — because the material detail is the content. Works for cameras, watches, tools and audio hardware.",
+      "keywords": [
+        "machined metal",
+        "knurling",
+        "engraved numerals",
+        "specular highlight",
+        "seamless white",
+        "top-down",
+        "hardware"
+      ],
+      "palette": [
+        "#ffffff",
+        "#d8d8d8",
+        "#8f8f8f",
+        "#c0392b"
+      ],
+      "traits": {
+        "Typography": "Almost none — engraved lettering on the product substitutes for display type.",
+        "Layout": "Object centred with vast white margin; specs floated far from the subject.",
+        "Colour": "White and metal greys with the product's own red index marks as accent.",
+        "Motion": "Slow rotation and macro zoom on scroll."
+      },
+      "prompt": "Product website hero screenshot, pure seamless white background, a top-down photograph of a vintage silver chrome rangefinder camera with knurled dials engraved numerals a red index scale and a brushed aluminium lens barrel, razor-sharp specular highlights and soft contact shadow, no interface chrome, enormous white margins, only tiny engraved lettering on the metal itself, macro product photography lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "sage-blush-wellness",
+      "title": "Sage & Blush Wellness",
+      "category": "organic",
+      "image": "resources/4ba1eed0e8162db3ce6fa05bd191d6ea.jpg",
+      "short": "Muted eucalyptus and dusty-rose colour fields with floating white cards and half-circle accents.",
+      "long": "A soft two-tone palette — sage green and clay pink — is applied as large flat background fields, with the actual content floating above on plain white cards that cast a very soft shadow. Circles and half-circles are cut into the field edges as decoration. Headings are a modest serif, centred, with a tiny rule underneath; buttons are small dusty-pink rectangles.",
+      "keywords": [
+        "sage green",
+        "dusty rose",
+        "floating cards",
+        "half circles",
+        "centred serif",
+        "soft shadow",
+        "spa"
+      ],
+      "palette": [
+        "#8fa397",
+        "#c9928a",
+        "#f2efe9",
+        "#3c3c3c"
+      ],
+      "traits": {
+        "Typography": "Modest bookish serif for headings with a 24px rule beneath; small neutral sans for body.",
+        "Layout": "White content sheet floating over full-bleed colour fields; three-up card rows.",
+        "Colour": "Two muted naturals plus off-white; text in soft charcoal, never pure black.",
+        "Motion": "Cards lift a few pixels; colour fields parallax slowly behind them."
+      },
+      "prompt": "Full-page beauty clinic website screenshot, background split into large flat fields of muted sage green dusty rose and bone white with quarter-circle shapes cut into the field edges, a white content sheet floating on top with a soft shadow, a centred bookish serif heading with a short rule beneath, an interior photograph of a bright treatment room, three white service cards each with a rounded photograph a serif title and a small dusty pink rectangular button, a three-up blog card row, a dark charcoal footer, calm spa art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "oversized-red-serif",
+      "title": "Oversized Red Serif",
+      "category": "editorial",
+      "image": "resources/54bc3d6652d5c4d274497aa4dffb65e5.jpg",
+      "short": "One vermilion display serif set larger than the viewport, cropped by the edges, over a pale grey page.",
+      "long": "The headline is deliberately too big: a vermilion high-contrast serif set so large that it runs off both sides and is partially covered by a photograph. Repeating the word on a second line, cropped, creates a marquee effect. Everything else — bio copy, credits, project lists — is tiny and set in a plain sans, so the contrast between the two scales is extreme.",
+      "keywords": [
+        "vermilion",
+        "oversized type",
+        "edge crop",
+        "marquee repeat",
+        "scale contrast",
+        "pale grey",
+        "fashion folio"
+      ],
+      "palette": [
+        "#f1f0ee",
+        "#ee3b1f",
+        "#1a1a1a",
+        "#d9d6d1"
+      ],
+      "traits": {
+        "Typography": "High-contrast display serif at 200px+ in one saturated hue; 12px neutral sans for everything else.",
+        "Layout": "Type cropped by the viewport edges; photographs overlapping the letterforms.",
+        "Colour": "Pale warm grey ground, one vermilion, black photographs.",
+        "Motion": "Marquee scroll of the repeated word."
+      },
+      "prompt": "Full-page fashion stylist portfolio website screenshot, pale warm grey background, an enormous vermilion red high-contrast display serif word set so large it is cropped by both edges of the viewport and repeated cropped on a second line, a colour photograph of a woman holding a film camera to her face overlapping and covering part of the letterforms, small red sans-serif bio paragraphs on the left, a red italic serif section label with an underline, a row of four small fashion photographs above a stacked list of red all-caps project titles, extreme scale contrast, 1440px desktop viewport"
+    },
+    {
+      "id": "warm-dtc-apothecary",
+      "title": "Warm DTC Apothecary",
+      "category": "organic",
+      "image": "resources/5fb1c84b8504998541f8be1e180ebe28.jpg",
+      "short": "Cream grounds, a friendly high-contrast serif and arch-masked photography behind bottles, with commissioned illustration.",
+      "long": "The modern direct-to-consumer look: warm cream page, a charming high-contrast serif used at both display and body sizes, and product bottles shot on arch-masked illustrated backgrounds. Commissioned illustration in a flat folk style adds personality without overwhelming. Buttons are small solid black rectangles with tracked caps, and section headings are centred with a small caps eyebrow above.",
+      "keywords": [
+        "cream ground",
+        "friendly serif",
+        "arch mask",
+        "commissioned illustration",
+        "eyebrow label",
+        "black CTA",
+        "apéritif"
+      ],
+      "palette": [
+        "#f2efe9",
+        "#c9762a",
+        "#1a1a1a",
+        "#d94f3d"
+      ],
+      "traits": {
+        "Typography": "A characterful high-contrast serif for both display and body; 10px tracked caps for eyebrows.",
+        "Layout": "Full-bleed lifestyle hero with an occluding wordmark; centred three-up product row; alternating text-image bands.",
+        "Colour": "Cream and warm ochre with folk-illustration accents in red, teal and lilac.",
+        "Motion": "Gentle fades; the wordmark parallaxes over the hero photograph."
+      },
+      "prompt": "Full-page direct-to-consumer beverage brand website screenshot, warm cream background, a lifestyle photograph of gift boxes and food on a golden tablecloth with an enormous white high-contrast serif wordmark overlaid so the boxes occlude the letters, a centred small-caps eyebrow label above a serif headline, three cream bottles each photographed in front of a different flat folk-style illustrated arch in red lilac and cream, small black rectangular buttons with tracked caps, an alternating band with a serif headline on the left and an arch-masked photograph of a bottle beside cocktails on the right, 1440px desktop viewport"
+    },
+    {
+      "id": "bento-bw-agency",
+      "title": "Black & White Bento Agency",
+      "category": "minimal",
+      "image": "resources/6042da228410bc82a90df7cb2f4d9bbf.jpg",
+      "short": "The page divided into edge-to-edge black and white rectangles, each holding one idea and nothing else.",
+      "long": "There is no page background — the layout is the background. Half-and-half and quarter blocks alternate between solid black and solid white, each containing a single sculptural greyscale photograph, a short headline, or a set of line icons. Ghost type is set at very low contrast behind content for texture. Progress bars and small arrow links are the only interactive furniture.",
+      "keywords": [
+        "bento blocks",
+        "edge to edge",
+        "black and white",
+        "ghost type",
+        "line icons",
+        "progress bar",
+        "sculptural photo"
+      ],
+      "palette": [
+        "#0d0d0d",
+        "#ffffff",
+        "#efefef",
+        "#8c8c8c"
+      ],
+      "traits": {
+        "Typography": "One grotesk, semi-bold headings and regular body; low-contrast ghost caps as texture.",
+        "Layout": "Full-bleed 2×2 and 2×1 blocks with zero gutters; content padded inside each block.",
+        "Colour": "Pure black and pure white with two greys.",
+        "Motion": "Blocks invert on hover; percentage bars fill on scroll."
+      },
+      "prompt": "Full-page digital agency website screenshot built from edge-to-edge rectangular blocks with no gutters, a solid black block containing a white circular play button a white grotesk headline and a small paragraph with very low contrast ghost lettering behind, beside a white block with a sculptural greyscale photograph of a mannequin bust, a black and white photograph block of a designer pinning prints to a wall, a white block with a small pill label and a headline, a black block with two labelled percentage progress bars, and a black two-by-two grid of fine line icons with white labels, 1440px desktop viewport"
+    },
+    {
+      "id": "offwhite-swiss-studio",
+      "title": "Off-White Swiss Studio",
+      "category": "minimal",
+      "image": "resources/648779129746c6b62eb4a79e3a6313b2.jpg",
+      "short": "Bone-white page with hairline rules, tiny tracked labels and a modern geometric sans at generous scale.",
+      "long": "Everything sits on a near-white bone ground inside a 1px-ruled container. Section labels are 10px tracked caps in the left margin, headings are a modern geometric sans at 56–72px, and features are separated by vertical hairline rules rather than cards. Small outlined circular glyphs act as icons. It is the current studio-template default, and it is default for a reason.",
+      "keywords": [
+        "bone white",
+        "hairline rules",
+        "tracked labels",
+        "geometric sans",
+        "outlined glyphs",
+        "template",
+        "editorial calm"
+      ],
+      "palette": [
+        "#fdfbf5",
+        "#111111",
+        "#c9c4b8",
+        "#6f6a5f"
+      ],
+      "traits": {
+        "Typography": "Modern geometric sans (Poppins/Satoshi lineage) 56–72px headings; 10px tracked caps labels.",
+        "Layout": "Ruled container, two-column hero, 2×2 service grid divided by vertical hairlines.",
+        "Colour": "Bone white and black; no accent beyond the black pill button.",
+        "Motion": "Content reveals on scroll with a short upward drift."
+      },
+      "prompt": "Full-page digital agency website screenshot on a bone white background inside a thin 1px ruled container, a modern geometric sans headline in three lines on the left, a photograph of two colleagues talking beside a laptop on the right, a small outlined diamond logo mark, a horizontal rule then a client logo row of six minimal monochrome marks, a tiny tracked all-caps label in the left margin, a two-by-two service grid divided by vertical and horizontal hairline rules each cell with an outlined circular glyph a caps title and two lines of body, a FEATURED WORK heading and a photograph of a woman holding a paper parasol in a wheat field, 1440px desktop viewport"
+    },
+    {
+      "id": "klein-atelier",
+      "title": "Klein Blue Atelier",
+      "category": "luxury",
+      "image": "resources/655bd9012e60bec5662a7b84b7595eae.jpg",
+      "short": "Ultramarine bands against bone, art-deco letterspaced capitals and greyscale fashion photography.",
+      "long": "A fashion house layout built on one intense ultramarine used as full-width bands, with an art-deco-flavoured display face — geometric, high-waisted, generously letterspaced — for every heading. Photography is black and white and often silhouetted. Small oval outlines and thin monograms act as seals, and Spanish or French phrases are used as typographic ornament.",
+      "keywords": [
+        "ultramarine",
+        "art deco caps",
+        "letterspacing",
+        "greyscale fashion",
+        "oval seal",
+        "bone ground",
+        "atelier"
+      ],
+      "palette": [
+        "#1f35b5",
+        "#f0ece5",
+        "#1a1a1a",
+        "#ffffff"
+      ],
+      "traits": {
+        "Typography": "Art-deco geometric display caps with 0.2em tracking; small neutral sans for body at 11px.",
+        "Layout": "Alternating bone and ultramarine full-width bands; centred headings; split image-text rows.",
+        "Colour": "One ultramarine, one bone, greyscale photography. No third colour.",
+        "Motion": "Bands wipe in vertically; headings letterspace open on load."
+      },
+      "prompt": "Full-page fashion atelier website screenshot in a browser frame, bone white background, a centred ultramarine blue art-deco display capital logotype with wide letterspacing, a circular black and white portrait of a model, a full-width ultramarine blue band with a centred white letterspaced OUR STORY heading and two columns of small white body text, a bone section with a blue display serif collection name beside a black and white photograph of legs in heels with a thin oval outline containing a word, a full-width greyscale seascape band with three overlaid caption boxes, a thin blue band with a monogram seal, 1440px desktop viewport"
+    },
+    {
+      "id": "airy-light-photo",
+      "title": "Airy Light Photography",
+      "category": "photo",
+      "image": "resources/699f00ea6089ee51ef87beb4da2f0bdb.jpg",
+      "short": "Pale, high-key imagery in a peek-through carousel with a fine letterspaced serif wordmark centred above.",
+      "long": "Soft, overexposed photography on a pale grey page. The hero is a carousel where the neighbouring slides peek in from both edges, signalling that there is more without needing arrows. The wordmark is a fine serif with heavy tracking, centred in the navigation. Portfolio items are three-up with a tracked caps title and a tiny category line beneath.",
+      "keywords": [
+        "high key",
+        "peek carousel",
+        "tracked serif",
+        "pale grey",
+        "three-up grid",
+        "category line",
+        "airy"
+      ],
+      "palette": [
+        "#eceae7",
+        "#ffffff",
+        "#3a3a3a",
+        "#a9a29b"
+      ],
+      "traits": {
+        "Typography": "Fine serif wordmark with 0.4em tracking; 11px tracked caps titles; 9px caps categories.",
+        "Layout": "Centred nav with the wordmark in the middle, peek-through carousel, three-column portfolio grid.",
+        "Colour": "Pale neutrals only; the photography supplies all warmth.",
+        "Motion": "Slow horizontal carousel drift; images fade rather than slide."
+      },
+      "prompt": "Full-page wedding photography website screenshot in a browser window, pale grey background, a centred fine serif wordmark with very wide letterspacing between navigation links, a hero carousel showing a large high-key photograph of a couple embracing with the neighbouring slides peeking in from the left and right edges, small arrows and a tracked caption below, a centred tracked all-caps two-line heading and a tiny italic subtitle, then a three-column grid of soft overexposed couple photographs each with a tracked caps title and a small category line, airy overexposed colour grade, 1440px desktop viewport"
+    },
+    {
+      "id": "numbered-mono-folio",
+      "title": "Numbered Monochrome Folio",
+      "category": "minimal",
+      "image": "resources/6a62e2a41c43e2ca80f5b531b74b3a39.jpg",
+      "short": "Sections indexed by huge ghost numerals in the left margin, with double-exposure imagery and alternating grey grounds.",
+      "long": "Each section is numbered 01, 02, 03 in a very large light-grey numeral in the left gutter, with a rotated vertical caption beside it. Grounds alternate between light grey and mid grey to separate chapters, and the imagery is double-exposure — a portrait filled with a forest or a low-poly animal. Right-hand tick marks act as a scroll indicator.",
+      "keywords": [
+        "ghost numerals",
+        "vertical captions",
+        "double exposure",
+        "alternating grounds",
+        "tick indicator",
+        "low poly"
+      ],
+      "palette": [
+        "#f0f0f0",
+        "#5c5c5c",
+        "#1a1a1a",
+        "#e8536a"
+      ],
+      "traits": {
+        "Typography": "Bold caps headings, serif body at small sizes, 200px light-grey numerals as section indices.",
+        "Layout": "Wide left margin for the index numeral; content in the right two-thirds; rotated captions.",
+        "Colour": "Greys only, with one coral used once for an award highlight.",
+        "Motion": "Full-height section snapping; numerals fade between chapters."
+      },
+      "prompt": "Full-page designer portfolio website screenshot, light grey background, a huge pale grey numeral 01 in the left margin beside a small rotated vertical all-caps caption, a bold caps introduction headline with a short rule and a small serif paragraph, a double-exposure black and white photograph of a bearded man filled with a sunlit forest, then a mid-grey section numbered 02 with a low-poly wireframe deer head illustration and a project description, then a light section numbered 03 with an awards list and a grid of small circular achievement icons one highlighted in coral, thin tick marks along the right edge, 1440px desktop viewport"
+    },
+    {
+      "id": "cherry-bold-brand",
+      "title": "Cherry Bold Brand",
+      "category": "maximal",
+      "image": "resources/6ad78012ed4b66559df33bdf377e8f56.jpg",
+      "short": "Brush-script logotype over editorial photography, tomato-red colour blocks and an italic-serif attitude.",
+      "long": "A loud but controlled brand system: a thick brush-script wordmark laid over a colour-graded photograph, then large tomato-red and cream colour blocks alternating down the page. Headings mix roman and italic serif within the same sentence, small hand-drawn arrows point between sections, and cropped oversized type runs behind the portfolio grid as a background layer.",
+      "keywords": [
+        "brush script",
+        "tomato red",
+        "italic mix",
+        "hand-drawn arrow",
+        "colour block",
+        "cropped background type",
+        "attitude"
+      ],
+      "palette": [
+        "#c53a26",
+        "#f4efe4",
+        "#1a1a1a",
+        "#8a8a8a"
+      ],
+      "traits": {
+        "Typography": "Thick brush script for the logotype, a high-contrast serif mixing roman and italic for headings.",
+        "Layout": "Asymmetric colour-block mosaic; oversized cropped type as a background layer.",
+        "Colour": "Tomato red and cream with greyscale and colour photography mixed deliberately.",
+        "Motion": "Marquee announcement bar; blocks reveal diagonally."
+      },
+      "prompt": "Full-page creative agency website screenshot, hero photograph of a woman behind a white frosted cake with red cherries colour-graded cool grey, a thick cream brush-script wordmark overlaid across the middle, small red pill labels, then an asymmetric mosaic of tomato red and cream colour blocks containing a black and white fashion photograph a high-contrast serif headline mixing roman and italic words a small hand-drawn arrow and a red pill button, then a section where an enormous cropped serif word runs behind a grid of fashion photographs, confident maximal brand art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "iso-type-sculpture",
+      "title": "Isometric Type Sculpture",
+      "category": "experimental",
+      "image": "resources/6d66d779270a902bd46bcc14567d67a8.jpg",
+      "short": "Letterforms extruded into architecture, with a tiny figure for scale and a two-colour bone-and-charcoal palette.",
+      "long": "Type is treated as a physical environment: a numeral or word is repeated and extruded into an isometric landscape of walls, ledges and stairs, rendered in exactly two tones so the depth reads as pure graphic shape. A tiny 3D character sits somewhere in the composition to establish scale and emotion. Any real typography is rotated to run along the structure's edges.",
+      "keywords": [
+        "extruded type",
+        "isometric",
+        "two-tone",
+        "scale figure",
+        "type as architecture",
+        "3D render",
+        "poster"
+      ],
+      "palette": [
+        "#2a2724",
+        "#e8dcc8",
+        "#171512",
+        "#b9ab94"
+      ],
+      "traits": {
+        "Typography": "One numeral or word repeated as geometry; captions rotated 90° along edges.",
+        "Layout": "Poster proportions, single composition, no scrolling content.",
+        "Colour": "Two tones only — a warm bone and a cool charcoal.",
+        "Motion": "Slow orbit of the camera around the type sculpture."
+      },
+      "prompt": "Poster-format web hero, two-tone composition of warm bone cream and dark charcoal, the numerals of a year extruded into an enormous isometric architectural landscape of walls ledges and steps rendered as flat graphic shapes with soft shading, a tiny 3D character in a black coat and cream bobble hat sitting alone on one ledge for scale, the year repeated small and rotated in the top left and bottom right corners, minimal cinematic lighting, 1440px viewport"
+    },
+    {
+      "id": "retro-cgi-appliance",
+      "title": "Retro CGI Appliance",
+      "category": "tactile",
+      "image": "resources/70d04dfc815754e0adb92bd0e24bdd75.jpg",
+      "short": "Mid-century hardware rendered in soft grey CGI, with a monochrome interface and one orange switch as accent.",
+      "long": "A 3D-rendered vintage appliance — tape deck, radio, telephone — floats on a pale grey gradient with a long soft shadow, every speaker grille hole and transparent cassette shell modelled. The interface around it is entirely monochrome: a grey header bar, a numbered index rail down the right side, tick-mark rules and small bold labels. The product's own orange switch is the only colour on the page.",
+      "keywords": [
+        "CGI product",
+        "grey gradient",
+        "speaker grille",
+        "index rail",
+        "tick rules",
+        "single accent",
+        "mid-century hardware"
+      ],
+      "palette": [
+        "#e9e9ea",
+        "#8f9296",
+        "#2b2b2b",
+        "#e2622b"
+      ],
+      "traits": {
+        "Typography": "Bold sans for the topic label, small regular sans for body, vertical rotated caps for the category.",
+        "Layout": "Grey header band, hero render on a pale field, right index rail, then a macro detail grid.",
+        "Colour": "Greys plus the accent that already exists on the object.",
+        "Motion": "The render rotates as the index rail advances."
+      },
+      "prompt": "Full-page product editorial website screenshot, grey header band with a bold hashtag topic label and a year, pale grey gradient background, a photoreal 3D render of a white and grey 1980s portable cassette recorder with orange switches a chrome handle a transparent cassette door and a perforated speaker grille casting a long soft shadow, transparent cassette cases scattered beside it, a numbered vertical index rail on the right with one number highlighted, small tick-mark rules, a rotated vertical caps category label on the left, below a three-cell macro detail grid of the speaker grille and cassette mechanism, 1440px desktop viewport"
+    },
+    {
+      "id": "red-cream-fashion-folio",
+      "title": "Red & Cream Fashion Folio",
+      "category": "editorial",
+      "image": "resources/7b6083e3ff7c587c957d8a44c796c1e2.jpg",
+      "short": "Flat scarlet rectangles, a stretched display serif and studio portraits shot against a red cyclorama.",
+      "long": "Photography and graphics share exactly one red, so the images feel like they were art-directed for the layout rather than dropped into it. The wordmark is a wide high-contrast serif stretched across the full measure; supporting copy is set in justified caps at 10px. Flat red squares are placed as pure composition — some empty, some holding a cropped photograph.",
+      "keywords": [
+        "scarlet",
+        "cyclorama",
+        "stretched serif",
+        "justified caps",
+        "flat squares",
+        "colour matching",
+        "studio portrait"
+      ],
+      "palette": [
+        "#e02b26",
+        "#f4f1e9",
+        "#4a4a4a",
+        "#1a1a1a"
+      ],
+      "traits": {
+        "Typography": "Wide high-contrast display serif for headings; 10px justified all-caps sans for body.",
+        "Layout": "Off-grid flat squares plus edge-bled photographs; headings spanning the full width.",
+        "Colour": "One scarlet, one cream, one grey. Photography shot to match.",
+        "Motion": "Squares slide into place from the edges."
+      },
+      "prompt": "Full-page fashion portfolio website screenshot, cream background, a wide-bleed photograph of a model in black sunglasses against a saturated scarlet red cyclorama backdrop, an enormous red high-contrast display serif PORTFOLIO headline stretched across the full width beneath it, small red caps credits, flat scarlet squares placed as pure composition some empty some containing cropped studio portraits, a justified all-caps ten-pixel paragraph, three circles in red grey and red containing tiny caps skill labels, colour-matched art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "warm-brown-wedding",
+      "title": "Warm Brown Wedding Brand",
+      "category": "photo",
+      "image": "resources/7c2653eecf334ee30fdff99ca385b18e.jpg",
+      "short": "Mocha bands, handwritten script overlays and sun-flared golden-hour photography stacked full width.",
+      "long": "Deep mocha and taupe bands separate large photographic sections, and a thin handwritten script is laid diagonally across image edges as a signature device. Headings are a warm serif, buttons are muted brown rectangles with tracked caps, and the whole page has an intentionally soft, hazy grade with visible lens flare. An Instagram strip anchors the bottom.",
+      "keywords": [
+        "mocha bands",
+        "handwritten script",
+        "lens flare",
+        "hazy grade",
+        "signature overlay",
+        "instagram strip"
+      ],
+      "palette": [
+        "#6e5c4b",
+        "#efece6",
+        "#c9b391",
+        "#2f2a25"
+      ],
+      "traits": {
+        "Typography": "Warm serif for headings, a thin handwritten script for accents, 10px tracked caps for nav.",
+        "Layout": "Full-width alternating photo and colour bands; three-up hero photo row; social strip footer.",
+        "Colour": "Mocha, taupe and cream; photography graded warm and hazy.",
+        "Motion": "Script accents draw on as they enter the viewport."
+      },
+      "prompt": "Full-page wedding photographer website screenshot, mocha brown navigation band with a small serif wordmark, a wide golden-hour photograph of a couple releasing paper lanterns in a meadow with strong sun flare, a thin cream handwritten script phrase overlaid diagonally, a mocha section with a small photograph of the photographer at a cafe table and a warm serif introduction paragraph with a muted rectangular button, a three-up row of warm hazy wedding photographs, a cream testimonial section with handwritten script accents and a brown button, an Instagram photo strip and a mocha footer, 1440px desktop viewport"
+    },
+    {
+      "id": "neo-brutalist-ui",
+      "title": "Neo-Brutalist UI",
+      "category": "brutalist",
+      "image": "resources/7db36e2a0be901067804dfb902d7eac3.jpg",
+      "short": "Thick black outlines, hard offset shadows, flat candy colours and monospace headings that refuse to be polite.",
+      "long": "Neo-brutalism takes the raw web's honesty and makes it fun: every element gets a 2–3px black border and a solid offset shadow with no blur, corner radii are 0–4px, and the palette is unmixed candy — lime, lemon, hot pink, sky. Headings are monospace or a heavy grotesk, and layered background wedges of colour sit behind the interface. Nothing is subtle and nothing is accidental.",
+      "keywords": [
+        "hard shadow",
+        "thick outline",
+        "candy palette",
+        "monospace heading",
+        "no blur",
+        "flat",
+        "playful brutalism"
+      ],
+      "palette": [
+        "#c4f0a8",
+        "#f7d94c",
+        "#f2a5e0",
+        "#111111",
+        "#fdf6e3"
+      ],
+      "traits": {
+        "Typography": "Monospace or heavy grotesk headings; regular sans for body; nothing lighter than medium.",
+        "Layout": "Sidebar plus card grid, everything outlined; layered diagonal colour wedges behind the frame.",
+        "Colour": "Unmixed flat brights with pure black outlines and cream ground.",
+        "Motion": "Shadows shift on hover as if the element physically moves."
+      },
+      "prompt": "Full-page web app dashboard screenshot in neo-brutalist style, layered diagonal wedges of mint green peach coral and sky blue behind the frame, a cream application window with a thick black border and a hard offset black shadow with no blur, a mint green sidebar with black monospace navigation labels, a monospace page heading, a yellow profile card with a thick black border containing a portrait and four outlined statistic boxes, black rectangular buttons, a magenta and lilac stats card with a black line chart, and a row of review cards each with a thick black border and a hard offset shadow, flat candy colours, 1440px desktop viewport"
+    },
+    {
+      "id": "deep-green-travel",
+      "title": "Deep Green Travel",
+      "category": "organic",
+      "image": "resources/83bdf6da4714041795729dce9fa502b2.jpg",
+      "short": "Jungle greens and olive blocks interleaved with landscape photography and a light letterspaced serif.",
+      "long": "A dark botanical palette — forest, olive, moss — where flat colour blocks and photographs share the same grid, so the page reads as one continuous tapestry. Headings are a light letterspaced serif in cream, body copy is small and set at a narrow measure inside the colour blocks. A photographic vine or branch is often composited over the page edge to break the frame.",
+      "keywords": [
+        "forest green",
+        "olive block",
+        "letterspaced serif",
+        "tapestry grid",
+        "botanical",
+        "frame break",
+        "travel"
+      ],
+      "palette": [
+        "#2f3a2c",
+        "#7d7f5e",
+        "#e8e4d8",
+        "#c98a3a"
+      ],
+      "traits": {
+        "Typography": "Light serif with wide tracking for headings; 11px sans at a 40ch measure for body.",
+        "Layout": "Mosaic where photographs and flat colour cells occupy identical grid slots.",
+        "Colour": "Deep greens and olives with cream type and one warm ochre from the imagery.",
+        "Motion": "Slow vertical parallax between photo cells and colour cells."
+      },
+      "prompt": "Full-page travel and fashion website screenshot displayed on a dark green background with a photographic vine branch composited over the left edge, hero photograph of misty green limestone mountains with a large light letterspaced cream serif place name overlaid, a mosaic where flat olive and sage colour blocks sit in the same grid as photographs of clothing racks wet leaves and rice terraces, small cream serif headings and narrow body paragraphs inside the colour blocks, a waterfall photograph and a stone statue photograph at the bottom, lush botanical art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "antique-shop-mustard",
+      "title": "Antique Shop Mustard",
+      "category": "retro",
+      "image": "resources/8a87e63be3721b8f950fce90565a96f2.jpg",
+      "short": "Mustard frame, parchment page, thin black keylines and engraved-style illustration with a starburst price tag.",
+      "long": "A shopfront aesthetic borrowed from mid-century catalogues: a saturated mustard border wrapping a parchment page, thin black keylines dividing every module, and product illustration rendered as textured engraving. Small diamond ornaments mark the rule intersections, headings are a warm serif, and prices sit in orange starburst badges. Monospace is used for product names.",
+      "keywords": [
+        "mustard frame",
+        "parchment",
+        "keyline grid",
+        "engraved illustration",
+        "starburst badge",
+        "diamond ornament",
+        "catalogue"
+      ],
+      "palette": [
+        "#f0a10a",
+        "#faf3dc",
+        "#1a1a1a",
+        "#e2621b"
+      ],
+      "traits": {
+        "Typography": "Warm bookish serif for headings, monospace for product names and prices.",
+        "Layout": "Ruled module grid with thin black keylines; diamond marks at intersections.",
+        "Colour": "Mustard and parchment with black keylines and an orange badge accent.",
+        "Motion": "Modules flip like catalogue cards."
+      },
+      "prompt": "Website hero screenshot for an antique shop, saturated mustard yellow border framing a parchment cream page, thin black keyline rules dividing modules with small diamond ornaments at the intersections, a warm serif headline with a small sparkle glyph, a black rectangular SHOP NOW button with an arrow, a textured engraved-style illustration of a brass gramophone with floating music notes inside a dark grainy circle, an orange starburst price badge, a monospace product name and price row, a partially visible record player photograph with an ON SALE tag, vintage catalogue art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "americana-vintage",
+      "title": "Americana Vintage Print",
+      "category": "retro",
+      "image": "resources/8df80a5ab07511f38faf929061f30a7d.jpg",
+      "short": "Kraft-paper ground, ticket-stub borders, condensed slab caps and a sepia archival photograph.",
+      "long": "Modelled on ticket stubs, ledger paper and mid-century signage: a kraft or oat background with double-ruled borders and notched ticket corners, a condensed slab or gothic wordmark with a small italic serif article, and a vertical rule separating a left navigation stack from the content. Halftone dot patterns fill small blocks, and a single oxblood red is the only colour beyond the paper.",
+      "keywords": [
+        "kraft paper",
+        "ticket stub",
+        "condensed slab",
+        "double rules",
+        "halftone block",
+        "oxblood",
+        "signage"
+      ],
+      "palette": [
+        "#e6d9be",
+        "#f2e9d2",
+        "#3a2f26",
+        "#8c2f26"
+      ],
+      "traits": {
+        "Typography": "Condensed slab caps for the wordmark, a small italic serif article, monospace-ish caps for navigation.",
+        "Layout": "Left navigation stack separated by a vertical rule; content framed in a ticket-stub border.",
+        "Colour": "Kraft and oat paper tones with dark brown ink and one oxblood accent.",
+        "Motion": "None — this style is a print artefact."
+      },
+      "prompt": "Full-page restaurant website screenshot on a kraft oat paper background, a condensed slab all-caps wordmark with a small italic serif article in the top right, a vertical rule separating a left navigation stack of all-caps links with small red arrow markers, an address block inside a double-ruled ticket-stub border with notched corners, an hours panel with dashed dividers and halftone dot fill blocks, a large sepia archival photograph of a 1930s football player framed by a thin rule with a red EVENTS label tab, a small engraved bicycle-wheel ornament, oxblood red accents, vintage American print art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "cartoon-character-brand",
+      "title": "Cartoon Character Brand",
+      "category": "maximal",
+      "image": "resources/9053399e265d3a3508012fcc52b00d6e.jpg",
+      "short": "Thick-outlined mascot illustrations, a heavy display sans and a diagonal scrolling ticker tape across the hero.",
+      "long": "Built around a cast of characters: chunky vector mascots with black outlines, simple dot eyes and primary-coloured bodies, arranged around an enormous heavy display headline. A striped announcement ticker runs diagonally across the hero, partially covering the type. The rest of the page is pale and quiet so the characters carry every ounce of personality.",
+      "keywords": [
+        "mascot",
+        "thick outline",
+        "diagonal ticker",
+        "heavy display sans",
+        "primary colours",
+        "pale ground",
+        "event site"
+      ],
+      "palette": [
+        "#d6e0e6",
+        "#f5a623",
+        "#e8452c",
+        "#2b3fa8",
+        "#111111"
+      ],
+      "traits": {
+        "Typography": "Very heavy condensed display sans for headlines; a friendly rounded sans for body.",
+        "Layout": "Centred single column with characters bleeding off the edges; boxed sign-up form.",
+        "Colour": "Pale blue-grey ground with saturated primary characters and black outlines.",
+        "Motion": "The ticker scrolls; characters bob and blink on loop."
+      },
+      "prompt": "Full-page event website screenshot, pale blue-grey background, an enormous heavy black condensed display headline in two lines, a white diagonal ticker tape strip with repeating small caps announcement text scrolling across and partly covering the headline, three chunky vector cartoon mascot characters shaped like retro gadgets with thick black outlines dot eyes and smiling mouths in purple orange and green, a centred rounded sans subhead, small host avatars, a white sign-up card with a thick border two input fields and a black button, an orange laptop character with a face, playful illustrated brand art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "rugged-outdoor-commerce",
+      "title": "Rugged Outdoor Commerce",
+      "category": "photo",
+      "image": "resources/9650a74682fd1c039c26615e56ded160.webp",
+      "short": "Wilderness photography, a condensed two-tone headline pattern and floating white product cards with a crimson CTA.",
+      "long": "Outdoor gear commerce: full-bleed landscape photography in cold, moody grades, headlines that pair a light grey word with a bold black word on the same line, and small floating white cards containing a product thumbnail, price and cart button. Section numbers sit at large scale in ghost grey on the right. The only saturated colour is a crimson button.",
+      "keywords": [
+        "wilderness photo",
+        "two-tone headline",
+        "floating product card",
+        "ghost numerals",
+        "crimson CTA",
+        "cold grade",
+        "gear"
+      ],
+      "palette": [
+        "#f4f4f4",
+        "#1e1e1e",
+        "#d81f3a",
+        "#8d8d8d"
+      ],
+      "traits": {
+        "Typography": "Condensed grotesk headings pairing grey and black words; small sans for product data.",
+        "Layout": "Full-bleed hero, then alternating light sections with floating cards and ghost section numbers.",
+        "Colour": "Greys and white with one crimson; photography cold and desaturated.",
+        "Motion": "Horizontal product carousels with drag; cards raise on hover."
+      },
+      "prompt": "Full-page outdoor gear e-commerce website screenshot, full-bleed moody photograph of an angler in a red jacket casting into a still lake surrounded by autumn cliffs, a bold white condensed headline overlaid, a small crimson rectangular button, a floating white product card with a rod thumbnail in the lower right, then a light grey section with a headline pairing one grey word and one black word, a horizontal carousel of three product cards with price chips and a cart icon, an enormous ghost grey section numeral on the right, a dark footer with a newsletter form, 1440px desktop viewport"
+    },
+    {
+      "id": "duotone-colour-grid",
+      "title": "Duotone Colour Grid",
+      "category": "experimental",
+      "image": "resources/96cc01b61dc5949642516a1214d13fe7.jpg",
+      "short": "A page built from flat colour cells, each holding one duotone image or line drawing in a clashing coral-and-blue scheme.",
+      "long": "The layout is a mosaic of unequal flat colour cells — salmon, cobalt, vermilion, peach — each containing one element: a duotone photograph, a single-line engraving, a small poster. The images are all recoloured into the same two-ink duotone so the page holds together despite the clashing hues. Typography is minimal, small and almost incidental.",
+      "keywords": [
+        "duotone",
+        "colour cells",
+        "clashing palette",
+        "line engraving",
+        "mosaic",
+        "riso feel",
+        "minimal type"
+      ],
+      "palette": [
+        "#e79489",
+        "#e8412a",
+        "#2b6ef5",
+        "#f7d9c4"
+      ],
+      "traits": {
+        "Typography": "Tiny sans labels and one small serif word set in a contrasting hue; no display type.",
+        "Layout": "Irregular mosaic of flat colour cells at different spans; one full-width duotone band.",
+        "Colour": "Salmon, coral, vermilion, cobalt and peach — deliberately uncomfortable together.",
+        "Motion": "Cells swap colour on hover; the duotone band shifts its ink."
+      },
+      "prompt": "Full-page creative studio website screenshot built as a mosaic of flat colour cells in salmon coral vermilion cobalt blue and peach, each cell containing one element, a small serif word BOLD in red on salmon, single-line blue engraving drawings of a hand and a skull, a vermilion cell with a line-drawn plant, a full-width duotone red photograph of two women with bob haircuts in dramatic light, a cobalt cell with a small striped circle, a vermilion cell filled with a repeating engraved bird pattern, tiny sans labels only, risograph colour clash, 1440px desktop viewport"
+    },
+    {
+      "id": "pastel-floral",
+      "title": "Pastel Floral",
+      "category": "organic",
+      "image": "resources/9addbeba24c785edc74d0217cac3dc5e.jpg",
+      "short": "Sage and lilac washes with pressed-flower photography and a very thin, very wide serif headline.",
+      "long": "Delicate and low-contrast: a sage-green wash carries pressed flowers photographed on a plain ground, with an extremely thin, extremely large serif headline that the petals overlap. Circular pastel badges hold statistics and category names, and the page transitions between soft fields with a scalloped or half-circle cut. Nothing on the page is fully saturated.",
+      "keywords": [
+        "sage wash",
+        "pressed flowers",
+        "hairline serif",
+        "circle badges",
+        "half-circle cut",
+        "low saturation",
+        "floral"
+      ],
+      "palette": [
+        "#b8c9a8",
+        "#c9bcd6",
+        "#f4f2ec",
+        "#8a7f74"
+      ],
+      "traits": {
+        "Typography": "Hairline-weight serif at very large sizes; small tracked caps for labels.",
+        "Layout": "Full-bleed washes separated by half-circle cuts; circular badge rows; four-up card strip.",
+        "Colour": "Sage, lilac, taupe and cream at low saturation throughout.",
+        "Motion": "Petals drift slowly; badges scale gently on hover."
+      },
+      "prompt": "Full-page floral shop website screenshot, soft sage green wash background, a dried pink rose and sprigs of purple statice photographed lying flat across the composition, an extremely thin very large white serif headline that the flowers overlap, a small purple pill button with a count, a half-circle cut transitioning to a white section, a centred tracked caps heading, three pastel circles in sage taupe and lilac containing a teapot glyph a large numeral and a word, a photograph of flowers on a white chair, a four-up strip of pale green product cards with prices, 1440px desktop viewport"
+    },
+    {
+      "id": "monochrome-red-studio",
+      "title": "Monochrome Red Studio",
+      "category": "editorial",
+      "image": "resources/9b88060337181045e6133e2880d2bb34.jpg",
+      "short": "Everything in one red on bone — type, photography, rules — with an oversized scrolling client marquee.",
+      "long": "A single red ink is applied to every element: headings, body copy, hairline rules, and the photography itself, which is duotoned to match. A crumpled poster shot fills the width as texture, and client names run as an enormous marquee at a size that crops them at both edges. The restraint of one colour makes the scale changes read as loud rather than chaotic.",
+      "keywords": [
+        "single ink",
+        "duotone red",
+        "marquee",
+        "crumpled poster",
+        "hairline rules",
+        "bone ground",
+        "studio site"
+      ],
+      "palette": [
+        "#e63025",
+        "#f0e9df",
+        "#f7b5ae",
+        "#ffffff"
+      ],
+      "traits": {
+        "Typography": "A high-contrast serif for headings, a neutral sans at 11px for body, both in the same red.",
+        "Layout": "Ruled bands; a full-width texture image; an over-scale horizontal marquee.",
+        "Colour": "One red, one bone, one tint. Photography duotoned to fit.",
+        "Motion": "The client marquee scrolls continuously in both directions."
+      },
+      "prompt": "Full-page creative studio website screenshot, bone cream background, everything rendered in a single saturated red ink, a large red display serif ABOUT US heading cropped at the top, small red sans paragraphs in two columns with tiny caps labels, a full-width photograph of crumpled red posters printed with overlapping typography, thin red rules above and below a horizontal marquee of enormous client names cropped by both edges with small numbers between them, a red duotone photograph of two women, an underlined serif heading, 1440px desktop viewport"
+    },
+    {
+      "id": "analog-archive",
+      "title": "Analog Archive",
+      "category": "experimental",
+      "image": "resources/9e86f9435ef59632b5d22fb2ee52ac7a.jpg",
+      "short": "Overlapping tabbed file cards, paper grain, barcodes and rotated monospace codes — a design that looks like a dossier.",
+      "long": "The page is staged as a set of physical file folders: tall cards with die-cut tabs overlapping each other, each in a different paper stock — newsprint, blue-grey card, kraft — and each carrying a rotated monospace code like CODE_002 // FALLING. Heavy grain, barcodes, dither patterns and glitch fragments provide texture. Content is fragmentary by design; the archive metaphor is the message.",
+      "keywords": [
+        "file tabs",
+        "paper grain",
+        "monospace codes",
+        "barcode",
+        "dither",
+        "rotated labels",
+        "dossier"
+      ],
+      "palette": [
+        "#d8d2c0",
+        "#8f9aa8",
+        "#1c1a17",
+        "#c7a35a"
+      ],
+      "traits": {
+        "Typography": "Condensed caps rotated 90° for the spine title; monospace for all codes and captions.",
+        "Layout": "Overlapping vertical cards with tabs; content cropped by the card above it.",
+        "Colour": "Muted paper stocks — bone, slate, kraft, olive — with black ink and one gold rule.",
+        "Motion": "Cards slide out laterally on hover like pulling a folder."
+      },
+      "prompt": "Poster-format web page staged as a physical archive, textured bone paper background with heavy grain, six tall overlapping file-folder cards with die-cut tabs in newsprint white slate blue kraft brown black and olive, an enormous condensed all-caps title rotated ninety degrees running up the left edge, small rotated monospace codes on each tab, barcode graphics, dithered pixel photograph fragments, a thin gold keyline on one card, small monospace captions, analog dossier art direction, 1440px viewport"
+    },
+    {
+      "id": "sage-wellness-commerce",
+      "title": "Sage Wellness Commerce",
+      "category": "organic",
+      "image": "resources/a0a081389272d9b8e6063256cc735446.webp",
+      "short": "Deep sage grounds with leaf-shadow gradients, a clean sans paired with italic serif emphasis, and pill CTAs.",
+      "long": "A modern supplement or skincare layout: a deep sage or olive hero with soft dappled leaf shadows, one product shot dead centre, and a headline in a clean sans where one phrase is set in an italic serif for warmth. Sections alternate between sage and bone, testimonials run as a dark card carousel, and every button is a small pill. It reads clinical and calm at the same time.",
+      "keywords": [
+        "deep sage",
+        "leaf shadow",
+        "italic serif accent",
+        "pill button",
+        "centred product",
+        "testimonial carousel",
+        "supplement"
+      ],
+      "palette": [
+        "#3f5140",
+        "#eae7dd",
+        "#ffffff",
+        "#1c1c1c"
+      ],
+      "traits": {
+        "Typography": "Clean neutral sans with an italic serif used for one phrase per heading.",
+        "Layout": "Centred hero, alternating sage and bone bands, dark testimonial carousel, rounded page corners.",
+        "Colour": "Deep sage, bone and white; near-black text; no accent colour.",
+        "Motion": "Leaf shadows drift slowly; the testimonial rail auto-advances."
+      },
+      "prompt": "Full-page wellness supplement website screenshot with rounded page corners, deep sage green hero with soft dappled leaf shadows, a single green and white capsule photographed on a circular pedestal in the centre, a clean white sans headline with one phrase in an italic serif, a small white pill button, a bone section with a large centred sans headline containing an italic serif phrase and a dark green pill button, a testimonial carousel of dark portrait cards with small quotes, an oval sage card explaining ingredients, calm clinical brand art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "y2k-scrapbook",
+      "title": "Y2K Scrapbook Collage",
+      "category": "retro",
+      "image": "resources/a80978f5e95ed9243250565d12c4f851.jpg",
+      "short": "Torn-edge coloured paper panels, CRT monitors, smiley stickers and grainy rainbow gradients on black.",
+      "long": "A collage aesthetic built from photocopied paper: rough-edged rectangles of yellow, orange and green pasted onto black, each carrying a heavy grotesk heading and small body copy. Vintage beige computers, checkerboard patterns, rainbow gradient blocks, ID-card frames, QR codes and smiley stickers supply the era. Everything has visible paper grain and slight rotation.",
+      "keywords": [
+        "torn paper",
+        "photocopy grain",
+        "CRT monitor",
+        "smiley sticker",
+        "rainbow gradient",
+        "checkerboard",
+        "collage"
+      ],
+      "palette": [
+        "#1a1a1a",
+        "#f2c31c",
+        "#e8712b",
+        "#7ab648",
+        "#f0eee6"
+      ],
+      "traits": {
+        "Typography": "Heavy grotesk headings, tiny condensed sans body, occasional pixel type for labels.",
+        "Layout": "Pasted-panel collage with slight rotations and overlapping edges; no consistent grid.",
+        "Colour": "Black ground with photocopy yellow, orange and green paper plus rainbow gradient blocks.",
+        "Motion": "Panels jitter slightly, stickers rotate on hover."
+      },
+      "prompt": "Full-page portfolio resume website screenshot styled as a Y2K paper collage, black background, torn-edge photocopied paper panels in yellow orange and green pasted at slight angles, a white ID-card panel with a portrait a QR code and small caps details, a grainy rainbow gradient block with a heavy black Hello World heading, a beige 1990s CRT computer rendered in pixel-art voxels, a second beige desktop computer photograph on green paper, heavy black grotesk headings, tiny condensed body copy, checkerboard and smiley face stickers, visible paper grain, 1440px viewport"
+    },
+    {
+      "id": "voxel-web3",
+      "title": "Voxel Web3",
+      "category": "future",
+      "image": "resources/a9194151cb43a3f727c4d062b0ac9365.jpg",
+      "short": "Split screen — a clean monospace left panel against a violet-to-sky gradient right panel holding a 3D voxel object.",
+      "long": "A crypto-collectible layout: the viewport is cut vertically, the left half a bone-white panel with a pixel display headline and monospace copy, the right half a saturated violet-to-sky gradient carrying one isometric voxel model. Bid data sits in a bordered table, gradient pill buttons handle primary actions, and a lime chip marks the live action. The two halves share nothing except the grid.",
+      "keywords": [
+        "split screen",
+        "voxel model",
+        "violet gradient",
+        "pixel display",
+        "monospace",
+        "bid table",
+        "collectible"
+      ],
+      "palette": [
+        "#f5f3ee",
+        "#8b5cf6",
+        "#7dd3fc",
+        "#c9f24a",
+        "#111111"
+      ],
+      "traits": {
+        "Typography": "Pixel/bitmap display for headings, monospace for body and data, no serifs anywhere.",
+        "Layout": "Hard vertical split; bordered data tables; collection cards in a three-up grid.",
+        "Colour": "Bone white against a violet-to-sky gradient with a lime action chip.",
+        "Motion": "The voxel model rotates on a loop; countdown timers tick."
+      },
+      "prompt": "Full-page NFT collection website screenshot on a lime green background, the page split vertically, the left half bone white with a large black pixel-style display headline a monospace paragraph a violet gradient pill button and a three-up grid of bordered cards containing isometric voxel animals with price and like counts, the right half a saturated violet to sky blue gradient containing one large isometric voxel sheep model a pixel numeral and a bordered bid panel with monospace labels a countdown and a lime green PLACE A BID button, 1440px desktop viewport"
+    },
+    {
+      "id": "helvetica-brutalist",
+      "title": "Helvetica Brutalist",
+      "category": "brutalist",
+      "image": "resources/aab57e78536fe84be34de5c902b6b865.jpg",
+      "short": "One black grotesk on white, set at wildly mismatched sizes, with letters allowed to break out of the word.",
+      "long": "Pure typographic brutalism: no colour, no imagery treatment, no ornament — just Helvetica-family type on white. The logotype breaks its own alignment, with letters stepping down the page. A section title is set at 200px next to 11px body copy with no intermediate sizes, and staff portraits are dropped in as plain unstyled squares. The severity is the design.",
+      "keywords": [
+        "helvetica",
+        "size jump",
+        "broken alignment",
+        "white space",
+        "no colour",
+        "unstyled images",
+        "typographic severity"
+      ],
+      "palette": [
+        "#ffffff",
+        "#000000",
+        "#efefef",
+        "#7a7a7a"
+      ],
+      "traits": {
+        "Typography": "One neo-grotesk family only, bold and regular; sizes jump from 11px to 200px with nothing between.",
+        "Layout": "Asymmetric — a stepped logotype, a four-column season table, an oversized section title.",
+        "Colour": "Black on white. Full stop.",
+        "Motion": "None, or instant. Any easing softens the point."
+      },
+      "prompt": "Full-page theatre company website screenshot, pure white background, a black bold Helvetica logotype whose four letters step down and to the right breaking alignment, a centred navigation row with a single black dot above it, a four-column season table of production titles taglines and date ranges in eleven pixel bold caps, an enormous two-hundred pixel black ABOUT heading, two columns of small black body copy under a short rule, a two-by-two grid of plain unstyled black and white staff portraits with caps captions, an outlined email input with an OK button, no colour anywhere, 1440px desktop viewport"
+    },
+    {
+      "id": "white-gallery-yellow",
+      "title": "White Gallery, Yellow Accent",
+      "category": "minimal",
+      "image": "resources/afeb2f6250d7c3e11bc9b0c3ee837a0d.jpg",
+      "short": "A near-empty white grid of square thumbnails where one saturated yellow recurs as the only colour.",
+      "long": "The gallery template at its purest: white ground, generous gutters, square and portrait thumbnails on pale grey tiles, and a pill filter row above. Most images are greyscale or near-white; a single saturated yellow — an origami crane, a paint splash, a banana — recurs across the grid as a rhythm device. Typography is 10px tracked caps and nothing else.",
+      "keywords": [
+        "white gallery",
+        "pale tiles",
+        "single accent",
+        "pill filters",
+        "tracked caps",
+        "recurring colour",
+        "portfolio grid"
+      ],
+      "palette": [
+        "#ffffff",
+        "#f2f2f2",
+        "#f5d90a",
+        "#1a1a1a"
+      ],
+      "traits": {
+        "Typography": "10px tracked caps for filters, titles and footer; no body copy at all.",
+        "Layout": "Masonry of square and portrait tiles with wide gutters; centred filter row.",
+        "Colour": "White and pale grey with one saturated yellow appearing in roughly one tile in four.",
+        "Motion": "Grid reflows on filter change; tiles fade rather than slide."
+      },
+      "prompt": "Full-page design portfolio website screenshot, pure white background, a double-exposure black and white portrait banner at the top, a centred row of small pill filter buttons in 10px tracked caps, then a masonry grid of square and portrait tiles on pale grey backgrounds containing a yellow origami crane a black sofa a black and white fashion portrait with a floral headpiece a white Eames chair a yellow paint splash a peeled banana and a black and white male portrait, one tile containing only small tracked type, wide gutters, yellow as the only colour, 1440px desktop viewport"
+    },
+    {
+      "id": "dark-romantic-wedding",
+      "title": "Dark Romantic Wedding",
+      "category": "photo",
+      "image": "resources/b2a7cf72f0c7d16ec44987f3cb3b8790.jpg",
+      "short": "Dark, desaturated intimate photography edge to edge, with hairline serif captions that almost disappear into the image.",
+      "long": "Moody, low-key wedding work presented without a page around it: images butt directly against each other and the type is set so light and so tracked that it reads as a whisper. Captions sit in the bottom-left of each frame, and the navigation is a thin row of caps over the hero. Contrast is deliberately low so the images feel like memories rather than adverts.",
+      "keywords": [
+        "low key",
+        "desaturated",
+        "zero gutter",
+        "whisper type",
+        "overlay captions",
+        "moody",
+        "intimate"
+      ],
+      "palette": [
+        "#2a241f",
+        "#c9bcae",
+        "#ffffff",
+        "#151312"
+      ],
+      "traits": {
+        "Typography": "Hairline serif at 0.3em tracking for headings; 9px caps for captions and nav.",
+        "Layout": "Zero-gutter mosaic of 1×1 and 2×1 image cells; text only ever overlaid.",
+        "Colour": "Deep browns and greens with muted highlights; no UI colour at all.",
+        "Motion": "Images brighten slightly on hover; slow crossfades."
+      },
+      "prompt": "Full-page wedding photographer website screenshot, a full-bleed dark moody photograph of a couple embracing in a forest with the bride wearing a flower crown, a hairline white serif headline with very wide letterspacing overlaid in the centre, thin all-caps navigation across the top, arrows at both edges, then a zero-gutter mosaic of dark desaturated wedding photographs in mixed one-by-one and two-by-one cells each with a small white caps caption and a tiny category line in the lower left corner, very low contrast, intimate memory-like colour grade, 1440px desktop viewport"
+    },
+    {
+      "id": "lavender-pixel-craft",
+      "title": "Lavender Pixel Craft",
+      "category": "retro",
+      "image": "resources/b77a5d8d7204621d2942ce93fe7ef2bb.jpg",
+      "short": "A single pastel lilac field with black pixel-art icons, monospace body copy and zigzag rules.",
+      "long": "The sibling of the lime pixel style, tuned softer: one flat lavender fills the page, a black pixel wordmark and pixel-art icons supply all imagery, and body copy is monospace and centred at a fixed measure. Zigzag lines and short rules replace boxes as dividers. A giant pixel cursor arrow or button graphic serves as the hero.",
+      "keywords": [
+        "lavender field",
+        "pixel icons",
+        "monospace",
+        "zigzag rule",
+        "flat colour",
+        "centred measure",
+        "craft"
+      ],
+      "palette": [
+        "#cdb8e8",
+        "#ffffff",
+        "#111111",
+        "#8a6fb0"
+      ],
+      "traits": {
+        "Typography": "Pixel display for the hero graphic, monospace for all copy, one geometric sans for subheads.",
+        "Layout": "Centred single column inside browser chrome; three-up pixel icon feature row.",
+        "Colour": "One flat pastel with black type and white shapes.",
+        "Motion": "Icons animate frame-by-frame like sprites."
+      },
+      "prompt": "Full-page agency website screenshot inside simple browser chrome, entire background a flat pastel lavender, a large black pixel-art START button graphic with a white pixel mouse cursor arrow overlapping it, a geometric sans subhead and a monospace paragraph on the right, a small zigzag rule, a centred process heading with a wide white zigzag line beneath, three black pixel-art icons of a microscope tools and a rocket each above a caption and a centred monospace paragraph, black pixel wordmark in the header and footer, 1440px desktop viewport"
+    },
+    {
+      "id": "elegant-fashion-photographer",
+      "title": "Elegant Fashion Photographer",
+      "category": "luxury",
+      "image": "resources/baf00e88479795b5bb8db9b31c75ffc4.jpg",
+      "short": "Hairline serif set wide and small, a symmetrical ruled masthead and a peek-through portrait carousel.",
+      "long": "Restraint used as luxury signalling: a symmetrical masthead with the name stacked over a rule and navigation beneath, everything set in a hairline serif at 11–14px with enormous letterspacing. The carousel shows partial frames at both edges, and interior pages are labelled with white rectangles floated over the imagery. There is no bold weight anywhere on the page.",
+      "keywords": [
+        "hairline serif",
+        "symmetrical masthead",
+        "wide tracking",
+        "peek carousel",
+        "white label plates",
+        "no bold"
+      ],
+      "palette": [
+        "#ffffff",
+        "#efefef",
+        "#2e2e2e",
+        "#8f8377"
+      ],
+      "traits": {
+        "Typography": "One hairline serif at 11–36px with 0.25em tracking; italic used once for a quote.",
+        "Layout": "Centred masthead with vertical rules; edge-bleeding carousel; two-column feature mosaic.",
+        "Colour": "White, pale grey and near-black; imagery supplies the warmth.",
+        "Motion": "Very slow carousel; white label plates fade in on hover."
+      },
+      "prompt": "Full-page fashion photographer website screenshot, white background, a symmetrical centred masthead with a two-line hairline serif name above a horizontal rule with navigation beneath and vertical rules separating a role label on the left and social icons on the right, a horizontal carousel of studio fashion portraits with the neighbouring frames peeking in at both edges, a small numbered pagination row, a centred italic serif quotation, then a mosaic of moody studio portraits with floating white rectangular label plates reading PORTFOLIO ABOUT and BLOG, extremely wide letterspacing, no bold weights, 1440px desktop viewport"
+    },
+    {
+      "id": "neo-brutalist-reader",
+      "title": "Neo-Brutalist Reading App",
+      "category": "brutalist",
+      "image": "resources/beac9367217436c332081f7b14dd02e7.jpg",
+      "short": "Cream and orange app UI with 2px black outlines, monospace body copy and zero border radius.",
+      "long": "A product interface version of neo-brutalism: everything sits on cream, every container has a 2px black outline, and buttons are full-width solid orange rectangles with black labels. Body copy is monospace, links are underlined by default, and there are no shadows or gradients anywhere. It is highly legible and slightly aggressive, which suits reading and productivity tools.",
+      "keywords": [
+        "cream ground",
+        "2px outline",
+        "orange button",
+        "monospace body",
+        "underlined links",
+        "zero radius",
+        "app UI"
+      ],
+      "palette": [
+        "#f4e3c6",
+        "#f26a1b",
+        "#f5c518",
+        "#111111"
+      ],
+      "traits": {
+        "Typography": "Monospace for body and metadata, a heavy grotesk for headings, underlines on every link.",
+        "Layout": "Icon sidebar, tab-chip row, three-column card grid, docked player bar.",
+        "Colour": "Cream, orange and yellow with pure black outlines and text.",
+        "Motion": "Instant state changes; chips fill solid when active."
+      },
+      "prompt": "Full-page reading app dashboard screenshot in neo-brutalist style, warm cream background, the whole application framed by a 2px black outline, a yellow search bar with a black outline, an icon sidebar with monospace labels, a row of outlined tab chips with the active one filled orange, a three-column grid of book cards each with a cover thumbnail an underlined author link a monospace synopsis and a full-width solid orange READ PREVIEW button with a black outline, a docked orange audio player bar at the bottom with monospace track info and skip controls, no shadows no rounded corners, 1440px desktop viewport"
+    },
+    {
+      "id": "kawaii-pixel-pastel",
+      "title": "Kawaii Pixel Pastel",
+      "category": "retro",
+      "image": "resources/bffb1e86c9aee91b98ee46c71274ac02.jpg",
+      "short": "Baby blue skies, pixel clouds, chunky outlined pixel type and pink-and-lilac dialogue windows.",
+      "long": "The friendly end of pixel design: pastel blue backgrounds with fluffy pixel clouds, a chunky outlined bitmap display face in blue and white, and content presented in pixel-bordered windows tinted pink or lilac. Little sprite characters, coins, hearts and platform tiles decorate section edges. It is nostalgic in a gentle, 16-bit way rather than a coin-op way.",
+      "keywords": [
+        "pastel pixel",
+        "cloud tiles",
+        "outlined bitmap",
+        "sprite characters",
+        "pink windows",
+        "16-bit",
+        "kawaii"
+      ],
+      "palette": [
+        "#c8e0f7",
+        "#f5c6e0",
+        "#b6a3e8",
+        "#1a3a8f"
+      ],
+      "traits": {
+        "Typography": "Outlined bitmap display for headings; a small pixel sans for body; everything on the pixel grid.",
+        "Layout": "Slide-like cards with pixel borders; platform tiles as horizontal dividers.",
+        "Colour": "Baby blue, blossom pink and lilac with a deep navy for type.",
+        "Motion": "Sprites walk and jump; clouds drift horizontally."
+      },
+      "prompt": "Full-page pixel-art presentation template screenshot, pastel baby blue background with fluffy white pixel clouds, a chunky outlined bitmap display headline in blue and white, a green pixel START button, a pixel city skyline at dusk with two small sprite characters standing on a platform, then pastel slide cards with pixel window borders in pink and lilac containing bitmap headings pixel cursor arrows a pixel vaporwave sunset poster small statistic numerals with pixel icons and a pixel handheld console illustration, gentle 16-bit kawaii art direction, 1440px viewport"
+    },
+    {
+      "id": "acid-eco-saas",
+      "title": "Acid Eco SaaS",
+      "category": "minimal",
+      "image": "resources/c684672403f5230c3b2d7694d6641893.jpg",
+      "short": "White page, squishy rounded cards, floating annotation pills and one fluorescent lime doing all the work.",
+      "long": "The current SaaS landing default with an environmental twist: white ground, very rounded soft cards, photographs masked into pill and blob shapes, and small floating annotation chips pointing at things. One fluorescent lime is used for the hero panel, the highlight marker under key words, and a single arrow tile. Data is presented as a clean borderless table with tag chips.",
+      "keywords": [
+        "fluorescent lime",
+        "rounded cards",
+        "annotation pills",
+        "blob mask",
+        "highlight marker",
+        "borderless table",
+        "SaaS"
+      ],
+      "palette": [
+        "#e8ff3d",
+        "#ffffff",
+        "#111111",
+        "#c9c9c9"
+      ],
+      "traits": {
+        "Typography": "Friendly geometric sans throughout; underline and marker-highlight used for emphasis.",
+        "Layout": "Two-up hero, pill-shaped word row, borderless data table, four-up card strip.",
+        "Colour": "White and black with one fluorescent accent; photography full colour.",
+        "Motion": "Cards tilt slightly on hover; annotation pills pop in."
+      },
+      "prompt": "Full-page environmental charity website screenshot, white background with rounded page corners, a fluorescent lime green rounded panel on the left with a black sans headline containing one underlined word an email input and a subscribe pill, on the right a rounded photograph of a desert salt flat with small floating white annotation pills labelling problems, a centred headline with two pill buttons, a row of four large pill and blob shapes alternating photographs a lime tile with a black arrow and a white tile with text, a borderless initiatives table with lime tag chips, four rounded photo cards with white labels, 1440px desktop viewport"
+    },
+    {
+      "id": "vintage-space-archive",
+      "title": "Vintage Space Archive",
+      "category": "retro",
+      "image": "resources/d0f7f15785567882bcb6879faa6ad962.jpg",
+      "short": "Faded parchment, thin technical crosshair rules, a wide-tracked geometric display face and archival NASA imagery.",
+      "long": "A restrained retro-futurist archive: a cream, slightly stained ground overlaid with thin technical registration marks, dotted squares and crosshair rules that suggest a blueprint. The display type is a wide geometric face with a raised apex on the A, letterspaced open. Photography is genuine archival material, faded and partly ghosted into the background. Monospace supplies all captions.",
+      "keywords": [
+        "parchment",
+        "registration marks",
+        "wide geometric caps",
+        "archival photo",
+        "ghosted image",
+        "monospace caption",
+        "retro futurism"
+      ],
+      "palette": [
+        "#e8e0cc",
+        "#3a3129",
+        "#c9a44c",
+        "#111111"
+      ],
+      "traits": {
+        "Typography": "Wide geometric display caps with heavy tracking; monospace for every caption and paragraph.",
+        "Layout": "Overlapping panels breaking a central axis; dotted square markers at corners.",
+        "Colour": "Faded cream and warm brown with one gold rule; imagery desaturated.",
+        "Motion": "Panels slide over each other; crosshairs track the cursor."
+      },
+      "prompt": "Full-page website screenshot about astronauts on a faded cream parchment background with subtle staining, thin technical crosshair and registration rules with small dotted square markers in the corners, a wide letterspaced geometric display heading in warm brown with a gold accent glyph, a ghosted illustration of an astronaut dissolving into particles behind the type, a small monospace caption block, an archival colour photograph of an astronaut in a silver helmet, overlapping panels of nebula and Earth-from-orbit photographs, monospace body paragraphs, restrained retro-futurist art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "dark-photo-portfolio",
+      "title": "Dark Photo Portfolio",
+      "category": "cinematic",
+      "image": "resources/db3300c8738cc90ba5f550ca2c2bfe59.jpg",
+      "short": "Near-black page with ghosted lens watermarks, a warm serif and colour photography that glows against the dark.",
+      "long": "A charcoal-to-black ground with very large low-opacity lens or camera graphics used as watermark texture. Headings are a warm serif in white, section labels are 9px caps preceded by a short rule, and thin line icons mark services. Because the ground is dark, saturated landscape photography reads as light sources — the page effectively becomes a lightbox.",
+      "keywords": [
+        "near black",
+        "ghost watermark",
+        "warm serif",
+        "rule-and-label",
+        "line icons",
+        "lightbox effect",
+        "photo theme"
+      ],
+      "palette": [
+        "#111111",
+        "#1c1c1c",
+        "#f2ede6",
+        "#a08c6a"
+      ],
+      "traits": {
+        "Typography": "Warm serif for headings, small sans for body, 9px caps labels with a leading rule.",
+        "Layout": "Offset image clusters, two-column about, four-up featured strip, centred contact.",
+        "Colour": "Blacks and charcoals with cream type; the photography supplies every colour.",
+        "Motion": "Images lift out of the dark on hover; watermarks parallax."
+      },
+      "prompt": "Full-page photographer website screenshot, near-black charcoal background with very large low-opacity camera lens ring watermarks, a cluster of offset photographs of a photographer at work, a warm cream serif two-line introduction headline with a thin rule and small grey body paragraphs, a small caps section label preceded by a short rule, a two-by-two grid of fine line icons with serif service names, a row of five faded white client logos, a four-up strip of vivid saturated landscape photographs glowing against the dark ground, a centred serif contact heading with rule ornaments, 1440px desktop viewport"
+    },
+    {
+      "id": "dark-gallery-masonry",
+      "title": "Dark Gallery Masonry",
+      "category": "cinematic",
+      "image": "resources/dbe86dfa1ebfb4e36d2289001cea633d.jpg",
+      "short": "A black grid of tightly packed portraits, filtered by a caps chip row, with a two-tone condensed wordmark.",
+      "long": "The image wall done in the dark: a black page, a hero portrait cropped tight at the top with a two-tone headline where the first word is white and the second is a warm tan, then a dense masonry of varied-height photographs with minimal gutters. Filters are 10px caps chips with an outlined active state. The interface all but disappears.",
+      "keywords": [
+        "black masonry",
+        "tight gutters",
+        "two-tone headline",
+        "caps chips",
+        "cropped hero",
+        "gallery wall"
+      ],
+      "palette": [
+        "#0d0d0d",
+        "#1a1a1a",
+        "#ffffff",
+        "#c2a37a"
+      ],
+      "traits": {
+        "Typography": "Condensed sans headline in two tones; 10px tracked caps for filters and nav only.",
+        "Layout": "Cropped hero band, centred filter chips, three-column masonry with 8px gutters.",
+        "Colour": "Black and near-black with white and warm tan type.",
+        "Motion": "Filter reflow; a subtle zoom on hover inside each frame."
+      },
+      "prompt": "Full-page photography gallery website screenshot, black background, a tightly cropped hero photograph of a face with black paint strokes across it, a centred two-tone condensed headline with the first word in white and the second in warm tan, a small tracked caps tagline, a white outlined BOOK NOW button, a centred row of 10 pixel caps filter chips with the active one outlined, then a dense three-column masonry of dramatic portrait beauty and landscape photographs with very small gutters glowing against the black ground, minimal interface, 1440px desktop viewport"
+    },
+    {
+      "id": "dark-architecture-gold",
+      "title": "Dark Architecture & Gold",
+      "category": "cinematic",
+      "image": "resources/dcaf3f14372b2d90c3987a6e67e4bde7.jpg",
+      "short": "Charcoal page, gold-highlighted words inside grey headings, ghost typography and full-width project sliders.",
+      "long": "An architecture studio system where each section heading is set in wide tracked caps with one word rendered in gold, and enormous low-opacity ghost words sit behind the content as texture. Project imagery runs edge to edge in a four-panel slider with vertical rotated labels. A large statistic uses a photographic texture as its fill.",
+      "keywords": [
+        "charcoal",
+        "gold accent word",
+        "ghost typography",
+        "panel slider",
+        "rotated labels",
+        "texture-filled numeral"
+      ],
+      "palette": [
+        "#1b1b1b",
+        "#282828",
+        "#c9a44c",
+        "#f0ede8"
+      ],
+      "traits": {
+        "Typography": "Wide tracked caps headings with one gold word; small sans body; rotated vertical caps labels.",
+        "Layout": "Full-width sliders, split about section, ghost words behind content, centred contact form.",
+        "Colour": "Charcoal and near-black with gold and warm cream.",
+        "Motion": "Panels slide horizontally; the ghost words drift on scroll."
+      },
+      "prompt": "Full-page architecture studio website screenshot, dark charcoal background, a hero photograph of a perforated modern exhibition building under a grey sky with a wide letterspaced white caps project title overlaid and a gold pill button, a huge low-opacity ghost word behind the content, an about section with a small white heading where one word is gold three fine line icons with caps labels and a black and white architectural detail photograph, a full-width four-panel project slider with rotated vertical caps labels, an enormous numeral filled with a photographic texture, a centred contact form with dark inputs and a gold button, 1440px desktop viewport"
+    },
+    {
+      "id": "seventies-groovy",
+      "title": "Seventies Groovy",
+      "category": "retro",
+      "image": "resources/e39c23d92361528f567affc3ba5fe486.jpg",
+      "short": "Rounded bubble serif, mustard-sage-blush waves, daisy motifs and polaroid-framed photography.",
+      "long": "A 1970s revival tuned for small businesses: a soft rounded bubble serif or groovy display face, flowing wave shapes in mustard, sage and blush cutting across the page, simple five-petal daisy motifs, and photographs presented in polaroid frames at slight angles. Script accents sit above headings, and buttons are flat rounded rectangles in a muted teal.",
+      "keywords": [
+        "groovy serif",
+        "wave shapes",
+        "daisy motif",
+        "polaroid frame",
+        "mustard sage blush",
+        "script accent",
+        "70s revival"
+      ],
+      "palette": [
+        "#e8a33d",
+        "#8fae9c",
+        "#f2c9bd",
+        "#fdf4ee",
+        "#3b6b5e"
+      ],
+      "traits": {
+        "Typography": "Rounded groovy display serif for headings; a casual script for eyebrows; plain sans for body.",
+        "Layout": "Wave-edged bands, polaroid photo insets at slight rotations, two-by-two button blocks.",
+        "Colour": "Mustard, sage, blush and cream with a deep teal for text and buttons.",
+        "Motion": "Waves shift slowly on scroll; daisies rotate."
+      },
+      "prompt": "Full-page small business website screenshot in a 1970s revival style, cream background, a colourful rounded groovy display serif logotype with small daisy motifs, an announcement bar in blush, a section with flowing wave shapes in mustard sage and blush cutting across it, a casual script eyebrow above a groovy serif heading, a polaroid-framed photograph of a notebook and mug rotated slightly, large flat daisy shapes in peach and mustard, a sage green band with a groovy serif heading and four flat teal rounded buttons in a two-by-two grid, warm nostalgic art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "quiet-luxury-coastal",
+      "title": "Quiet Luxury Coastal",
+      "category": "luxury",
+      "image": "resources/eb7eb7ca0fc040b9a55631f1b174dbe6.jpg",
+      "short": "Bone and oyster grounds, a large light Didone and grainy black-and-white coastal photography split fifty-fifty.",
+      "long": "Everything is halved: image left, text right, in equal measure. The headline is a large light-weight Didone in near-black on bone, the body is a plain sans at 15px with generous leading, and the only button is a pill with a hairline border. Photography is grainy monochrome or deep-green sea, and a three-up band of image links uses underlined caps as the only affordance.",
+      "keywords": [
+        "fifty-fifty split",
+        "light didone",
+        "grainy monochrome",
+        "hairline pill",
+        "oyster ground",
+        "underlined caps",
+        "quiet luxury"
+      ],
+      "palette": [
+        "#f2f1ec",
+        "#e4e2d9",
+        "#2b2b2b",
+        "#4a5a52"
+      ],
+      "traits": {
+        "Typography": "Light Didone at 56–72px; 15px neutral sans at 1.8 line height; 11px tracked caps links.",
+        "Layout": "Strict half-and-half rows; a three-up image band with centred underlined links.",
+        "Colour": "Bone, oyster and near-black; the sea supplies a single muted green.",
+        "Motion": "Almost none; images fade slightly on hover."
+      },
+      "prompt": "Full-page wellness coach website screenshot, bone white background, the page split exactly in half with a grainy black and white photograph of a woman sitting at the shoreline on the left and on the right a small tracked caps role label a large light-weight Didone headline a short sans paragraph and a pill button with a hairline border, an oyster grey band with a centred tracked caps question, then a three-panel band of muted photographs of shells a blurred silhouette and dark green sea water each with a centred underlined caps link, a serif testimonial below, quiet luxury art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "retro-os-cv",
+      "title": "Retro OS Document",
+      "category": "retro",
+      "image": "resources/ef100648fbc39b63dbe4d842d8d11431.jpg",
+      "short": "Mint and butter window panes with pixel title bars, floating tool palettes and a scrollbar that is purely decorative.",
+      "long": "A softer, warmer take on retro-OS: instead of grey system chrome, the windows are tinted mint and butter yellow, with thick black outlines, pixel title bars and working-looking minimise/maximise/close glyphs. A floating tool palette of pixel icons overlaps the main pane, dot-rating rows stand in for skill bars, and a decorative scrollbar runs down the right edge.",
+      "keywords": [
+        "tinted windows",
+        "pixel title bar",
+        "tool palette",
+        "dot rating",
+        "decorative scrollbar",
+        "mint and butter",
+        "document UI"
+      ],
+      "palette": [
+        "#a8d5c2",
+        "#f2d391",
+        "#f4efe2",
+        "#111111"
+      ],
+      "traits": {
+        "Typography": "Pixel/monospace display for headings, a plain mono for body; everything on a strict pixel grid.",
+        "Layout": "Nested window panes at different depths; floating palette; right-edge scrollbar.",
+        "Colour": "Mint, butter yellow and cream with pure black outlines.",
+        "Motion": "Windows can be dragged; palettes snap to the grid."
+      },
+      "prompt": "Full-page CV document website screenshot styled as a warm retro operating system, mint green background, a cream window with a thick black outline a pixel title bar reading CURRICULUM VITAE and minimise maximise and close glyphs, a mint inner pane with a bold pixel name heading a monospace role a circular portrait and monospace contact rows with pixel icons, a floating butter yellow tool palette of black pixel icons overlapping the left edge, a white card listing skills with five-dot rating rows, a butter yellow EXPERIENCES window with a black outline and monospace entries, a decorative scrollbar with arrow boxes on the right edge, 1440px viewport"
+    },
+    {
+      "id": "grayscale-bento-studio",
+      "title": "Greyscale Bento Studio",
+      "category": "minimal",
+      "image": "resources/f05f6df22a37806ae3eab6767d3120cc.jpg",
+      "short": "Rounded bento tiles alternating charcoal and pale grey, with rotating circular badges and a numbered service list.",
+      "long": "A studio landing page assembled from rounded tiles of unequal size — some solid charcoal holding a large statistic, some pale grey holding a device photograph, some white holding body copy. A circular rotating text badge with an arrow sits over the hero, services are listed as numbered rows separated by hairlines, and the contact block is a large pale rounded panel with ghost type behind the form.",
+      "keywords": [
+        "bento tiles",
+        "rounded corners",
+        "rotating badge",
+        "numbered list",
+        "ghost heading",
+        "charcoal and grey",
+        "studio"
+      ],
+      "palette": [
+        "#f2f2f2",
+        "#2b2b2b",
+        "#ffffff",
+        "#d6d6d6"
+      ],
+      "traits": {
+        "Typography": "Neutral sans throughout; large statistics in medium weight; 12px grey body copy.",
+        "Layout": "Bento grid of mixed-span rounded tiles; hairline-separated service rows; rounded contact panel.",
+        "Colour": "Greyscale only — charcoal, three greys and white.",
+        "Motion": "The circular badge rotates continuously; tiles lift on hover."
+      },
+      "prompt": "Full-page design studio website screenshot on a soft blurred grey backdrop, a white rounded page with a sans headline in two lines, a rounded photograph of hands on a laptop, a circular rotating text badge with a diagonal arrow in the centre, a rounded photograph of a curved concrete roof, then an About Us bento grid of rounded tiles mixing solid charcoal tiles containing large statistics pale grey tiles containing phone photographs and white tiles containing small grey paragraphs, a numbered service list separated by hairline rules, a large pale rounded contact panel with enormous ghost heading text behind two input fields and a pill button, 1440px desktop viewport"
+    },
+    {
+      "id": "anti-design-museum",
+      "title": "Anti-Design Museum",
+      "category": "brutalist",
+      "image": "resources/f1056739c5f3e57c6745e7a7ff7caf97.jpg",
+      "short": "Clashing flat colour fields, a fat grotesk cropped by the viewport, and classical paintings sliced in half.",
+      "long": "Deliberately uncomfortable: buttercup yellow, dusty pink, mint and lilac fields butt against each other with no transition, an enormous fat grotesk headline runs off both edges, and Old Master paintings are cropped, sliced horizontally and offset. Buttons are small black rectangles with triangular arrow glyphs, and a fixed icon rail runs down the left edge. Nothing aligns comfortably and that is the point.",
+      "keywords": [
+        "clashing fields",
+        "cropped grotesk",
+        "sliced paintings",
+        "triangle arrows",
+        "icon rail",
+        "anti-design",
+        "museum"
+      ],
+      "palette": [
+        "#f7dd4f",
+        "#c9a0a0",
+        "#9be89b",
+        "#b39ce0",
+        "#111111"
+      ],
+      "traits": {
+        "Typography": "Very fat grotesk cropped by the viewport; small caps labels; no intermediate sizes.",
+        "Layout": "Hard-edged colour fields at unequal spans; images sliced and offset; fixed left icon rail.",
+        "Colour": "Buttercup, dusty pink, mint and lilac — chosen to clash.",
+        "Motion": "Fields swap colour; the headline scrolls horizontally."
+      },
+      "prompt": "Full-page museum website screenshot, hard-edged flat colour fields in buttercup yellow dusty pink mint green and lilac butting against each other, an enormous fat black grotesk WELCOME headline cropped by both edges of the viewport, small black rectangular buttons with triangular arrow glyphs, three exhibition cards on mint green backgrounds each containing a classical Old Master painting sliced horizontally and offset with a date and title beneath, a lilac field with a huge NEW heading and framed painting thumbnails, cropped portrait paintings in tall columns, a fixed black icon rail down the left edge, anti-design art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "dark-masonry-albums",
+      "title": "Dark Masonry Albums",
+      "category": "cinematic",
+      "image": "resources/f9e00bf297d15acfebf20e78f0f7e439.jpg",
+      "short": "Charcoal page, a low-contrast grey headline with one underlined white line, and a mixed-span photo grid.",
+      "long": "Quiet and dark: the introduction is set in mid-grey against charcoal so it recedes, with only the current section name in white and underlined. Below, photographs of very different subjects and grades are laid into a mixed-span grid that keeps a consistent rhythm despite the variety. A centred outlined LOAD MORE button and a small footer close the page.",
+      "keywords": [
+        "charcoal",
+        "receding grey type",
+        "underlined active",
+        "mixed spans",
+        "load more",
+        "album index"
+      ],
+      "palette": [
+        "#1b1b1b",
+        "#2a2a2a",
+        "#ffffff",
+        "#8f8f8f"
+      ],
+      "traits": {
+        "Typography": "One geometric sans; grey for context, white and underlined for the active label; 10px caps nav.",
+        "Layout": "Mixed 1×1, 2×1 and 1×2 photo cells with even gutters; centred pagination.",
+        "Colour": "Charcoal ground; photography carries all colour.",
+        "Motion": "New rows fade up as more items load."
+      },
+      "prompt": "Full-page photography album index website screenshot, dark charcoal background, a two-line introduction headline in mid-grey that recedes into the background with a third line in white underlined, a small caps wordmark and hamburger icon at the top, then a masonry grid of photographs at mixed one-by-one two-by-one and one-by-two spans showing a city street a woman in a wheat field a teal swimming pool ivy on a white wall pink blossom a concrete bridge and a black and white portrait, even gutters, a centred outlined LOAD MORE button, small footer, 1440px desktop viewport"
+    },
+    {
+      "id": "flat-colour-commerce",
+      "title": "Flat 2.0 Colour Blocks",
+      "category": "minimal",
+      "image": "resources/f9f6705656e398941c57ff2cbfa34c70.jpg",
+      "short": "Zig-cut colour panels, flat line icons, thin geometric type and cut-out product photography on white.",
+      "long": "The refined descendant of flat design: full-width rows split into panels of mint, lemon, lime and slate, with zigzag or torn edges where panels meet. Products are cut out and placed on white with a soft contact shadow, headings are a thin geometric sans set in two centred lines, and every icon is a single-weight outline. Author avatars and collection labels add editorial framing.",
+      "keywords": [
+        "flat 2.0",
+        "zig-cut panels",
+        "outline icons",
+        "thin geometric sans",
+        "cut-out product",
+        "collection labels"
+      ],
+      "palette": [
+        "#5fd0c5",
+        "#f2c94c",
+        "#a8e063",
+        "#2b3a55",
+        "#f4f4f2"
+      ],
+      "traits": {
+        "Typography": "Thin geometric sans for headings; small caps labels; italic script for collection names.",
+        "Layout": "Full-width rows split into unequal panels with zigzag seams; product cut-outs breaking panel edges.",
+        "Colour": "Mint, lemon, lime and slate against off-white; no gradients.",
+        "Motion": "Panels slide in from alternating sides."
+      },
+      "prompt": "Full-page homeware e-commerce website screenshot, full-width rows split into flat colour panels of mint teal lemon yellow lime green and dark slate with zigzag torn seams between panels, cut-out product photographs of a cork salt and pepper grinder a black thermal teapot and an oak bowl placed on off-white with soft contact shadows, thin geometric sans headings in two centred lines, small round author avatars with tracked caps credits, single-weight outline icons of a teapot and a bottle inside the colour panels, a dark navy dropdown menu panel with outline category icons, flat 2.0 art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "bento-card-saas",
+      "title": "Bento Card SaaS",
+      "category": "future",
+      "image": "resources/fa03ad36c0961ce9ff4b8e414d8394c3.jpg",
+      "short": "Cream page, outlined rounded cards packed into a bento wall, with butter-yellow pills and a barcode as ornament.",
+      "long": "A modern product landing built entirely from rounded outlined cards of different spans, packed edge to edge like a bento box. Each card holds one fact: a statistic, a review score, a countdown, a portrait. Accents are butter yellow and a warm orange used in tiny quantities — a pill button, a diamond bullet, a rating row. A barcode and a split black-and-cream button add graphic interest.",
+      "keywords": [
+        "bento wall",
+        "outlined cards",
+        "butter yellow",
+        "split button",
+        "barcode ornament",
+        "diamond bullets",
+        "product landing"
+      ],
+      "palette": [
+        "#f2ede4",
+        "#ffffff",
+        "#f7e463",
+        "#e8622a",
+        "#111111"
+      ],
+      "traits": {
+        "Typography": "Neutral geometric sans throughout, medium weight headings, 12px body.",
+        "Layout": "Left bento wall of small cards balanced by a large right-hand headline block.",
+        "Colour": "Cream and white cards with black outlines; yellow and orange used sparingly.",
+        "Motion": "Cards stagger in; the split CTA button morphs on hover."
+      },
+      "prompt": "Full-page online music school website screenshot, warm cream page inside a white rounded container, a pill-shaped navigation bar with a yellow SIGN UP pill, on the left a bento wall of outlined rounded cards containing a large statistic with a yellow circular arrow a stack of black cards a review score card with orange diamond rating glyphs a team card with round avatars a discounted course card and a barcode with a time, on the right a large geometric sans headline with two overlapping circles a paragraph and a split black and cream button pair, two outlined statistic cards below, 1440px desktop viewport"
+    },
+    {
+      "id": "glassmorphism",
+      "title": "Glassmorphism",
+      "category": "future",
+      "image": null,
+      "previewLayout": "cards",
+      "short": "Frosted translucent panels floating over a saturated blurred gradient, edged with a 1px light border.",
+      "long": "Panels are semi-transparent with a heavy backdrop blur, a subtle white inner border along the top-left edge, and a soft shadow beneath. The background must be colourful and out of focus for the effect to read at all — usually a mesh gradient or a blurred photograph. Depth is communicated by how much blur and how bright the border is, so layering more than three planes stops working.",
+      "keywords": [
+        "backdrop blur",
+        "translucency",
+        "mesh gradient",
+        "1px light border",
+        "layered depth",
+        "frosted",
+        "vision-os"
+      ],
+      "palette": [
+        "#7b5cff",
+        "#26d0ce",
+        "#ff6b9d",
+        "#ffffff",
+        "#101018"
+      ],
+      "traits": {
+        "Typography": "Clean geometric sans, medium weight, white or near-white; nothing thin (blur eats it).",
+        "Layout": "Floating cards over a full-bleed gradient; nav as a floating capsule.",
+        "Colour": "Saturated blurred backdrop with white-alpha surfaces at 8–20% opacity.",
+        "Motion": "Cards drift on pointer move; blur radius increases on the layer behind a modal."
+      },
+      "prompt": "Full-page dashboard website screenshot in glassmorphism style, saturated blurred mesh gradient background in violet teal and pink, floating frosted translucent panels with heavy backdrop blur a 1px semi-transparent white border along the top-left edge and a soft shadow beneath, a floating capsule navigation bar, white geometric sans typography, small glowing statistic cards layered at three depths, subtle noise texture, 1440px desktop viewport"
+    },
+    {
+      "id": "claymorphism",
+      "title": "Claymorphism",
+      "category": "tactile",
+      "image": null,
+      "previewLayout": "cards",
+      "short": "Puffy inflated 3D shapes with big radii, double inner shadows and a candy-pastel palette.",
+      "long": "Elements look moulded from soft clay: very large corner radii (30–50px), a light outer shadow, and two inner shadows — a bright one at the top-left and a darker one at the bottom-right — that inflate the surface. Illustrations are chunky 3D primitives in the same pastel range. It is friendly and toy-like, which suits onboarding, kids' products and playful SaaS.",
+      "keywords": [
+        "inflated",
+        "double inner shadow",
+        "large radius",
+        "pastel",
+        "3D primitives",
+        "toy-like",
+        "soft"
+      ],
+      "palette": [
+        "#efe7ff",
+        "#b39ddb",
+        "#ffd6e0",
+        "#8ad7c1",
+        "#3b3355"
+      ],
+      "traits": {
+        "Typography": "Rounded geometric sans (Nunito, Poppins) at bold weights; no serifs.",
+        "Layout": "Wide cards with generous padding; 3D illustration bleeding past card edges.",
+        "Colour": "Pastel violet, mint and blush with a deep plum for text.",
+        "Motion": "Elements squash slightly on press, like real clay."
+      },
+      "prompt": "Full-page app landing website screenshot in claymorphism style, pale lavender background, puffy inflated 3D clay cards with 40px corner radii a soft outer shadow and two inner shadows creating a rounded moulded surface, chunky pastel 3D primitive illustrations of spheres cylinders and rounded arrows in mint blush and violet, bold rounded geometric sans typography in deep plum, large pill buttons that look pressable, soft studio lighting, toy-like friendly art direction, 1440px desktop viewport"
+    },
+    {
+      "id": "vaporwave-chrome",
+      "title": "Vaporwave Chrome",
+      "category": "retro",
+      "image": null,
+      "previewLayout": "poster",
+      "short": "Liquid chrome type, magenta-to-cyan gradients, wireframe grids and Roman busts on a purple dusk.",
+      "long": "A hyper-specific nostalgia for a 1990s that never existed: chromed and bevelled 3D lettering with rainbow reflections, sunset gradients running magenta to cyan, a wireframe grid receding to a horizon, palm silhouettes, plaster busts and stray Japanese katakana. Everything is slightly too much, which is the entire point of the style.",
+      "keywords": [
+        "liquid chrome",
+        "sunset gradient",
+        "wireframe horizon",
+        "roman bust",
+        "katakana",
+        "bevelled 3D",
+        "aesthetic"
+      ],
+      "palette": [
+        "#2b1055",
+        "#ff2fb9",
+        "#00e5ff",
+        "#ffb86b",
+        "#f5f0ff"
+      ],
+      "traits": {
+        "Typography": "Chromed bevelled 3D display lettering; a wide 90s sans or bitmap face for captions.",
+        "Layout": "Poster-like centred compositions; horizon line at the lower third.",
+        "Colour": "Purple dusk ground with magenta-cyan gradient and warm sunset highlights.",
+        "Motion": "The grid scrolls toward the viewer; chrome reflections sweep."
+      },
+      "prompt": "Vaporwave web hero screenshot, deep purple dusk background, a magenta to cyan gradient sun setting behind a neon wireframe grid receding to a horizon line, enormous liquid chrome bevelled 3D lettering with rainbow reflections floating in the centre, a white plaster Roman bust and palm tree silhouettes, small katakana captions, scanline overlay and light chromatic aberration, 1990s aesthetic, 1440px desktop viewport"
+    },
+    {
+      "id": "cyberpunk-neon",
+      "title": "Cyberpunk Neon",
+      "category": "future",
+      "image": null,
+      "previewLayout": "split",
+      "short": "Black grounds cut by cyan and magenta glow, glitched type, corner-clipped panels and dense HUD data.",
+      "long": "Interfaces that look like they belong on a rain-soaked street: near-black backgrounds, panels with clipped corners and thin neon borders that emit a real glow, monospace data readouts stacked densely, and headline type that occasionally glitches into RGB-split ghosts. Restraint matters — the glow only works if most of the page stays dark and empty.",
+      "keywords": [
+        "neon glow",
+        "RGB split",
+        "clipped corners",
+        "HUD readout",
+        "monospace data",
+        "scanlines",
+        "near-black"
+      ],
+      "palette": [
+        "#05060a",
+        "#00f0ff",
+        "#ff2e88",
+        "#f5c518",
+        "#c9d1d9"
+      ],
+      "traits": {
+        "Typography": "Condensed techno display for headings; monospace for all data; uppercase throughout.",
+        "Layout": "Panels with clipped corners, dense left data rails, wide empty centre.",
+        "Colour": "Near-black with two neon hues; never more than two glowing colours at once.",
+        "Motion": "Flicker, scanline sweep, typewriter reveals on data."
+      },
+      "prompt": "Full-page cyberpunk interface website screenshot, near-black background, panels with clipped angular corners outlined by thin glowing cyan borders emitting real light bloom, a large condensed techno headline in white with a magenta and cyan RGB split glitch ghost, dense monospace data readouts in a left rail, a magenta neon accent bar, faint scanline overlay, wide empty dark centre, rain-slick reflective surfaces, 1440px desktop viewport"
+    },
+    {
+      "id": "memphis-postmodern",
+      "title": "Memphis Postmodern",
+      "category": "maximal",
+      "image": null,
+      "previewLayout": "poster",
+      "short": "Squiggles, confetti dots, terrazzo speckle and clashing primaries arranged with cheerful disregard for the grid.",
+      "long": "The 1980s Memphis Group vocabulary: black squiggle lines, half-circles, zigzag bands, confetti dots and terrazzo speckle scattered across bold flat colour fields. Shapes never explain themselves and rarely align. Typography is a wide geometric sans or a bouncy display face, and drop shadows are hard, offset and often in a contrasting hue rather than grey.",
+      "keywords": [
+        "squiggle",
+        "confetti dots",
+        "terrazzo",
+        "zigzag band",
+        "hard offset shadow",
+        "clashing primaries",
+        "1980s"
+      ],
+      "palette": [
+        "#ff5252",
+        "#ffd93d",
+        "#4ecdc4",
+        "#7c4dff",
+        "#111111"
+      ],
+      "traits": {
+        "Typography": "Wide geometric sans or bouncy display; coloured hard drop shadows on headings.",
+        "Layout": "Deliberately unaligned; shapes float freely and overlap content edges.",
+        "Colour": "Four clashing brights on white or cream with black linework.",
+        "Motion": "Shapes wiggle on loop; nothing settles completely."
+      },
+      "prompt": "Full-page website screenshot in 1980s Memphis postmodern style, cream background, bold flat fields of coral red lemon yellow turquoise and violet, scattered black squiggle lines confetti dots zigzag bands half-circles and terrazzo speckle patterns, a wide geometric sans headline with a hard offset drop shadow in a contrasting colour, shapes overlapping content edges with deliberate misalignment, playful chaotic composition, 1440px desktop viewport"
+    },
+    {
+      "id": "bauhaus-geometric",
+      "title": "Bauhaus Geometric",
+      "category": "editorial",
+      "image": null,
+      "previewLayout": "poster",
+      "short": "Primary red, blue and yellow, pure circles, squares and triangles, and lowercase geometric type on a strict grid.",
+      "long": "Form follows function, executed with three primaries and three shapes. Compositions use circles, squares and triangles at large scale as the imagery itself, arranged on a mathematically obvious grid. Type is a geometric sans set entirely in lowercase, often rotated 90 degrees along an edge. Diagonals are used sparingly and always at 45 degrees.",
+      "keywords": [
+        "primary colours",
+        "pure geometry",
+        "lowercase sans",
+        "rotated type",
+        "45-degree diagonal",
+        "strict grid",
+        "modernist"
+      ],
+      "palette": [
+        "#e63946",
+        "#1d3557",
+        "#f4d35e",
+        "#f5f2ea",
+        "#111111"
+      ],
+      "traits": {
+        "Typography": "Geometric sans in lowercase (Futura lineage); vertical rotated labels along edges.",
+        "Layout": "Modular grid with large geometric shapes occupying whole modules.",
+        "Colour": "Red, blue, yellow, black and off-white. No tints, no gradients.",
+        "Motion": "Shapes rotate and translate along grid axes only."
+      },
+      "prompt": "Full-page website screenshot in Bauhaus style, off-white background with a strict visible modular grid, large pure geometric shapes — a red circle a blue square and a yellow triangle — occupying whole grid modules, a lowercase geometric sans headline in black, a smaller label rotated ninety degrees along the left edge, a single 45-degree black diagonal line, primary red blue and yellow only, flat with no gradients, modernist poster composition, 1440px desktop viewport"
+    },
+    {
+      "id": "art-deco-revival",
+      "title": "Art Deco Revival",
+      "category": "luxury",
+      "image": null,
+      "previewLayout": "hero",
+      "short": "Gold linework on deep ink, symmetrical sunburst frames and high-waisted display capitals.",
+      "long": "Symmetry is the organising principle: a central axis with stepped fan and sunburst motifs, thin gold keylines forming layered frames, and chevron or scallop borders. Display capitals are high-waisted with sharp apexes and generous tracking. The palette is deep ink or emerald with metallic gold and one cream, and photography is either absent or heavily vignetted.",
+      "keywords": [
+        "gold keyline",
+        "sunburst",
+        "symmetry",
+        "high-waisted caps",
+        "chevron border",
+        "deep ink",
+        "1920s"
+      ],
+      "palette": [
+        "#0f1c2e",
+        "#c9a227",
+        "#0d3b34",
+        "#f2ead9"
+      ],
+      "traits": {
+        "Typography": "High-waisted deco display capitals with 0.15em tracking; a fine serif for body.",
+        "Layout": "Strictly symmetrical about a central axis; layered rectangular gold frames.",
+        "Colour": "Deep navy or emerald with metallic gold and cream.",
+        "Motion": "Frames draw in from the centre outward."
+      },
+      "prompt": "Full-page luxury hotel website screenshot in art deco style, deep navy ink background, symmetrical composition around a central axis, layered thin metallic gold keyline frames with stepped corners, a gold sunburst fan motif radiating behind the centre, a high-waisted gold deco display capital logotype with wide letterspacing, a fine cream serif tagline, chevron border bands top and bottom, heavily vignetted black and white interior photograph in the centre frame, 1920s glamour, 1440px desktop viewport"
+    },
+    {
+      "id": "japandi-wabi-sabi",
+      "title": "Japandi / Wabi-Sabi",
+      "category": "organic",
+      "image": null,
+      "previewLayout": "split",
+      "short": "Raw plaster and unbleached linen tones, asymmetric ma spacing and a single imperfect brushstroke.",
+      "long": "Beauty in incompleteness: unbleached, plaster and charcoal tones; enormous asymmetric negative space treated as an active element rather than a leftover; and one imperfect mark — a brushstroke, a rough ceramic edge — as the only ornament. Type is small, quiet and often set vertically. Nothing is centred and nothing is symmetrical.",
+      "keywords": [
+        "ma negative space",
+        "plaster tones",
+        "brushstroke",
+        "asymmetry",
+        "vertical type",
+        "imperfection",
+        "linen"
+      ],
+      "palette": [
+        "#e6e0d4",
+        "#c4b8a5",
+        "#8a8073",
+        "#2f2c28"
+      ],
+      "traits": {
+        "Typography": "Light serif or humanist sans at small sizes; occasional vertical setting; generous leading.",
+        "Layout": "Deliberately off-centre; content occupying a third of the canvas at most.",
+        "Colour": "Unbleached linen, plaster grey, clay and charcoal. No saturation.",
+        "Motion": "Extremely slow fades; nothing moves quickly."
+      },
+      "prompt": "Full-page ceramics studio website screenshot in Japandi wabi-sabi style, unbleached linen and raw plaster background with subtle texture, enormous asymmetric negative space with the content occupying only the lower left third, one imperfect black sumi brushstroke as the sole ornament, a small light serif heading and a short paragraph, a single softly lit photograph of a rough-edged clay bowl on the right, a vertical line of small type along the right edge, no symmetry, no saturation, 1440px desktop viewport"
+    },
+    {
+      "id": "dark-academia",
+      "title": "Dark Academia",
+      "category": "cinematic",
+      "image": null,
+      "previewLayout": "hero",
+      "short": "Oxblood and ink, engraved ornament, old-style serif text and candlelit still-life photography.",
+      "long": "A literary, collegiate mood: deep oxblood, forest and ink grounds; old-style serif body copy set in a narrow measure with real drop caps; engraved ornaments, laurel devices and rule-and-diamond dividers. Photography is candlelit — leather bindings, brass, marble busts — and shot with heavy vignetting. Small caps handle every label.",
+      "keywords": [
+        "oxblood",
+        "old-style serif",
+        "drop cap",
+        "engraved ornament",
+        "candlelight",
+        "vignette",
+        "collegiate"
+      ],
+      "palette": [
+        "#2b1b17",
+        "#6b2c2c",
+        "#c9b47a",
+        "#e8e0cf"
+      ],
+      "traits": {
+        "Typography": "Old-style serif (Garamond lineage) for body with real drop caps; small caps for labels.",
+        "Layout": "Narrow measure, wide margins, centred ornaments between sections.",
+        "Colour": "Ink, oxblood and forest with aged gold and parchment.",
+        "Motion": "Page-turn transitions; ornaments fade in."
+      },
+      "prompt": "Full-page literary society website screenshot in dark academia style, deep ink and oxblood background, a candlelit still-life photograph of leather-bound books a brass candlestick and a marble bust with heavy vignetting, an old-style serif headline in aged gold, a narrow column of parchment-coloured serif body text opening with an ornamental drop cap, engraved laurel ornaments and a rule-and-diamond divider, small caps section labels, wide dark margins, collegiate mood, 1440px desktop viewport"
+    },
+    {
+      "id": "scandinavian-minimal",
+      "title": "Scandinavian Minimal",
+      "category": "minimal",
+      "image": null,
+      "previewLayout": "grid",
+      "short": "Pale birch and chalk tones, honest photography, one muted accent and typography that never raises its voice.",
+      "long": "Functional warmth: near-white chalk grounds with pale birch and stone accents, product or interior photography shot in flat northern daylight, and a single muted colour — dusty blue, moss, terracotta — used at small scale. Type is a humanist sans at moderate sizes with a comfortable measure; nothing is oversized and nothing is decorative. Grids are even and predictable on purpose.",
+      "keywords": [
+        "chalk white",
+        "birch tones",
+        "flat daylight",
+        "humanist sans",
+        "muted accent",
+        "even grid",
+        "functional warmth"
+      ],
+      "palette": [
+        "#faf8f5",
+        "#e0d8cc",
+        "#9db0b8",
+        "#3a3835"
+      ],
+      "traits": {
+        "Typography": "Humanist sans at 16–48px; sentence case; comfortable 65ch measure.",
+        "Layout": "Even 3- and 4-column grids with consistent gutters; no full-bleed drama.",
+        "Colour": "Chalk white and birch with one muted accent used at under 5% coverage.",
+        "Motion": "Short, soft fades; no parallax."
+      },
+      "prompt": "Full-page interior brand website screenshot in Scandinavian minimal style, chalk white background, a photograph of a pale birch chair beside a linen curtain in flat soft northern daylight, a humanist sans headline in sentence case at moderate size, a comfortable paragraph measure, an even three-column product grid with consistent gutters each item on a pale stone background, one muted dusty blue accent used only on a small text link, generous but not extravagant whitespace, warm functional restraint, 1440px desktop viewport"
+    },
+    {
+      "id": "kinetic-typography",
+      "title": "Kinetic Typography",
+      "category": "experimental",
+      "image": null,
+      "previewLayout": "poster",
+      "short": "Type as the only content — stretched, wrapped, distorted along paths and animated on scroll.",
+      "long": "The page is built from words alone. Headlines are distorted along curves, wrapped around invisible cylinders, stretched to fill their container exactly, or split into per-letter units that respond to the cursor. Variable font axes are animated rather than swapped. Colour is usually reduced to two so the deformation reads clearly, and any image is subordinate to the lettering.",
+      "keywords": [
+        "variable font",
+        "text on path",
+        "per-letter animation",
+        "stretch to fit",
+        "warp",
+        "two-colour",
+        "type-only"
+      ],
+      "palette": [
+        "#0a0a0a",
+        "#f5f5f0",
+        "#ff4d00",
+        "#8f8f8f"
+      ],
+      "traits": {
+        "Typography": "Variable grotesk with animated weight and width axes; per-letter splitting.",
+        "Layout": "Type fills each viewport section completely; no cards, no images.",
+        "Colour": "Two colours, occasionally a third on hover.",
+        "Motion": "The whole point — scroll-driven weight, skew, path and scale animation."
+      },
+      "prompt": "Full-page experimental studio website screenshot built entirely from typography, near-black background, an enormous cream variable grotesk headline stretched to fill the full width exactly with letters at varying weights and widths, a second line warped along a curved path, individual letters offset and skewed as if responding to a cursor, one word in bright orange, a small monospace caption in the corner, no images, no cards, motion-blur trails suggesting animation, 1440px desktop viewport"
+    },
+    {
+      "id": "terminal-data-dense",
+      "title": "Terminal / Data-Dense",
+      "category": "future",
+      "image": null,
+      "previewLayout": "grid",
+      "short": "Monospace everywhere, ASCII rules, tight row heights and a single phosphor accent on near-black.",
+      "long": "Built for people who like density: one monospace family at one or two sizes, rows packed to 20–24px, borders drawn with box characters or 1px hairlines, and a single phosphor green or amber accent for active states. Tables are the primary layout unit and whitespace is rationed. It signals capability and speed, which is why developer tools keep returning to it.",
+      "keywords": [
+        "monospace",
+        "ASCII rules",
+        "tight rows",
+        "phosphor accent",
+        "tables first",
+        "high density",
+        "developer tool"
+      ],
+      "palette": [
+        "#0b0f0d",
+        "#141a17",
+        "#4ade80",
+        "#d4d4d4"
+      ],
+      "traits": {
+        "Typography": "One monospace family at 12–13px; caps for headers; no other family anywhere.",
+        "Layout": "Table-first, 20–24px row height, box-drawing or hairline borders, fixed left rail.",
+        "Colour": "Near-black with one phosphor accent and three greys.",
+        "Motion": "Cursor blink and instant state changes only."
+      },
+      "prompt": "Full-page developer tool dashboard screenshot in terminal style, near-black background, everything set in one monospace family at twelve pixels, dense data tables with twenty-pixel row heights and hairline borders, box-drawing character rules, uppercase column headers in grey, a single phosphor green accent marking active rows and a blinking block cursor, a fixed left navigation rail with monospace labels, a small sparkline rendered in ASCII characters, extremely high information density, 1440px desktop viewport"
+    }
+  ]
+}

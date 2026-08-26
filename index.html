@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design Style Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__inner">
+    <div class="masthead__title">
+      <h1>Design Style <em>Library</em></h1>
+      <p class="masthead__sub">
+        <span id="countStyles">0</span> design languages &middot;
+        <span id="countCats">0</span> categories &middot;
+        <span id="countShots">0</span> reference screenshots
+      </p>
+    </div>
+    <div class="masthead__tools">
+      <div class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="search" type="search" placeholder="Search styles, keywords, traits…" autocomplete="off" spellcheck="false">
+        <button id="searchClear" class="search__clear" type="button" aria-label="Clear search" hidden>&times;</button>
+      </div>
+      <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle theme" title="Toggle theme">◐</button>
+    </div>
+  </div>
+</header>
+
+<nav class="filters" aria-label="Filter by category">
+  <div class="filters__inner" id="filters"></div>
+</nav>
+
+<main>
+  <p class="result-line" id="resultLine"></p>
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden>Nothing matches that. <button type="button" id="resetAll">Reset filters</button></p>
+</main>
+
+<footer class="foot">
+  <p>Drop new screenshots into <code>/resources</code> and refresh — they appear as drafts. Last generated <span id="genAt">—</span>.</p>
+</footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal__scrim" data-close></div>
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal__x" type="button" data-close aria-label="Close">&times;</button>
+    <div class="modal__body" id="modalBody"></div>
+    <div class="modal__actions">
+      <button class="btn btn--primary" type="button" id="copyBrief">Copy brief</button>
+      <button class="btn btn--primary" type="button" id="copyPrompt">Copy image prompt</button>
+      <button class="btn" type="button" data-close>Close</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="data/styles.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

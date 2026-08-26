@@ -1,0 +1,12 @@
+{
+  "name": "design-library-helper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A browsable library of web design languages, generated from screenshots in /resources.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "sync": "node scripts/sync.mjs"
+  }
+}
