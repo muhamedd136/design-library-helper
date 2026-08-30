@@ -2678,6 +2678,1897 @@
         "Motion": "Cursor blink and instant state changes only."
       },
       "prompt": "Full-page developer tool dashboard screenshot in terminal style, near-black background, everything set in one monospace family at twelve pixels, dense data tables with twenty-pixel row heights and hairline borders, box-drawing character rules, uppercase column headers in grey, a single phosphor green accent marking active rows and a blinking block cursor, a fixed left navigation rail with monospace labels, a small sparkline rendered in ASCII characters, extremely high information density, 1440px desktop viewport"
+    },
+    {
+      "id": "acid-yellow-case-study",
+      "title": "Acid Yellow Case Study",
+      "category": "editorial",
+      "image": "resources/20e4e0956f0ae7b7069dc32816579db4.jpg",
+      "short": "A studio case-study page: condensed white caps over a cropped photo, a torn moodboard collage and a row of named swatches.",
+      "long": "The page is built as a project write-up rather than a homepage. A tightly cropped lifestyle photograph carries the title in heavy condensed caps with a script subtitle underneath, then the layout drops to plain white for a two-column brief — client description on the left, a bulleted deliverables list under a ruled label on the right. The centrepiece is an overlapping moodboard: rectangular photo crops, solid black and acid-yellow blocks and a rotated caption running up the left edge. A labelled colour-palette strip closes the section, each swatch a card with the colour name set small underneath.",
+      "keywords": [
+        "condensed caps",
+        "moodboard collage",
+        "swatch strip",
+        "acid yellow",
+        "rotated caption",
+        "deliverables list",
+        "cropped hero"
+      ],
+      "palette": [
+        "#f1f0ea",
+        "#ffffff",
+        "#d9e021",
+        "#111111",
+        "#8ea1c0"
+      ],
+      "traits": {
+        "Typography": "Heavy condensed grotesque for titles, an italic script for subtitles, small letterspaced caps for labels.",
+        "Layout": "Full-bleed photo band, then asymmetric two-column text, then a free collage that ignores the column grid.",
+        "Colour": "Off-white and white with black blocks; one acid yellow used as the only saturated colour.",
+        "Motion": "Collage tiles drift at slightly different speeds on scroll; swatches reveal their names on hover."
+      },
+      "prompt": "Full-page website screenshot of a design studio case study, off-white ground, tightly cropped editorial photograph as a hero band with a huge condensed white all-caps project title and an italic script subtitle over it, small pill-shaped back link below, two-column brief with a serif client heading on the left and a ruled deliverables list on the right, overlapping moodboard collage of rectangular photo crops with solid black and acid yellow blocks and a rotated vertical caption up the left edge, a labelled colour palette strip of six card swatches with names set in tiny caps beneath, heavy condensed grotesque headings, generous white gutters, flat even lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "mocha-wave-commerce",
+      "title": "Mocha Wave Commerce",
+      "category": "organic",
+      "image": "resources/708f3500c7280add09736f306e296077.jpg",
+      "short": "A dusty-rose coffee shop where dark brown bands are cut with S-curves instead of straight edges.",
+      "long": "Every section boundary on this page is a wave. The dark chalkboard hero has a curved bottom edge that spills into a milky pink field, and the same curve reappears where the footer begins. Product tiles are rounded rectangles filled with photography and captioned in white over a soft scrim; the shake cards drop back to flat tinted panels with a small like-count pill floating top-left. Type is a single rounded sans throughout, heavier for section heads and very small for body, which keeps the page reading as one warm surface rather than a stack of components.",
+      "keywords": [
+        "wave divider",
+        "dusty rose",
+        "chalkboard hero",
+        "rounded product tiles",
+        "like pill",
+        "carousel peek",
+        "warm brown footer"
+      ],
+      "palette": [
+        "#f0d3bd",
+        "#3b2f2b",
+        "#c9a68c",
+        "#ffffff",
+        "#8a6a55"
+      ],
+      "traits": {
+        "Typography": "One rounded geometric sans at three weights; centred section heads with a lighter subtitle line beneath.",
+        "Layout": "Full-width bands separated by S-curve masks; three-up card rows with the fourth card cropped to hint at scroll.",
+        "Colour": "Milky rose ground, dark roast brown for the hero and footer, white text on photography.",
+        "Motion": "Horizontal card carousels; the wave edges stay fixed while content scrolls beneath."
+      },
+      "prompt": "Full-page website screenshot of a coffee shop online store, milky dusty-rose background, dark chalkboard hero band whose bottom edge is cut as a wide S-curve, roasted beans and a white cup photographed on slate at the right of the hero, cream and peach headline type with a small white pill button, centred section headings in a rounded geometric sans with a lighter subtitle beneath, three rounded photo tiles captioned in white over a soft scrim, a row of tinted product cards with milkshake cut-outs and small like-count pills, blog cards with rounded photos and tiny body text, dark brown footer with four link columns entered through another wave curve, warm even product lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "diagonal-ticker-ai",
+      "title": "Diagonal Ticker AI",
+      "category": "future",
+      "image": "resources/742c4b462928614155219c2b92890d98.jpg",
+      "short": "White page, one enormous black wordmark, and diagonal scrolling ribbons in cyan, yellow and magenta cutting across a 3D figure.",
+      "long": "The headline is set so large it spans the full measure, and two of its counters are punched out and filled with circular photo crops so the word reads as both type and image. Below it a black band is crossed by four diagonal marquee ribbons in flat cyan, yellow, magenta and blue, each carrying repeated logo lockups; the 3D chrome figure stands in front of them so the ribbons appear to pass behind the shoulders. Everything else stays plain — white ground, black geometric sans, a single yellow pill button — so the diagonal band is the only busy zone on the page.",
+      "keywords": [
+        "diagonal marquee",
+        "counter photo inset",
+        "chrome 3d render",
+        "flat cmy ribbons",
+        "oversized wordmark",
+        "yellow pill button",
+        "stat row"
+      ],
+      "palette": [
+        "#ffffff",
+        "#0a0a0a",
+        "#00c8f0",
+        "#ffe600",
+        "#ff2bd6"
+      ],
+      "traits": {
+        "Typography": "Very heavy geometric sans with tight tracking; the display line is scaled to the full page width.",
+        "Layout": "Centred display type over a black band crossed by rotated ribbon strips; plain two-column feature rows below.",
+        "Colour": "White and black with flat cyan, yellow and magenta used only inside the ribbons.",
+        "Motion": "The diagonal ribbons scroll continuously in opposite directions; the 3D render rotates slowly."
+      },
+      "prompt": "Full-page website screenshot for an AI image tool, white background, enormous black geometric sans wordmark spanning the full width with two letter counters punched out and filled with circular photo crops, a secondary bold subhead beneath, small yellow pill button with a black toggle, glossy chrome 3D figure with a liquid red and blue block hovering over its head, black band behind the figure crossed by four rotated marquee ribbons in flat cyan, yellow, magenta and blue carrying repeated logo lockups, plain white section below with a supported-by logo row and three large bold statistics, tight tracking, flat studio render, 1440px desktop viewport"
+    },
+    {
+      "id": "mono-pastel-florist",
+      "title": "Monospace Pastel Florist",
+      "category": "retro",
+      "image": "resources/75045f8029b1cc7f6c051d6f5fe88602.jpg",
+      "short": "Cream page set almost entirely in monospace, with pastel pill buttons and a huge groovy script wordmark in the footer.",
+      "long": "Body copy, navigation and captions are all monospace, which forces even letter spacing and gives the page a typewritten regularity. Against that the page hangs three soft accents: pill-shaped nav buttons in blush and lime, a rounded card grid with hairline photo frames, and a single wide script wordmark that fills the footer edge to edge next to an outlined daisy. A lilac announcement bar sits above the header and a lime strip closes the page, so the pastel accents bracket a very plain middle.",
+      "keywords": [
+        "monospace body",
+        "pill nav buttons",
+        "groovy script wordmark",
+        "daisy outline",
+        "announcement bar",
+        "hairline photo frames",
+        "pastel accents"
+      ],
+      "palette": [
+        "#f6f4ec",
+        "#f4c9c1",
+        "#c9cdf0",
+        "#d9e77a",
+        "#1a1a1a"
+      ],
+      "traits": {
+        "Typography": "Monospace for everything except a wide seventies script used once at display size.",
+        "Layout": "Centred masthead with buttons pushed to both edges; a plain three-column card grid; footer split into five short link columns.",
+        "Colour": "Cream ground with blush, lilac and lime pills; black text throughout.",
+        "Motion": "Buttons fill on hover; the script wordmark is fixed while the grid scrolls past it."
+      },
+      "prompt": "Full-page website screenshot for a florist blog, warm cream background, thin lilac announcement bar across the top, centred wordmark in letterspaced caps with a small flower glyph between the words, pastel pink and lime pill-shaped navigation buttons pushed to the left and right edges, page title in a wide seventies italic script, filter row of monospace links inside a lime pill, three-by-two grid of rounded photo cards with hairline frames and monospace captions and small outlined read-more pills, five-column monospace footer, an enormous black groovy script wordmark running the full page width above a lime bottom strip with an outlined daisy beside it, flat even light, 1440px desktop viewport"
+    },
+    {
+      "id": "tropical-cutout-campaign",
+      "title": "Tropical Cut-Out Campaign",
+      "category": "maximal",
+      "image": "resources/bfd7a5bbe4c51fc8303a773824a77752.jpg",
+      "short": "Cream campaign page packed with cut-out monstera leaves, tropical flowers and a bottle photographed into a display serif headline.",
+      "long": "The hero is a collage rather than a photograph: leaves, heliconia and a product bottle are cut out and stacked in layers so the orange display serif headline sits between them, half occluded. That layering trick repeats down the page — a cocktail glass overlaps the word RECIPES, leaves push in from the page margins, and stickers and passport mock-ups tilt off axis. A vertical section index runs down the left margin in tiny type to hold the whole thing together, and body copy stays in a plain serif at small size so the collage carries all the noise.",
+      "keywords": [
+        "cut-out collage",
+        "botanical layering",
+        "display serif",
+        "section index rail",
+        "product photography",
+        "sticker badge",
+        "tropical palette"
+      ],
+      "palette": [
+        "#fdf3d8",
+        "#f2a71b",
+        "#1c3f2f",
+        "#d8412f",
+        "#12351f"
+      ],
+      "traits": {
+        "Typography": "Condensed display serif for section titles, small old-style serif for body, tiny caps for the index rail.",
+        "Layout": "Full-bleed collage hero, then alternating text and image blocks with cut-outs breaking the margins.",
+        "Colour": "Warm cream ground with saturated orange and red against deep tropical green.",
+        "Motion": "Leaves parallax at different depths; the section index highlights as you scroll."
+      },
+      "prompt": "Full-page website screenshot for a summer cocktail campaign, warm cream background, hero collage of cut-out monstera leaves heliconia flowers and a tequila bottle layered so a huge orange condensed display serif headline sits partly behind them, small badge logo top-left, tiny vertical section index running down the left margin, story section with a rounded photograph of two cocktails, an oversized orange RECIPES headline with a margarita glass overlapping the letterforms, tilted passport booklet mock-ups with a red step list, a country map section with location cards and red buttons, footer collage of leaves and bottles, small old-style serif body text, warm daylight product photography, 1440px desktop viewport"
+    },
+    {
+      "id": "hairline-catalogue",
+      "title": "Hairline Catalogue",
+      "category": "minimal",
+      "image": "resources/e407623bdbb94b92dcd27d7428ade842.jpg",
+      "short": "A greyscale shop grid with a long filter sidebar, tiny letterspaced labels and no borders anywhere except hairlines.",
+      "long": "This is the department-store layout stripped to nothing: a left rail of collapsible filter groups, a three-up product grid, and a pagination row repeated top and bottom. Product cells are flat light-grey squares with the object floating centred and no frame, so the grid reads as a set of tone blocks. All labels are set in very small letterspaced caps at low contrast, and separation is done with hairline rules rather than boxes or shadows. The only heavy element on the page is the black active pagination chip.",
+      "keywords": [
+        "filter sidebar",
+        "hairline rules",
+        "letterspaced caps",
+        "grey product cells",
+        "price range slider",
+        "pagination chips",
+        "low contrast labels"
+      ],
+      "palette": [
+        "#ffffff",
+        "#f3f3f3",
+        "#111111",
+        "#9a9a9a",
+        "#d8d8d8"
+      ],
+      "traits": {
+        "Typography": "One light sans; tiny letterspaced caps for every label, regular weight only for prices.",
+        "Layout": "Fixed left filter rail against a three-column product grid, with a wide banner block above it.",
+        "Colour": "White and two greys; black reserved for the active state and the add-to-cart underline.",
+        "Motion": "Filter groups expand in place; product cells swap to a second image on hover."
+      },
+      "prompt": "Full-page website screenshot of a minimal furniture shop category page, white background, centred wordmark with a small mark and thin utility links, left sidebar of collapsible filter groups with tiny letterspaced caps headings a price range slider and manufacturer checkboxes, wide light grey banner block with a centred serif season title, three-column product grid where each cell is a flat pale grey square with a single object floating centred, small HOT and SALE corner labels, product names in tiny grey caps with prices beneath, numbered pagination chips with one filled black, four-column link footer separated by hairline rules, no shadows, flat diffuse studio lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "cream-serif-saas",
+      "title": "Cream Serif SaaS",
+      "category": "minimal",
+      "image": "resources/02aa9b791461789a93fa5f72d7db03be.jpg",
+      "short": "A warm cream product page whose headline splits between a light serif line and a bold sans line.",
+      "long": "The whole page sits on one cream tone with no section backgrounds, so structure comes from spacing alone. The hero headline is deliberately mixed: the first line is a light transitional serif, the second a heavy geometric sans, which sets the register for the rest of the page. Beneath it a perspective carousel fans portrait cards inward like a folded wall, the outer cards angled and cropped by the viewport. Feature blocks then use a bento grid where some tiles are photographs with white text laid directly on them and others are flat sand-coloured panels.",
+      "keywords": [
+        "serif sans split headline",
+        "perspective card fan",
+        "bento tiles",
+        "cream ground",
+        "pill cta",
+        "photo tile captions",
+        "sand panels"
+      ],
+      "palette": [
+        "#faf4e9",
+        "#ffffff",
+        "#1a1a1a",
+        "#6b7f5a",
+        "#c9b79c"
+      ],
+      "traits": {
+        "Typography": "A light transitional serif paired line-for-line with a bold geometric sans; small grey body copy.",
+        "Layout": "Single cream canvas, centred hero, angled card fan, then a two-row bento of mixed photo and colour tiles.",
+        "Colour": "Cream and off-white with sand, olive and taupe tiles; black type, white on photography.",
+        "Motion": "The portrait fan rotates on drag; bento tiles lift slightly on hover."
+      },
+      "prompt": "Full-page website screenshot for a team collaboration platform, warm cream background with no section fills, centred wordmark and thin nav with a black pill CTA, two-line hero headline where the first line is a light transitional serif and the second a bold geometric sans, small grey subtitle and a black pill button, perspective carousel of portrait cards fanned inward like a folded wall with the outer cards cropped by the viewport, three short feature captions beneath separated by hairline dividers, bento grid mixing full-bleed office photographs with white captions and flat sand and olive coloured panels, centred section headings, soft natural window light in the photography, 1440px desktop viewport"
+    },
+    {
+      "id": "rounded-panel-corporate",
+      "title": "Rounded Panel Corporate",
+      "category": "minimal",
+      "image": "resources/03c77bcba3b4ee6e7f2c5249b19a6396.jpg",
+      "short": "Corporate stock photography behind a dark hero, with off-white panels sliding over it on very large corner radii.",
+      "long": "The page is assembled from oversized rounded panels that overlap each other vertically: a dark photographic hero, then a cream panel whose top corners curve over it, then alternating photo and tint blocks that each round off one pair of corners. Type is a plain grotesque with a single coloured full stop after the headline as the only ornament. Interior sections use a strict two-column split — image on one side, an accordion list of plain labelled rows on the other — and a small floating contact chip rides the seam between two panels.",
+      "keywords": [
+        "oversized corner radius",
+        "overlapping panels",
+        "dark photo hero",
+        "coloured full stop",
+        "accordion rows",
+        "floating contact chip",
+        "stock portraiture"
+      ],
+      "palette": [
+        "#fdfbf6",
+        "#1a1a1a",
+        "#eceae4",
+        "#e2653f",
+        "#8d8d8d"
+      ],
+      "traits": {
+        "Typography": "One neutral grotesque at two weights; headline sentences ended with a coloured period.",
+        "Layout": "Stacked full-width panels with 40px+ radii overlapping the block above; strict two-column interior splits.",
+        "Colour": "Off-white and warm grey with near-black photographic panels; a single warm orange accent.",
+        "Motion": "Panels slide up over one another on scroll; accordion rows expand in place."
+      },
+      "prompt": "Full-page website screenshot for a business consultancy, off-white background, dark photographic hero of a bearded man in an office with a floating pill navigation bar, large white headline in a neutral grotesque ending with an orange full stop, cream panel with very large rounded top corners sliding over the hero, centred intro paragraph above three icon cards with outlined learn-more pills, two-column section with a plain headline and an accordion of labelled rows beside a tall portrait photograph, edge-to-edge photo block paired with a tinted panel and a small floating contact chip on the seam, neutral corporate photography with soft daylight, 1440px desktop viewport"
+    },
+    {
+      "id": "slate-duotone-journal",
+      "title": "Slate Duotone Journal",
+      "category": "editorial",
+      "image": "resources/0bfcfb2759a5fb16e029d46999b0e395.jpg",
+      "short": "A travel journal in one slate-blue duotone, set in monospace with coordinates, hairlines and circular photo badges.",
+      "long": "Every photograph is pushed through the same blue duotone, so the page reads as a single ink colour on textured paper. Headlines are monospace with wide word spacing, dates run vertically up the right edge of each image, and GPS coordinates sit in the margins as decoration. The recurring device is a circle: photos are masked into discs with text running around the rim like a stamp, and small emblem badges repeat the same shape at a smaller scale. Thin rules run out of the masthead and across the page to tie the asymmetric blocks together.",
+      "keywords": [
+        "duotone photography",
+        "monospace headings",
+        "circular photo mask",
+        "rim text",
+        "gps coordinates",
+        "hairline rules",
+        "stamp badge"
+      ],
+      "palette": [
+        "#f4f4f2",
+        "#5b7f96",
+        "#1d3040",
+        "#a8bfcc",
+        "#ffffff"
+      ],
+      "traits": {
+        "Typography": "Monospace throughout, headings at display size with exaggerated word spacing; tiny caps for coordinates.",
+        "Layout": "Asymmetric two-column journal entries, images breaking the left margin, rules extending past their blocks.",
+        "Colour": "Paper white with a single slate-blue ink; every image duotoned to that blue.",
+        "Motion": "Circular photo badges rotate slowly; rules draw themselves in on scroll."
+      },
+      "prompt": "Full-page website screenshot for a travel journal, textured paper white background, all photography rendered in a single slate blue duotone, monospace masthead in two stacked lines with hairline rules extending across the page, journal entries laid out asymmetrically with a monospace headline and short paragraph on the left and a duotone landscape photograph on the right, dates set vertically up the right edge of each image, GPS coordinates in tiny caps in the margins, a circular photo mask with location names running around the rim like a stamp, small emblem badges, duotone mountain footer with social icons, 1440px desktop viewport"
+    },
+    {
+      "id": "forest-green-furniture",
+      "title": "Forest Green Furniture",
+      "category": "organic",
+      "image": "resources/0c7561c9fd7b284f8a1e6294077bf0a0.jpg",
+      "short": "A deep forest-green hero over a pale grey shop, punctuated by mustard dot grids and cut-out furniture.",
+      "long": "The hero is a solid block of deep green with a cut-out sofa floating on it and a mustard pill button as the only bright element; everything after it drops to a pale neutral grey. Products are photographed on white and placed without frames, with one item at a time given a soft tinted card behind it to mark the featured piece. Dot grids in mustard and green are scattered as bleed decoration behind image corners, and photo groups overlap in staggered stacks rather than sitting on a grid.",
+      "keywords": [
+        "forest green hero",
+        "cut-out furniture",
+        "mustard dot grid",
+        "tinted feature card",
+        "overlapping photo stack",
+        "pill button",
+        "icon benefit row"
+      ],
+      "palette": [
+        "#f2f2f0",
+        "#2f5344",
+        "#f5c518",
+        "#1a1a1a",
+        "#c8d2c9"
+      ],
+      "traits": {
+        "Typography": "A bold humanist sans for headings and very small grey body text; no serifs anywhere.",
+        "Layout": "Solid colour hero, then wide-margin sections alternating text left and image right, with photos overlapping.",
+        "Colour": "Pale grey ground, deep forest green blocks, mustard for buttons and dot fields.",
+        "Motion": "Featured product card slides between items; dot grids parallax slightly."
+      },
+      "prompt": "Full-page website screenshot for a modern furniture store, pale grey background, deep forest green hero panel with a cut-out green velvet sofa floating at the right, white headline in a bold humanist sans, a mustard pill button beside an outlined one, mustard dot grid bleeding behind the sofa, product row of three chairs photographed on white with one sitting on a soft tinted rounded card and a small plus badge, four icon benefit rows with tiny grey captions, interior photograph with rounded corners and a green dot grid overlapping its corner, staggered stack of three overlapping product photographs beside a headline and bullet list, dark pill buttons, soft neutral studio lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "electric-blue-glass-saas",
+      "title": "Electric Blue Glass SaaS",
+      "category": "future",
+      "image": "resources/18f83c09aa0324994e9e382e55552d94.jpg",
+      "short": "A saturated electric-blue hero with frosted glass cards, vertical light streaks and floating UI fragments.",
+      "long": "The hero is a deep blue gradient scored with faint vertical light streaks, and the product story is told by scattering interface fragments across it — a points card, a search panel, a deal chip — each on a different depth plane with soft shadows. Some of those cards are opaque white and some are frosted glass with a visible border highlight, so the stack reads as layered depth rather than a flat mockup. Below the fold the page cuts sharply to pale grey and switches to a neat four-column card grid, with a single blue tile marking the active feature.",
+      "keywords": [
+        "electric blue gradient",
+        "frosted glass card",
+        "floating ui fragments",
+        "light streaks",
+        "dashed motion path",
+        "feature card grid",
+        "active blue tile"
+      ],
+      "palette": [
+        "#0a1a8c",
+        "#1f4bff",
+        "#eef1f8",
+        "#ffffff",
+        "#b9c6ff"
+      ],
+      "traits": {
+        "Typography": "Bold geometric sans headlines with one word tinted a lighter blue; small grey lowercase body copy.",
+        "Layout": "Deep hero with overlapping floating cards, then a hard cut to a pale grey four-column feature grid.",
+        "Colour": "Saturated blue gradient against near-white; white and translucent card fills.",
+        "Motion": "Cards float on subtle parallax; dashed arcs animate along their paths."
+      },
+      "prompt": "Full-page website screenshot for an AI flight booking platform, deep electric blue gradient hero scored with faint vertical light streaks, small rounded pill badge above a bold white geometric sans headline with one line tinted lighter blue, blue rounded CTA button with an arrow, overlapping floating interface fragments across the hero including an opaque white loyalty points card a rounded white smart-search panel with a progress ring and an aeroplane photograph and a frosted glass deal card with a visible border highlight, dashed arcs and small plane glyphs tracing motion paths, hard cut to a pale grey section with a centred headline and a four-column grid of white feature cards with circular icons and learn-more links, one card filled solid blue, 1440px desktop viewport"
+    },
+    {
+      "id": "porcelain-blue-shop",
+      "title": "Porcelain Blue Shop",
+      "category": "minimal",
+      "image": "resources/197d65a04582106a7e07342b8103c08a.jpg",
+      "short": "A near-white porcelain store where the only colour is a soft cornflower blue and the type is widely letterspaced.",
+      "long": "Headings are set in a light sans with unusually wide letterspacing and coloured the same blue as the glaze on the products, which makes the type read as part of the still life rather than a label on it. Photography is high-key on white with almost no shadow, so product and page ground merge. Layout leans on very large corner radii — the hero is a rounded panel, thumbnails are squircles, and the product detail sits inside a pale grey card with a soft blue image field. The result is extremely low contrast held together by the shared blue.",
+      "keywords": [
+        "wide letterspacing",
+        "high-key product photography",
+        "cornflower blue",
+        "squircle thumbnails",
+        "rounded hero panel",
+        "pale grey card",
+        "low contrast"
+      ],
+      "palette": [
+        "#ffffff",
+        "#e8eefb",
+        "#3f6fd8",
+        "#f4f6fa",
+        "#cfd9ee"
+      ],
+      "traits": {
+        "Typography": "Light sans with wide tracking on every heading; small blue body copy at short measure.",
+        "Layout": "Rounded panels and squircle thumbnails; a left thumbnail rail against a large product image in the detail block.",
+        "Colour": "White and pale blue-grey with one cornflower blue for type and accents.",
+        "Motion": "Thumbnail selection cross-fades the main product image; carousel dots step the hero."
+      },
+      "prompt": "Full-page website screenshot for a porcelain tableware brand, near-white background, rounded hero panel with a high-key still life of pale blue patterned bowls a pear and cheese on white plinths, headline in a light sans with very wide letterspacing coloured cornflower blue, small white pill button, about section with a short blue paragraph beside a rounded photograph of rice pouring into a bowl and a column of three squircle thumbnails, product detail inside a pale grey rounded card with a soft blue image field a price a colour swatch dot a quantity stepper and a white buy button, a row of related product squircles beneath, no visible shadows, flat diffuse studio lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "coral-cream-travel",
+      "title": "Coral Cream Travel",
+      "category": "organic",
+      "image": "resources/1b7d6ae1a7956260f237dcb49e41f5d1.jpg",
+      "short": "Cream travel site with coral headings, a rounded panel lifting over the hero and an overlapping destination carousel.",
+      "long": "A full-bleed landscape hero is capped by a cream panel with large rounded top corners that slides up over it, a move repeated at the footer with a dark olive block. All section headings are centred and set in coral, which is the only saturated colour; body copy stays grey and small. The destination carousel overlaps its cards so the centre image sits forward at full height while its neighbours are scaled down and clipped, with round coral arrow buttons pinned to the outer edges. Testimonials use the same trick, fading the cards at both ends of the row.",
+      "keywords": [
+        "coral headings",
+        "rounded panel overlap",
+        "overlapping carousel",
+        "faded row edges",
+        "press logo strip",
+        "olive footer block",
+        "circular arrow buttons"
+      ],
+      "palette": [
+        "#f7f3ec",
+        "#f4552a",
+        "#3a3a2e",
+        "#ffffff",
+        "#d8cfc0"
+      ],
+      "traits": {
+        "Typography": "A single rounded sans; centred headings in coral, small grey body copy, tiny caps for eyebrows.",
+        "Layout": "Full-bleed hero under an overlapping rounded panel; centred sections with overlapping carousels.",
+        "Colour": "Warm cream ground, coral for all headings and buttons, dark olive for the closing block.",
+        "Motion": "Carousel cards scale up as they reach centre; a floating scroll badge pulses at the hero seam."
+      },
+      "prompt": "Full-page website screenshot for a travel booking site, warm cream background, full-bleed mountain lake hero with a white headline and a coral pill button and a watch-video link, cream panel with large rounded top corners sliding up over the hero and a circular coral scroll badge on the seam, greyed press logo strip, centred coral section heading, destination carousel where the centre photograph sits forward at full height and the neighbouring cards are scaled down and clipped with round coral arrow buttons at the outer edges, two-column block with a rounded photograph and a floating white quote card, three-step icon row joined by a dashed line, testimonial row faded at both ends, dark olive closing block with a coral button and three photo cards, 1440px desktop viewport"
+    },
+    {
+      "id": "periwinkle-pet-brand",
+      "title": "Periwinkle Pet Brand",
+      "category": "maximal",
+      "image": "resources/1d0711b716f25e105d15cd33de45f19d.jpg",
+      "short": "A pale periwinkle pet service page mixing cut-out photography with flat line characters and yellow doodle sparks.",
+      "long": "The hero puts a huge cut-out dog head against a flat periwinkle field and then walks two flat vector groomers across it at a completely different scale, so photographic and drawn worlds share one plane. That collision continues down the page: hand-drawn sparks, a paw-tipped line that runs off the right margin, and an arced heading set on a curve. Headings are a heavy rounded sans with very tight leading; icons sit in periwinkle squircles in an evenly spaced row that acts as the calm counterweight to the drawing.",
+      "keywords": [
+        "cut-out photography",
+        "flat line characters",
+        "doodle sparks",
+        "arced heading",
+        "periwinkle squircle icons",
+        "yellow pill button",
+        "mixed scale collage"
+      ],
+      "palette": [
+        "#e2e8fb",
+        "#ffffff",
+        "#ffd11a",
+        "#111111",
+        "#c8d3f5"
+      ],
+      "traits": {
+        "Typography": "Heavy rounded sans with tight leading for headings; one heading set along an arc.",
+        "Layout": "Flat colour hero with cut-outs breaking the section edge, then centred blocks with a six-up icon row.",
+        "Colour": "Pale periwinkle and white with black type and a single warm yellow accent.",
+        "Motion": "Line characters walk on load; doodle sparks pop on hover."
+      },
+      "prompt": "Full-page website screenshot for a pet care service, pale periwinkle hero field with a huge cut-out photograph of a grey dog head at the right and two small flat vector groomers in yellow aprons walking across the same plane at a different scale, heavy rounded black sans headline at the left with a black pill and a yellow pill button, white section below with a cut-out photograph of a woman holding a poodle over a pale blue circle, hand-drawn yellow spark marks, an arced small heading curving above a bold two-line statement, a long black line ending in a paw running off the right margin, six periwinkle squircle icon tiles in an evenly spaced row with tiny captions, flat daylight photography, 1440px desktop viewport"
+    },
+    {
+      "id": "squiggle-colour-block-studio",
+      "title": "Squiggle Colour-Block Studio",
+      "category": "maximal",
+      "image": "resources/1f862bef2a4b411353162ae5333e8305.jpg",
+      "short": "Full-width bands of cream, forest green and candy pink linked by a fat multicoloured squiggle that snakes between them.",
+      "long": "The page is a stack of solid colour bands with no gutters, and the device that stops it feeling like a stack is a thick rounded ribbon in green, blue, orange, pink and lime that curls out of one band and into the next. Headings are heavy condensed caps, tightly leaded and always left-aligned; where a section sits on a photograph, a cream card with a large radius is dropped on top to hold the text. Illustrations use the same restricted palette as the ribbon, so the drawn and the structural elements read as one system.",
+      "keywords": [
+        "colour block bands",
+        "multicolour squiggle",
+        "condensed caps",
+        "rounded photo mask",
+        "cream text card",
+        "flat illustration",
+        "full-bleed sections"
+      ],
+      "palette": [
+        "#f6f2e7",
+        "#0d5c3c",
+        "#f5c6dd",
+        "#e8641d",
+        "#a9d13d"
+      ],
+      "traits": {
+        "Typography": "Heavy condensed sans caps for headings, a small italic serif for eyebrow labels, plain sans body.",
+        "Layout": "Edge-to-edge colour bands with no gutters; text cards floated over full-bleed photography.",
+        "Colour": "Cream, deep forest green and candy pink bands with orange, blue and lime in the ribbon and illustrations.",
+        "Motion": "The squiggle draws itself across section boundaries as you scroll."
+      },
+      "prompt": "Full-page website screenshot for a live illustration studio, stacked full-width colour bands with no gutters, cream hero band with a heavy condensed green all-caps headline and a small orange pill button, a thick rounded multicoloured ribbon in green blue orange pink and lime curling from the hero down into the next band, deep forest green band with a squircle-masked photograph of hands drawing and a white condensed caps heading with a small italic eyebrow label, full-bleed overhead photograph of a conference audience with a cream rounded card floated on top carrying an orange condensed heading, candy pink band with three flat green and yellow illustrations and condensed green captions, pale blue page surround, flat even lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "taupe-author-folio",
+      "title": "Taupe Author Folio",
+      "category": "editorial",
+      "image": "resources/2385869effe41e7063cf71d3771863b2.jpg",
+      "short": "A quiet author site in taupe and warm grey, with widely letterspaced serif caps and a ghosted name behind the hero.",
+      "long": "The author's name is set enormous and very low in contrast behind the hero, half cropped by the section edge, so it works as texture rather than a heading. Everything on top of it is small and calm: a letterspaced serif in caps for titles, monospace for supporting copy, and a plain retailer badge as the only solid black shape. Body sections use three even columns of monospace text with a drop cap opening the first, and the page closes with a hard two-tone split — a greyscale portrait against a warm brown panel.",
+      "keywords": [
+        "ghost wordmark",
+        "letterspaced serif caps",
+        "monospace body",
+        "drop cap",
+        "three-column excerpt",
+        "two-tone split",
+        "taupe ground"
+      ],
+      "palette": [
+        "#e6e1d6",
+        "#d7cfc0",
+        "#8a6a4f",
+        "#2b2620",
+        "#f2f0eb"
+      ],
+      "traits": {
+        "Typography": "Widely letterspaced serif caps for headings; monospace at small size for all body copy; one drop cap.",
+        "Layout": "Centred blocks on a narrow measure, a three-column excerpt, and a full-width split panel to close.",
+        "Colour": "Layered taupes and warm greys with brown headings and a near-black portrait panel.",
+        "Motion": "Almost none — the ghost wordmark shifts slightly slower than the page on scroll."
+      },
+      "prompt": "Full-page website screenshot for a novelist, layered taupe and warm grey backgrounds, hero with a brown letterspaced serif caps headline and a short monospace paragraph beside a portrait photograph with a script signature, the author name repeated enormous and very low contrast behind the hero and cropped by the section edge, a black retailer badge button, centred blog section with three photo cards and monospace captions under tiny category labels, a book excerpt set in three even monospace columns with an ornamental drop cap opening the first, a centred discount line with another badge, closing full-width split of a greyscale portrait against a warm brown panel with an awards heading in letterspaced serif caps, 1440px desktop viewport"
+    },
+    {
+      "id": "citrus-orange-storefront",
+      "title": "Citrus Orange Storefront",
+      "category": "minimal",
+      "image": "resources/25f9554b3c1c98da70acdc79f421eb07.jpg",
+      "short": "A white storefront broken up by flat orange blocks, with soft still-life photography of fruit on pale plinths.",
+      "long": "The page alternates plain white bands with flat orange panels of varying width, some running full bleed and some only half the measure, so the colour behaves like punctuation rather than a section background. Photography is shot high-key on pale plinths with long soft shadows, and products are cut into the layout as bleed images rather than framed cards. Where the orange meets white the type flips to reversed-out, and a peach gradient panel appears once near the foot of the page to soften the closing sections.",
+      "keywords": [
+        "orange colour blocks",
+        "high-key still life",
+        "plinth photography",
+        "half-width panels",
+        "reversed type",
+        "peach gradient",
+        "flat product cards"
+      ],
+      "palette": [
+        "#ffffff",
+        "#f5f6f7",
+        "#f7861f",
+        "#f6c9a8",
+        "#3a3a3a"
+      ],
+      "traits": {
+        "Typography": "One light sans; small headings, tiny grey body copy, orange used for links and eyebrows.",
+        "Layout": "Stacked bands where flat orange panels take partial widths and photography bleeds past the grid.",
+        "Colour": "White and pale grey with a single saturated orange plus one peach gradient panel.",
+        "Motion": "Product tiles cross-fade; orange panels slide in from the edge on scroll."
+      },
+      "prompt": "Full-page website screenshot for a citrus food brand, white background, high-key still life hero of oranges a white ceramic pot and dried grasses on pale plinths with long soft shadows, small orange pill button, half-width flat orange panel with reversed white text butted against a pale grey block, three-up row mixing a cut-out orange photograph a small white product card and a full orange panel with a single grapefruit, thin outlined feature cards with orange numerals, another still life of oranges in white bowls beside a floating interface mock-up, a peach gradient panel with reversed type paired with a pale grey text block, light sans typography at small sizes, soft diffuse studio lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "blush-red-vector-folio",
+      "title": "Blush & Red Vector Folio",
+      "category": "maximal",
+      "image": "resources/262eb68947ce6645961212f63480e5a5.jpg",
+      "short": "Blush pink hero with flat red and black vector portraits, opening onto a dense mosaic of photos, type tiles and drawings.",
+      "long": "Three stylised profile heads in flat red, pink and black are staggered across the hero at full bleed, cut off by the section edge so they read as pattern. Below, the page becomes a tight mosaic where every cell is the same width: some cells are photographs, some are single-line drawings, some are solid colour, and some are just a bold headline with a category label above it. Because text tiles and image tiles share the grid, the type has to do the visual work of an image, which is why the headings are set heavy and ragged over three or four short lines.",
+      "keywords": [
+        "flat vector portraits",
+        "blush pink hero",
+        "text as tile",
+        "single line drawing",
+        "mosaic grid",
+        "category eyebrow",
+        "red accents"
+      ],
+      "palette": [
+        "#fadadd",
+        "#f5333f",
+        "#111111",
+        "#ffffff",
+        "#ffd166"
+      ],
+      "traits": {
+        "Typography": "Bold grotesque headings set ragged over three or four short lines; tiny caps category labels.",
+        "Layout": "Full-bleed illustrated hero, a three-column intro, then an equal-width mosaic mixing image and text cells.",
+        "Colour": "Blush pink and white grounds with a hot red, black and one mustard tile.",
+        "Motion": "Mosaic cells reveal in a staggered cascade; the hero portraits slide between slides."
+      },
+      "prompt": "Full-page website screenshot for a creative agency portfolio, blush pink hero with three stylised flat vector profile heads in red pink and black staggered across the full width and cropped by the section edge, bold black headline and a black rectangular button at the left, white band with three columns of short feature copy and read-more links, centred portfolio heading on pink, dense equal-width mosaic grid mixing black-and-white photographs flat colour tiles a single-line face drawing a red tile with distorted type a mustard illustration of two dancers and cells that contain only a bold ragged headline under a tiny category label, hot red accents throughout, 1440px desktop viewport"
+    },
+    {
+      "id": "muted-green-interior-studio",
+      "title": "Muted Green Interior Studio",
+      "category": "organic",
+      "image": "resources/2c0f81379a9fabc51e8de5d063fbff94.jpg",
+      "short": "A grain-textured sage hero over cream, with section names rotated vertically down the left margin.",
+      "long": "Every section is labelled by a word set sideways in the left margin, which frees the content area to stay plain and lets the page scroll as one long ruled document. The hero is a flat sage panel with visible grain texture and a cut-out floor lamp leaning into the headline; after it the palette drops to cream and light grey with a single black band for testimonials. Project thumbnails run as a tight four-up strip of tall portrait crops with vertical captions, and pricing is set as three plain columns separated by rules rather than boxed cards.",
+      "keywords": [
+        "rotated margin labels",
+        "grain texture",
+        "sage panel",
+        "tall portrait strip",
+        "ruled price columns",
+        "black testimonial band",
+        "cut-out lamp"
+      ],
+      "palette": [
+        "#f4f1ea",
+        "#7d8f7a",
+        "#e6e4df",
+        "#141414",
+        "#c2b8a5"
+      ],
+      "traits": {
+        "Typography": "A high-contrast serif for section titles against a plain sans for body; rotated caps for margin labels.",
+        "Layout": "Full-width bands with a fixed left label rail; four-up portrait image strip; rule-separated price columns.",
+        "Colour": "Cream and light grey with a muted sage hero and one solid black band.",
+        "Motion": "Margin labels stay pinned while their section scrolls; thumbnails scale slightly on hover."
+      },
+      "prompt": "Full-page website screenshot for an interior design studio, cream background, flat muted sage hero panel with visible grain texture, a cut-out black floor lamp leaning in from the right, white serif headline and short paragraph with a small dark button, two small rounded interior photographs overlapping the hero edge, section names set in rotated caps down the left margin, light grey band with three short benefit columns under bold headings, four-up strip of tall portrait interior photographs with white caption chips and vertical labels, pricing set as three plain columns separated by hairline rules with black buttons, solid black testimonial band with four columns of quotes, large statistic numerals in a serif, dark footer, 1440px desktop viewport"
+    },
+    {
+      "id": "hairline-blog-grid",
+      "title": "Hairline Blog Grid",
+      "category": "editorial",
+      "image": "resources/2ddf81a90e1efbf527d6e6e7c98a6d67.jpg",
+      "short": "An off-white blog index where hairline rules do all the dividing and a geometric grotesque does all the talking.",
+      "long": "The index is organised by a visible grid of hairlines: a rule under the masthead, a rule under the page title, verticals between the two featured stories, and horizontals between each row of three. Images sit flush inside their cells with no radius or shadow, captioned by a tiny caps category line above the headline. Nothing is coloured — the interest comes from the change in scale between the very large page title, the mid-size story headlines and the minute tag chips floated at the right of the title rule.",
+      "keywords": [
+        "hairline grid",
+        "geometric grotesque",
+        "tiny caps categories",
+        "outlined tag chips",
+        "flush images",
+        "scale contrast",
+        "off-white ground"
+      ],
+      "palette": [
+        "#fbfaf7",
+        "#ffffff",
+        "#111111",
+        "#d9d6cf",
+        "#8a8a8a"
+      ],
+      "traits": {
+        "Typography": "One geometric grotesque across five sizes; tiny letterspaced caps for categories and tags.",
+        "Layout": "A two-up featured row above a three-up grid, all separated by hairline rules with images flush in their cells.",
+        "Colour": "Off-white and white with black type; grey only for rules and metadata.",
+        "Motion": "Images scale a few percent inside their cells on hover; nothing else moves."
+      },
+      "prompt": "Full-page website screenshot of a design studio blog index, off-white background, small wordmark with a square mark and a black LET'S TALK pill in the header, very large page title in a geometric grotesque with a two-line grey standfirst, small outlined tag chips floated at the right of a hairline rule, two featured stories side by side separated by a vertical hairline each with a flush photograph and a tiny caps category line above the headline, a three-by-two grid of smaller stories divided by horizontal hairlines, outlined previous and next chips, a newsletter block with a large two-line headline and a paragraph in the right column, no colour, flat even lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "aperitif-checkerboard",
+      "title": "Aperitif Checkerboard",
+      "category": "retro",
+      "image": "resources/313556e818e314b3ed5de6eaf114165e.jpg",
+      "short": "A cream drinks shop with chunky brown caps, flower asterisks, a checkerboard divider and torn ticket shapes.",
+      "long": "The type is a fat rounded seventies sans set entirely in brown caps, and headings are centred with the line breaks doing the shaping. Between sections a two-row checkerboard strip in brown and lilac acts as a rule. Ingredient benefits are marked by flower-shaped asterisks in five tints rather than icons, and testimonials sit inside ticket shapes with notched sides and semicircular bites taken out of the edges. Small sticker badges — a rotated seal, an outlined script logo, an est. tag — are dropped over the layout at angles to keep it from settling.",
+      "keywords": [
+        "checkerboard divider",
+        "flower asterisk",
+        "ticket notch",
+        "rounded seventies caps",
+        "rotated sticker badge",
+        "lilac page ground",
+        "pastel bands"
+      ],
+      "palette": [
+        "#fcf6e8",
+        "#4b2b18",
+        "#e9d4f5",
+        "#bcd6ef",
+        "#c9942a"
+      ],
+      "traits": {
+        "Typography": "Fat rounded seventies sans in brown caps for every heading; small sans body copy.",
+        "Layout": "Centred bands with checkerboard strips between them; ticket-shaped cards with notched edges.",
+        "Colour": "Cream and lilac grounds with brown type, pale blue and mustard bands, orange and pink accents.",
+        "Motion": "The checkerboard strip scrolls sideways; stickers wobble slightly on hover."
+      },
+      "prompt": "Full-page website screenshot for a non-alcoholic aperitif brand, cream page on a lilac surround, centred fat rounded seventies sans headline in dark brown caps, small logo mark of two clinking glasses, product block with a photograph of a bottle and kraft box on pale blue beside a price an add-to-cart pill and small body copy, a rotated orange 0% ALC tag, pale blue band with five flower-shaped asterisks in different tints above tiny benefit captions, two-row brown and lilac checkerboard divider strip, cream section listing bold brown facts with one line highlighted in lilac, mustard ticket-shaped quote card with notched sides and semicircular bites in its edges, small rotated sticker badges, flat even lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "engraved-fauna-bands",
+      "title": "Engraved Fauna Bands",
+      "category": "editorial",
+      "image": "resources/330695294715e3602afde38e32b792ab.jpg",
+      "short": "Alternating white and black full-width bands, each carrying one engraved sea creature and a short letterspaced heading.",
+      "long": "The whole page is a rhythm of inverted bands: white with black line art, then black with white line art, repeating. Each band holds exactly one nineteenth-century-style engraving of an octopus, seahorse, whale or jellyfish, opposite a very small block of type — a two-word letterspaced heading, two lines of monospace, and an outlined rectangular button. Scattered orange dots trail off each creature, the only colour on the page, and they carry across the band boundaries so the sections feel like one continuous illustration.",
+      "keywords": [
+        "engraved illustration",
+        "inverted bands",
+        "letterspaced caps heading",
+        "monospace body",
+        "orange dot trail",
+        "outlined button",
+        "high contrast"
+      ],
+      "palette": [
+        "#ffffff",
+        "#1c1c1c",
+        "#f26522",
+        "#f0f0f0",
+        "#8a8a8a"
+      ],
+      "traits": {
+        "Typography": "Small letterspaced sans caps for headings with monospace body copy; nothing set at display size.",
+        "Layout": "Full-width alternating bands, illustration on one side and a narrow text block on the other, sides swapping each band.",
+        "Colour": "Pure black and white with a single orange used only for scattered dots.",
+        "Motion": "Orange dots drift upward slowly; the engravings hold still."
+      },
+      "prompt": "Full-page website screenshot for a surf and dive shop, alternating full-width white and black bands, each band containing one detailed nineteenth-century engraved line illustration of an octopus a seahorse a sperm whale or a jellyfish rendered in black on white or white on black, opposite a narrow text block with a two-word letterspaced sans caps heading two lines of monospace copy and a thin outlined rectangular button, scattered orange dots trailing off each creature and crossing the band boundaries, small letterspaced caps navigation, extreme black and white contrast with orange as the only colour, 1440px desktop viewport"
+    },
+    {
+      "id": "clay-jewellery-arches",
+      "title": "Clay Jewellery Arches",
+      "category": "luxury",
+      "image": "resources/34540ca7346c6d74ca51dcf401e74121.jpg",
+      "short": "Warm clay and taupe jewellery store where a flared display serif runs over the imagery and photos sit in arch masks.",
+      "long": "A high-contrast display serif with flared terminals is set at large size in white directly over the photography, low enough in the frame that it overlaps the model rather than clearing her. Photography is warm and desaturated with dried palm and linen props, and the key sections mask their images into arches. The palette is a narrow range of clay, taupe and bone, so the only visual steps are the shifts in tone between panels — an oatmeal grid section, a clay panel, a full-bleed photographic band — and the type never changes colour.",
+      "keywords": [
+        "flared display serif",
+        "arch photo mask",
+        "clay panel",
+        "type over image",
+        "desaturated warm photography",
+        "bone product grid",
+        "outlined button"
+      ],
+      "palette": [
+        "#e6e0da",
+        "#c08e73",
+        "#ffffff",
+        "#3a2f28",
+        "#d9c9bb"
+      ],
+      "traits": {
+        "Typography": "High-contrast display serif with flared terminals at large sizes; small sans for prices and body.",
+        "Layout": "Full-bleed photo bands alternating with tinted panels; four-up product grid; arch-masked feature images.",
+        "Colour": "Bone and taupe grounds with a clay panel; white type over photography throughout.",
+        "Motion": "Slow cross-fades between hero images; product photos swap on hover."
+      },
+      "prompt": "Full-page website screenshot for a jewellery brand, warm bone background, hero of a woman in a wide straw hat with cropped detail photographs of earrings and a necklace flanking her, a large white flared display serif headline set low so it overlaps the model, small SHOP NOW labels in the corners, clay-coloured panel with an arch-masked photograph of a woman holding a dried palm frond beside a white serif welcome heading and an outlined button, four-up product grid on bone with warm desaturated jewellery photography and small prices, full-bleed photographic sale band with a centred white serif headline and an outlined button, desaturated warm daylight photography, 1440px desktop viewport"
+    },
+    {
+      "id": "condensed-black-agency",
+      "title": "Condensed Black Agency",
+      "category": "editorial",
+      "image": "resources/357d212da97ef1eee9dd1030c49b7682.jpg",
+      "short": "White agency page where very heavy condensed caps sit against tiny grey body copy and an italic serif pull-quote.",
+      "long": "The page runs on one extreme contrast: section titles are set in a very heavy condensed grotesque at display size, all caps, ending in a full stop, while everything else is grey sans at around thirteen pixels. Between those two poles a single italic serif appears for the pull-quote, marked with oversized quotation glyphs above and below rather than beside. Images are placed as plain rectangles at inconsistent sizes with wide white gutters, and the closing statistics use the same condensed face at heading scale with two-line captions underneath.",
+      "keywords": [
+        "heavy condensed caps",
+        "full stop headings",
+        "italic serif quote",
+        "oversized quote glyphs",
+        "tiny grey body",
+        "wide white gutters",
+        "stat numerals"
+      ],
+      "palette": [
+        "#ffffff",
+        "#111111",
+        "#f0f0f0",
+        "#c8a94a",
+        "#7a7a7a"
+      ],
+      "traits": {
+        "Typography": "Very heavy condensed grotesque caps for titles, thirteen-pixel grey sans for body, one italic serif for the quote.",
+        "Layout": "Wide white margins with images placed as plain rectangles at varying sizes and no alignment to a strict grid.",
+        "Colour": "White and black with grey body copy; a few link words tinted in brand colours.",
+        "Motion": "Almost none; images fade in as they enter the viewport."
+      },
+      "prompt": "Full-page website screenshot for a communications agency about page, white background, minimal menu and close links in the top corners, very heavy condensed black all-caps heading ending in a full stop, small grey thirteen-pixel body paragraphs with a few words tinted in brand colours, wide overhead photograph of a studio desk, italic serif pull-quote with oversized quotation glyphs above and below and a small attribution line, two stacked greyscale portrait photographs at the left beside a second condensed caps heading and two grey paragraphs, a row of four large statistic numerals in the condensed face with two-line grey captions, generous white gutters, flat natural light, 1440px desktop viewport"
+    },
+    {
+      "id": "kawaii-gift-blocks",
+      "title": "Kawaii Gift Colour Blocks",
+      "category": "maximal",
+      "image": "resources/39196bc8839dc2bb8bf10a7358287e4e.jpg",
+      "short": "Saturated green, blue and yellow bands under a wide cartoon scene of dogs, cats and speech bubbles.",
+      "long": "A wide flat cartoon illustration fills the hero, with characters, speech balloons and a phone mock-up all drawn in the same heavy black outline, and a rotated sunburst badge pinned to the corner. Section headings are set in a chunky rounded sans with a soft drop shadow, centred, with a small caps tagline above and a local-language subtitle below. Product rows are plain white cards with square artwork, black pill buttons and orange price tags, and each band changes ground colour outright — green, then white, then sky blue — so the colour blocks do the sectioning.",
+      "keywords": [
+        "flat cartoon illustration",
+        "shadowed rounded heading",
+        "saturated colour bands",
+        "sunburst badge",
+        "marquee ticker",
+        "square artwork cards",
+        "black pill buttons"
+      ],
+      "palette": [
+        "#3fb98a",
+        "#7fd4f0",
+        "#ffe14d",
+        "#f26a4b",
+        "#111111"
+      ],
+      "traits": {
+        "Typography": "Chunky rounded sans headings with a soft drop shadow; small caps taglines; dense small body text.",
+        "Layout": "Full-width colour bands, a wide illustrated hero, four-up product card rows with paging arrows below.",
+        "Colour": "Saturated mint green, sky blue and yellow bands with orange and black accents on white cards.",
+        "Motion": "A text marquee runs across the top bar; card rows page horizontally."
+      },
+      "prompt": "Full-page website screenshot for a Japanese gift store, saturated mint green band behind a wide flat cartoon illustration of dogs and cats in a living room with heavy black outlines speech balloons and a phone mock-up in the centre, a scrolling yellow marquee ticker across the very top, black wordmark with a tagline, rotated yellow sunburst badge in the corner, white section with a chunky rounded sans heading carrying a soft drop shadow above a small caps tagline, four-up row of white news cards with square artwork and vertical date labels, sky blue band with four product cards showing colourful square illustrations black pill buttons and orange price tags, circular paging arrows, flat vector artwork, 1440px desktop viewport"
+    },
+    {
+      "id": "desert-bento-wellness",
+      "title": "Desert Bento Wellness",
+      "category": "minimal",
+      "image": "resources/3a21292be7231f8b164c12ac32e9c9b1.jpg",
+      "short": "A near-white wellness app page with a warm desert photograph behind the hero and an eight-tile bento of photos and text.",
+      "long": "The hero fades a wide desert photograph up into the white page so there is no visible edge, and the app screens are placed on top as a flat overlapping row rather than a perspective mock-up. Below it the feature section is an eight-cell bento where photographic tiles and text tiles alternate in a checkerboard, with two of the text tiles filled in navy and slate so the grid does not read as uniform. Type is a single geometric sans at modest sizes; every heading is two short lines and every caption is grey, which keeps the photography dominant without letting it take over the layout.",
+      "keywords": [
+        "faded photo edge",
+        "bento checkerboard",
+        "navy text tile",
+        "app screen row",
+        "desert photography",
+        "geometric sans",
+        "grey captions"
+      ],
+      "palette": [
+        "#ffffff",
+        "#f2efeb",
+        "#1c2333",
+        "#c08a5e",
+        "#8fa0b0"
+      ],
+      "traits": {
+        "Typography": "One geometric sans; two-line headings at modest size, small grey captions, no display type.",
+        "Layout": "Hero photograph fading into the page, a flat row of overlapping app screens, then a four-by-two bento grid.",
+        "Colour": "White and warm grey with navy and slate filled tiles; colour comes from the photography.",
+        "Motion": "Bento tiles lift slightly on hover; the app screen row scrolls horizontally."
+      },
+      "prompt": "Full-page website screenshot for a health tracking app, near-white background, wide warm desert photograph faded up into the page with no visible edge, centred two-line headline in a geometric sans with a small pill badge above and a dark pill button below, a flat overlapping row of app screens showing sleep and activity scores over sunrise photography, greyed partner logo strip, centred feature heading, four-by-two bento grid alternating photographic tiles of people meditating running and stretching with text tiles carrying two-line headings and grey captions, two of the text tiles filled navy and slate, small underlined more-information links, warm golden hour photography, 1440px desktop viewport"
+    },
+    {
+      "id": "lavender-defi-bloom",
+      "title": "Lavender DeFi Bloom",
+      "category": "future",
+      "image": "resources/3b649a7aa6f3e72118fccc58841c6773.jpg",
+      "short": "A stablecoin site where rendered coins sit in a field of lavender flowers and the UI stays flat and pale.",
+      "long": "The imagery is doing all the work: photoreal renders of coins half-buried in a bank of purple blossom, a violet 3D temple, a chrome flower — all lit in the same cool lavender key. The interface around them is deliberately understated, a plain geometric sans on near-white with rounded rectangles, so the renders read as artwork inside a quiet frame. Feature cards alternate between a pale lavender gradient fill and solid deep indigo, and the page background itself is a blurred continuation of the flower field, visible in the outer margins.",
+      "keywords": [
+        "3d render hero",
+        "lavender gradient card",
+        "indigo fill card",
+        "flower field ground",
+        "chrome coin",
+        "plain geometric sans",
+        "blurred page surround"
+      ],
+      "palette": [
+        "#f4f3fa",
+        "#6b5ce7",
+        "#2e2a56",
+        "#c9c2f0",
+        "#ffffff"
+      ],
+      "traits": {
+        "Typography": "Plain geometric sans at two weights; centred hero, left-aligned everywhere else; no display face.",
+        "Layout": "Rounded hero image panel inset from the page edges, then two-column text and a three-up card row.",
+        "Colour": "Near-white with lavender gradients and deep indigo fills; renders keyed to the same violet.",
+        "Motion": "Slow drift on the hero render; cards raise on hover."
+      },
+      "prompt": "Full-page website screenshot for a stablecoin product, near-white background over a blurred lavender flower field visible in the outer margins, rounded hero image panel showing photoreal chrome and violet coins half buried in a bank of purple blossom under a pale sky, centred geometric sans headline and a black pill button, two-column section with a large question heading and a plain paragraph, three feature cards where the first is a pale lavender gradient containing a rendered purple coneflower over a coin and the other two are solid deep indigo with white text, greyed investor logo strip, use-case section with a white card containing a violet 3D rendered temple among flowers, cool lavender lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "teal-navy-flat-illustration",
+      "title": "Teal & Navy Flat Illustration",
+      "category": "maximal",
+      "image": "resources/422703f603a12d68927de4346a2a447f.jpg",
+      "short": "A teal hero with a flat vector lifeguard tower, navy rounded-sans headlines and pastel tinted product cards.",
+      "long": "The hero splits horizontally: teal sky above, flat cream sand below, with a single detailed vector building straddling the join and casting a long flat shadow. Headlines are set in a heavy rounded geometric sans in deep navy, large enough that two words fill a line. Product blocks are big pastel rounded cards — peach, lavender, mint — each with a tiny caps eyebrow, an enormous two-line title and a supporting vector object at the bottom right. A rotating circular badge in coral is dropped beside a headline as the only round element in an otherwise rectangular page.",
+      "keywords": [
+        "flat vector scene",
+        "split horizon hero",
+        "rounded navy sans",
+        "pastel product cards",
+        "rotating circular badge",
+        "tiny caps eyebrow",
+        "long flat shadow"
+      ],
+      "palette": [
+        "#fbfaef",
+        "#2e7f8c",
+        "#151c4a",
+        "#f4a08a",
+        "#e4e2f7"
+      ],
+      "traits": {
+        "Typography": "Heavy rounded geometric sans in navy at large sizes; tiny letterspaced caps for eyebrows; small grey body.",
+        "Layout": "Split-horizon illustrated hero, then staggered pastel cards that alternate left and right down the page.",
+        "Colour": "Cream ground with a teal hero band; peach, lavender and mint card fills; deep navy type.",
+        "Motion": "The circular badge rotates continuously; cards slide in from alternating sides."
+      },
+      "prompt": "Full-page website screenshot for a travel insurance company, teal sky band above a flat cream sand field, a detailed flat vector lifeguard tower straddling the horizon with a long flat shadow and small parasols and deck chairs beside it, a white circular savings badge, heavy rounded navy sans headline with a white outlined pill button, rotating coral circular badge with text around its rim beside a bold navy statement with one phrase in coral, staggered large pastel rounded product cards in peach lavender and mint each with a tiny caps eyebrow an enormous two-line navy title an underlined link and a flat vector umbrella or suitcase at the lower right, generous cream space between cards, flat vector illustration, 1440px desktop viewport"
+    },
+    {
+      "id": "soft-glass-property",
+      "title": "Soft Glass Property Panel",
+      "category": "future",
+      "image": "resources/42490c88aec3cdb4f241aa8772717216.jpg",
+      "short": "One giant rounded panel holding a property search, with frosted glass cards and a squircle icon rail down the left.",
+      "long": "The whole interface is a single squircle floating on a desaturated mountain backdrop, and everything inside it repeats that radius at smaller scales — the search bar segments, the icon rail pills, the listing cards. Cards are frosted glass with a bright inner border so the render behind them shows through, and the property image itself is a curved organic villa that echoes the corner radii. Type is a light geometric sans in white over the image and near-black inside the pale cards, and the accent is a single deep indigo circle button.",
+      "keywords": [
+        "squircle panel",
+        "frosted glass card",
+        "icon rail",
+        "segmented search bar",
+        "organic villa render",
+        "nested radii",
+        "indigo circle button"
+      ],
+      "palette": [
+        "#eef2f7",
+        "#ffffff",
+        "#2a2170",
+        "#c9d6e6",
+        "#f2a06a"
+      ],
+      "traits": {
+        "Typography": "Light geometric sans, white over imagery and near-black inside cards; small caps only for tiny labels.",
+        "Layout": "A single large squircle app panel with a left icon rail and cards overlapping the image at the corners.",
+        "Colour": "Cool pale blues and white with a deep indigo accent; warm interior light in the render.",
+        "Motion": "Cards blur their backdrop as they move; the icon rail highlights on hover."
+      },
+      "prompt": "Full-page website screenshot of a property search interface, one enormous white squircle panel floating on a desaturated mountain photograph, segmented rounded search bar across the top with buy and rent pills and location property type and price dropdowns, vertical rail of white squircle icon buttons down the left, large photoreal render of a curved organic desert villa lit warm at dusk, light geometric sans headline in white over the image, frosted glass listing card at the right with a bright inner border showing the render through it and small area and bedroom stats and circular action buttons, white rounded card at the lower left with a statistic and a stack of small thumbnails, deep indigo circular button, 1440px desktop viewport"
+    },
+    {
+      "id": "brush-script-skate",
+      "title": "Brush Script Skate Shop",
+      "category": "photo",
+      "image": "resources/430e89cba1a9676cfb78e359394a8f35.jpg",
+      "short": "Greyscale skate photography with electric blue brush script scrawled across it and everything else set microscopically small.",
+      "long": "The site is almost entirely black-and-white photography — a circular masked hero, a mosaic of product and lifestyle shots, a dark footer image — and the only colour is one electric blue used for a handwritten brush script that is written straight over the images. Interface type is set very small in letterspaced caps and centred, deliberately quiet so the photography and the script hold the page. Blue also appears as thin connector lines and a diamond glyph between the product and its price, which reads like a pen mark rather than a UI element.",
+      "keywords": [
+        "brush script overlay",
+        "greyscale photography",
+        "circular photo mask",
+        "electric blue accent",
+        "tiny centred caps",
+        "photo mosaic",
+        "connector lines"
+      ],
+      "palette": [
+        "#ffffff",
+        "#2a3fe0",
+        "#1a1a1a",
+        "#e8e8e8",
+        "#6a6a6a"
+      ],
+      "traits": {
+        "Typography": "Very small letterspaced sans caps for all interface text; a broad electric blue brush script used as display.",
+        "Layout": "Circular hero mask, an uneven photo mosaic, then a centred product shot with thin connector lines to its details.",
+        "Colour": "White and greyscale photography with a single electric blue for script, lines and highlights.",
+        "Motion": "The script draws itself on load; the product carousel steps horizontally."
+      },
+      "prompt": "Full-page website screenshot for a skateboard shop, white background, circular masked black-and-white photograph of two skaters on a bench with an electric blue handwritten brush script scrawled across it and a small caps title overlaid, very small letterspaced caps navigation centred under a thin wordmark, uneven mosaic of black-and-white lifestyle and product photographs with one blue tile, a centred blue skateboard deck with thin blue connector lines running out to tiny caps product details and a blue diamond glyph, three greyscale blog thumbnails with tiny centred caps captions, dark greyscale footer photograph with a blue script sign-off and a thin newsletter field, 1440px desktop viewport"
+    },
+    {
+      "id": "testimonial-checkerboard",
+      "title": "Testimonial Checkerboard",
+      "category": "minimal",
+      "image": "resources/461991f144cb2c1abc73df77ee16abc6.jpg",
+      "short": "A wall of reviews laid out as a checkerboard where photo cards and quote cards alternate in every direction.",
+      "long": "The page is one grid, four columns wide, in which every other cell is a photograph and every other cell is a quote card, offset so the pattern alternates on both axes. Quote cards are pale grey with a small quotation glyph at the top, a two-line bold headline, then a gap before the review text, star row and avatar — the deliberate emptiness in the middle of each card is what gives the grid its rhythm. One cell near the foot is filled solid navy with a white heading and a pill button, breaking the pattern exactly once.",
+      "keywords": [
+        "checkerboard grid",
+        "quote card",
+        "alternating cells",
+        "deliberate whitespace",
+        "star rating row",
+        "navy break cell",
+        "avatar byline"
+      ],
+      "palette": [
+        "#ffffff",
+        "#f4f4f2",
+        "#1b2230",
+        "#d8d5cf",
+        "#8a8a8a"
+      ],
+      "traits": {
+        "Typography": "One geometric sans; two-line bold card headings, small grey review text, tiny avatar bylines.",
+        "Layout": "A strict four-column grid alternating photo and quote cells on both axes, with one solid navy break cell.",
+        "Colour": "White and pale grey cards with a single navy fill; colour only from the photography.",
+        "Motion": "Cards fade up in a staggered cascade as the grid enters the viewport."
+      },
+      "prompt": "Full-page website screenshot of a wellness app community page, white background, centred page title in a geometric sans with a small caps label above and a short grey standfirst, a four-column checkerboard grid in which photographic cards of people meditating running and stretching alternate on both axes with pale grey quote cards, each quote card carrying a small quotation glyph a two-line bold heading a deliberate gap then small grey review text a gold star row and a tiny avatar byline, one cell filled solid navy with a white heading a short paragraph and a white pill button, rounded corners on every cell, natural daylight photography, 1440px desktop viewport"
+    },
+    {
+      "id": "italic-mix-agency",
+      "title": "Italic-Mix Agency",
+      "category": "editorial",
+      "image": "resources/4df2f62133a7aebf7a64139df4ba6687.jpg",
+      "short": "An agency site that alternates roman sans and italic serif word by word inside the same sentence.",
+      "long": "The signature move is typographic mixing at word level: a sentence starts in a plain sans and swaps to an italic serif for the words that name a discipline, then swaps back, so the emphasis is carried by the face rather than by weight or colour. That runs from the hero — a large white serif wordmark with a script subtitle over a product photograph — through the section headings and into the service card titles. Everything around the type is deliberately soft: warm grey grounds, rounded cards, product photography lit with one raking window light and no hard edges.",
+      "keywords": [
+        "italic serif word swap",
+        "warm grey ground",
+        "rounded service cards",
+        "raking window light",
+        "tag chips",
+        "large serif wordmark",
+        "mixed roman italic"
+      ],
+      "palette": [
+        "#ffffff",
+        "#f4f2ef",
+        "#8c837a",
+        "#141414",
+        "#d8d2cb"
+      ],
+      "traits": {
+        "Typography": "A plain grotesque interleaved with an italic serif word by word; a large display serif for the wordmark.",
+        "Layout": "Rounded hero image panel with stacked accordion rows across its base, then a two-by-two service card grid.",
+        "Colour": "Warm greys and white; near-black type; no accent colour at all.",
+        "Motion": "Accordion rows expand over the hero image; cards raise gently on hover."
+      },
+      "prompt": "Full-page website screenshot for a branding agency, warm grey background, rounded hero image panel showing a grey fabric speaker on a plinth with a hand reaching in under raking window light, an enormous white display serif wordmark with an italic script subtitle set over the image, a row of collapsed accordion rows with plus signs across the base of the hero, greyed client logo strip, a large centred statement that alternates a plain grotesque with an italic serif word by word, a two-by-two grid of pale rounded service cards each with a small product photograph a mixed roman and italic title small grey copy and outlined tag chips, a Selected Work heading mixing italic serif and sans, soft directional studio light, 1440px desktop viewport"
+    },
+    {
+      "id": "acid-lime-violet-dark",
+      "title": "Acid Lime on Violet",
+      "category": "future",
+      "image": "resources/4eb33d353dd0d80db927786ca147d89c.jpg",
+      "short": "Near-black finance page with acid lime numerals, violet cards and giant outlined step digits bleeding off the edges.",
+      "long": "The page runs on two loud colours against near-black: acid lime for figures and buttons, violet for the process cards. Statistics are the largest type on the page — set in lime at heading scale, left-aligned in a ruled table with small grey descriptions in the right column — so the numbers read as headlines. The how-it-works section is four violet cards each containing a huge lime step numeral, cropped by the card edge so only part of the digit is visible, with the label set small in the opposite corner. A greyscale cut-out portrait floats among white and violet UI chips in the hero.",
+      "keywords": [
+        "acid lime numerals",
+        "violet step cards",
+        "cropped digits",
+        "ruled stat table",
+        "greyscale cut-out",
+        "floating ui chips",
+        "near-black ground"
+      ],
+      "palette": [
+        "#141414",
+        "#c8f04a",
+        "#7b5cf0",
+        "#ffffff",
+        "#2a2a2a"
+      ],
+      "traits": {
+        "Typography": "Light geometric sans for copy with statistics set at heading scale in lime; outlined numerals in the step cards.",
+        "Layout": "Left-aligned hero against a floating card cluster; a ruled statistics table; a two-by-two grid of step cards.",
+        "Colour": "Near-black ground with acid lime and violet as the only colours; greyscale photography.",
+        "Motion": "Chips float on parallax; step numerals slide as their cards enter the viewport."
+      },
+      "prompt": "Full-page website screenshot for a tax credit service, near-black background, left-aligned headline in a light geometric sans with the dollar figure set in violet and small hand-drawn spark marks beside it, an acid lime pill button, greyscale cut-out portrait of a smiling man at the right surrounded by floating violet and white interface chips over a lime block, a ruled statistics table where enormous acid lime numerals sit left with small grey descriptions right, a two-by-two grid of violet cards each containing a huge outlined lime step numeral cropped by the card edge and a small white label in the opposite corner, tiny grey index numbers, 1440px desktop viewport"
+    },
+    {
+      "id": "bubblegum-wave-coach",
+      "title": "Bubblegum Wave Coaching",
+      "category": "maximal",
+      "image": "resources/4ee3b58e2535e3c5249b9ca881e63e99.jpg",
+      "short": "Orange, pink and cream bands with photographs masked into wobbly blob shapes and a wavy checkerboard footer.",
+      "long": "Photographs never sit in rectangles here — each one is masked into a hand-drawn wobble with a thicker offset outline behind it, so the edges ripple. Section grounds switch between cream, hot orange and pink with no transition, and the type is a rounded seventies sans set in orange or white with a script word dropped in for emphasis. Flower shapes stand in for service icons, a rotating seal sits beside them, and the footer distorts a checkerboard into a wave so even the pattern is warped.",
+      "keywords": [
+        "wobble photo mask",
+        "offset outline",
+        "warped checkerboard",
+        "rounded seventies sans",
+        "flower icons",
+        "rotating seal",
+        "marquee strip"
+      ],
+      "palette": [
+        "#fce9c9",
+        "#f4600a",
+        "#f7a1c4",
+        "#f5a623",
+        "#ffffff"
+      ],
+      "traits": {
+        "Typography": "Rounded seventies sans in orange and white with a script face used for single emphasised words.",
+        "Layout": "Hard-edged colour bands, photographs in wobble masks, a three-up flower icon row and a warped checkerboard footer.",
+        "Colour": "Cream, hot orange and bubblegum pink with white type; no neutrals.",
+        "Motion": "The marquee strip scrolls; the circular seal rotates; masks wobble on hover."
+      },
+      "prompt": "Full-page website screenshot for a life coaching brand, hot orange navigation bar with a white script and caps wordmark, cream and mustard split hero with a photograph of a person blowing a bubble masked into a hand-drawn pink wobble shape with a thicker offset outline behind it, pink star sparkles, orange body copy on mustard with a pink pill button, pink marquee strip repeating a tagline, hot orange band with a rotating circular seal and three pink flower shapes labelled as services above white pill buttons, cream band with a second wobble-masked portrait and a headline mixing rounded caps with an orange script word, footer with a checkerboard distorted into a wave and a pink panel, flat bright light, 1440px desktop viewport"
+    },
+    {
+      "id": "ligature-serif-surf",
+      "title": "Ligature Serif Surf Club",
+      "category": "luxury",
+      "image": "resources/5f60b12d9ca0ca13c6625c711bf81de6.jpg",
+      "short": "A warm greige booking panel split between stacked instructor cards and one enormous ligature display serif.",
+      "long": "The interface is a single rounded panel divided vertically: a scrolling column of instructor cards on the left, an almost empty search column on the right whose only large element is the word set in a high-contrast display serif with a joined ligature. Instructor cards are squircles filled edge to edge with surf photography, the name laid over the top corner and a circular portrait dropped in at the bottom left; a dark pill and a circular plus button sit at the opposite corner. The searching column keeps everything tiny — pill filters, a hairline input, a small starburst mark — so the contrast in scale carries the page.",
+      "keywords": [
+        "ligature display serif",
+        "squircle photo cards",
+        "circular portrait inset",
+        "pill filters",
+        "hairline input",
+        "greige panel",
+        "scale contrast"
+      ],
+      "palette": [
+        "#eae5dd",
+        "#1a1a1a",
+        "#c8873f",
+        "#ffffff",
+        "#6f7a6a"
+      ],
+      "traits": {
+        "Typography": "One high-contrast display serif with a joined ligature at very large size; small letterspaced caps elsewhere.",
+        "Layout": "A rounded panel split into a scrolling card column and a sparse search column separated by a hairline.",
+        "Colour": "Warm greige and bone with dark type; colour supplied by golden surf photography.",
+        "Motion": "The card column scrolls independently; filters toggle their fill."
+      },
+      "prompt": "Full-page website screenshot of a surf instructor booking interface, one large rounded greige panel floating over a hazy ocean photograph, left column of stacked squircle cards each filled edge to edge with golden surf photography with the instructor name laid over the top corner a small role label a circular portrait inset at the bottom left and a dark pill with a circular plus button at the bottom right, a hairline divider, right column almost empty containing one enormous high-contrast display serif word with a joined ligature a small caps navigation row pill-shaped activity filters a hairline search field and a small starburst mark above a two-line concierge note, warm golden hour photography, 1440px desktop viewport"
+    },
+    {
+      "id": "floating-mockup-fintech",
+      "title": "Floating Mockup Fintech",
+      "category": "minimal",
+      "image": "resources/74836d20b380a5f6ec58bbc8ef7d8828.jpg",
+      "short": "White fintech page where tilted phone renders float over soft ellipse shadows and one blue tints the key words.",
+      "long": "The hero has no illustration or photography — just two phone renders tilted at opposing angles with detached elliptical shadows below them, which makes them read as levitating rather than mounted. Product explanation is done in flat cards: a pale grey panel with a line chart and donut drawn in thin blue strokes, and a horizontally scrolling row of account rows that runs off both edges of the viewport. Headings are a light grotesque with a single word tinted blue, and the closing block pairs one solid blue card against one white card of the same size.",
+      "keywords": [
+        "tilted phone render",
+        "detached ellipse shadow",
+        "thin stroke charts",
+        "edge-bleeding row",
+        "blue tinted word",
+        "pale grey panel",
+        "paired cards"
+      ],
+      "palette": [
+        "#ffffff",
+        "#2b4bf2",
+        "#f4f5f7",
+        "#1a1a1a",
+        "#2fa96b"
+      ],
+      "traits": {
+        "Typography": "Light grotesque headings with one word tinted blue; small grey body; numerals set with a lighter decimal.",
+        "Layout": "Left-aligned hero against floating renders, then full-width cards and a row that bleeds off both edges.",
+        "Colour": "White and pale grey with a single strong blue; green and red only inside data.",
+        "Motion": "Phones drift gently; the account row scrolls horizontally on drag."
+      },
+      "prompt": "Full-page website screenshot for a personal finance app, white background, left-aligned light grotesque headline with two black store download buttons, two phone renders tilted at opposing angles at the right showing net worth and cash flow screens with detached elliptical shadows beneath them, pale grey rounded panel containing a heading and paragraph beside a thin blue line chart and a blue and green donut with floating category chips, a heading with one word tinted blue, a horizontally scrolling row of white account cards with tiny sparklines and percentage changes bleeding off both edges of the viewport, a closing pair of equal cards one solid blue with white text and notification chips and one white with a consultation widget, 1440px desktop viewport"
+    },
+    {
+      "id": "blob-mask-streetwear",
+      "title": "Blob-Mask Streetwear",
+      "category": "maximal",
+      "image": "resources/79ec8c2cb4279f57746963416b7ba960.jpg",
+      "short": "Cream fashion hero where a heavy grotesque headline is interrupted by outlined pills and cut-out models sit on colour blobs.",
+      "long": "The headline is treated as a piece of construction: some words are wrapped in thin outlined pill shapes, one is replaced by an orange pill with an arrow inside it, and the last word is underlined with a hand-drawn wave. Cut-out models are placed on organic blob shapes in orange and yellow that act as their backdrops, and a product is shown inside a tall arch outline at the right. Around them a set of drawn marks — a curving arrow, three motion dashes, a plus sign — behave like annotations on a layout rather than decoration.",
+      "keywords": [
+        "outlined pill in headline",
+        "blob backdrop",
+        "cut-out model",
+        "arch product frame",
+        "drawn annotations",
+        "wave underline",
+        "cream ground"
+      ],
+      "palette": [
+        "#fdf6e3",
+        "#111111",
+        "#f26a1b",
+        "#f5b301",
+        "#ffffff"
+      ],
+      "traits": {
+        "Typography": "Very heavy grotesque with words wrapped in outlined pills; small sans for supporting copy.",
+        "Layout": "Wide centred headline block with cut-outs and drawn marks placed loosely below, no strict columns.",
+        "Colour": "Cream ground with black type, one orange and one yellow used for blobs and pills.",
+        "Motion": "Blobs morph slowly; the outlined pills draw in around their words on load."
+      },
+      "prompt": "Full-page website screenshot for a streetwear store, cream background, black wordmark with a thin nav and a cart count badge, a very heavy black grotesque three-line headline in which two words are wrapped in thin outlined pill shapes one word is replaced by an orange pill containing an arrow and the final word is underlined with a hand-drawn wave, a short paragraph with three small circle swatches at the left, a tall arch outline at the right framing a varsity jacket with its name and price, two cut-out photographs of models placed on organic orange and yellow blob shapes, a large thin outlined oval containing a discount figure and a black circular explore button, drawn annotation marks including a curving arrow and three motion dashes, 1440px desktop viewport"
+    },
+    {
+      "id": "olive-spice-packaging",
+      "title": "Olive Spice Packaging Shop",
+      "category": "maximal",
+      "image": "resources/7bdc458a8198669ef771a44c3b88b3d6.jpg",
+      "short": "An olive and cream shop framed in pink, where the illustrated packaging supplies all the colour and the type stays black.",
+      "long": "The page sits inside a thick pink border with a heavy black rounded frame around the content, which turns the whole site into an object. Inside, sections are flat olive and butter yellow with black condensed caps headings; the only patterning comes from the product bags themselves, which carry bright abstract illustration and distorted display lettering. A running strip of flavour names divides the hero from the shop, and small details repeat the packaging language — a nine-pointed flower, a scalloped top-pick badge, a black pill add-to-cart bar under each product.",
+      "keywords": [
+        "framed page",
+        "olive and butter bands",
+        "illustrated packaging",
+        "flavour marquee",
+        "scalloped badge",
+        "black pill cart bar",
+        "condensed caps"
+      ],
+      "palette": [
+        "#fdf1c8",
+        "#8a9a52",
+        "#f4a0ab",
+        "#111111",
+        "#e8734a"
+      ],
+      "traits": {
+        "Typography": "Heavy condensed sans caps for headings, an italic serif for the wordmark, small sans for copy.",
+        "Layout": "The entire page inside a rounded black frame; split hero, a marquee divider, then three tall outlined product cards.",
+        "Colour": "Butter cream and olive grounds with a hot pink surround; product artwork supplies the rest.",
+        "Motion": "The flavour marquee scrolls; quantity steppers update in place."
+      },
+      "prompt": "Full-page website screenshot for a spice blend brand, hot pink page surround with a heavy black rounded frame around the whole site, black top strip with small flower glyphs, olive green split hero with a black condensed caps headline a small paragraph and a black pill button beside a rounded photograph of spice jars on pink and coral cloth, a yellow nine-pointed flower behind the heading, white marquee strip repeating flavour names with cherry glyphs, butter cream section with three tall outlined product cards each showing a stand-up pouch with bright abstract illustration and distorted display lettering above a quantity stepper and a black pill add-to-cart bar, a pink scalloped top-pick badge, flat even lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "didone-fashion-consultant",
+      "title": "Didone Fashion Consultant",
+      "category": "luxury",
+      "image": "resources/82236f2cbce6dba8231fc7fdbea7fe0c.jpg",
+      "short": "Black, bone and white panels with a Didone in caps, an italic standfirst and editorial fashion photography.",
+      "long": "Three flat panels carry the page — near-black, bone and white — and the type never changes: a Didone in caps for headings with an italic of the same family for the line underneath. Photography is treated as blocks butted directly against the panels with no gutters, so a black field meets a portrait meets a bone strip with hard vertical seams. A magazine masthead strip in mixed logotypes sits between the hero and the introduction, and every button is a thin outlined rectangle with letterspaced caps inside it.",
+      "keywords": [
+        "didone caps",
+        "italic standfirst",
+        "hard panel seams",
+        "magazine logo strip",
+        "outlined caps button",
+        "bone panel",
+        "editorial fashion photography"
+      ],
+      "palette": [
+        "#1a1a1a",
+        "#e6dfcc",
+        "#ffffff",
+        "#8a8070",
+        "#3a3a3a"
+      ],
+      "traits": {
+        "Typography": "A Didone in caps for all headings with its italic for standfirsts; tiny letterspaced caps for labels.",
+        "Layout": "Flat colour panels butted against photographic blocks with no gutters and hard vertical seams.",
+        "Colour": "Near-black, bone and white only; photography desaturated to match.",
+        "Motion": "Slow fades between hero frames; buttons fill on hover."
+      },
+      "prompt": "Full-page website screenshot for a personal brand consultant, near-black hero with a dramatic black-and-white photograph of a woman in a wide-brimmed hat, a centred Didone caps headline with an italic line beneath and a thin outlined caps button, bone strip carrying a row of mixed fashion magazine logotypes, a split section with a black panel holding a Didone caps heading an italic standfirst and small grey body text butted directly against two fashion photographs with no gutter, a white section with a tall photograph of heels and a handbag against a Didone caps question heading an italic subhead and a checklist row, a bone closing band with a large Didone caps line, desaturated editorial fashion photography, 1440px desktop viewport"
+    },
+    {
+      "id": "sky-blue-sports-club",
+      "title": "Sky Blue Sports Club",
+      "category": "minimal",
+      "image": "resources/8f87fc02ca30266c6c75e673f4468ef1.jpg",
+      "short": "A white club page whose sky-blue action photography supplies the colour and whose cards stay plain and rounded.",
+      "long": "The page floats as a white sheet over a pale blue surround, with the hero a rounded photograph of players against open sky so the ground colour and the image agree. Feature cards are a mixed set of the same height — one near-black with a toggle control, one photographic with a floating glass label, one white with a dotted skill-level chart — which lets the row carry three different kinds of information without changing shape. Headings are a plain sans at moderate size, and small caps chips label each section rather than headings doing it.",
+      "keywords": [
+        "sky photography",
+        "mixed card row",
+        "dotted level chart",
+        "glass label chip",
+        "caps section chips",
+        "rounded white sheet",
+        "toggle control"
+      ],
+      "palette": [
+        "#ffffff",
+        "#2f9be0",
+        "#f2f4f7",
+        "#141414",
+        "#c8834f"
+      ],
+      "traits": {
+        "Typography": "Plain geometric sans at moderate sizes; small caps chips as section labels; large stat numerals.",
+        "Layout": "A white sheet on a tinted surround; rounded hero photograph; three equal-height cards of different types.",
+        "Colour": "White and pale grey with sky blue from the photography and a near-black card.",
+        "Motion": "Service photos step through a carousel; the toggle animates on click."
+      },
+      "prompt": "Full-page website screenshot for a tennis club, white page sheet floating on a pale blue surround, rounded hero photograph of two players against open blue sky with a centred white headline a dark pill button and small avatar and social links in the corners, small caps section chip beside a two-line statement, a row of three equal-height rounded cards where the first is near-black with white and grey text and a blue toggle control the second is a blue photograph with a floating glass label and the third is white with a large statistic and a dotted skill-level chart, a four-up row of statistics with grey captions, a services row mixing a paragraph with two photographic cards and circular paging arrows, bright natural daylight, 1440px desktop viewport"
+    },
+    {
+      "id": "charcoal-ceramics-gallery",
+      "title": "Charcoal Ceramics Gallery",
+      "category": "luxury",
+      "image": "resources/980d6e6fa2bb078ff4a7ed6fd9aee917.jpg",
+      "short": "A ceramics shop in bone and charcoal where a fine Didone sits over dark still-life photography and rules point at links.",
+      "long": "The hero is a near-black studio photograph of raw clay vessels with the artist's name set across it in a fine Didone at wide tracking, deliberately under-lit so the letters sit inside the shadow. After that the page moves to bone and the layout goes quiet: a horizontal product rail with tiny caps names and grey prices, a rotated shop-all label in the left margin, and alternating full-height photo blocks paired with a serif section title. Links are marked by a long hairline rule with an arrowhead running into the label rather than by buttons.",
+      "keywords": [
+        "fine didone",
+        "dark still life",
+        "rotated margin label",
+        "hairline arrow link",
+        "product rail",
+        "bone ground",
+        "alternating photo blocks"
+      ],
+      "palette": [
+        "#f5f1ea",
+        "#2b2b2b",
+        "#ffffff",
+        "#9a938a",
+        "#4a4540"
+      ],
+      "traits": {
+        "Typography": "A fine Didone at wide tracking for display, small letterspaced caps for products, italic serif for section eyebrows.",
+        "Layout": "Full-bleed dark hero, a horizontal product rail with a rotated margin label, then alternating half-page photo blocks.",
+        "Colour": "Bone and warm white with charcoal photography; no accent colour.",
+        "Motion": "The product rail scrolls horizontally; hairline link rules extend on hover."
+      },
+      "prompt": "Full-page website screenshot for a handmade ceramics store, bone background, near-black studio photograph of three raw grey clay vessels with an artist name set across it in a fine Didone at wide tracking and a small caps subtitle beneath, tiny caps utility navigation with a circular logo, an italic serif section eyebrow above a horizontal rail of four product photographs with small caps names and grey prices and a rotated shop-all label in the left margin, alternating half-page blocks pairing a dark photograph of stacked stoneware mugs with a large Didone caps section title small grey copy and a long hairline rule with an arrowhead running into a shop link, a second block with a stone vase on a plinth, low-key studio lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "beige-panel-blog",
+      "title": "Beige Panel Blog",
+      "category": "minimal",
+      "image": "resources/9a9b015e6c55073cfe83b002f9229a4f.jpg",
+      "short": "A white blog panel with very large rounded corners floating on flat beige, warmed by rust accents.",
+      "long": "The content sits inside one white panel with a large corner radius, inset on all sides so a flat beige margin frames it — the page has no full-bleed elements at all. Inside, the featured story is a rounded photograph with a scrim gradient at the bottom carrying the headline, and the sidebar runs small square thumbnails beside two-line titles. Category chips are white pills with a rust dot, the CTA is a rust pill, and hairline rules separate the sections; everything else is black on white.",
+      "keywords": [
+        "floating white panel",
+        "beige margin",
+        "scrim gradient caption",
+        "rust pill",
+        "square sidebar thumbnails",
+        "category dot chip",
+        "hairline separators"
+      ],
+      "palette": [
+        "#eee2d6",
+        "#ffffff",
+        "#a8442a",
+        "#1a1a1a",
+        "#c8c0b6"
+      ],
+      "traits": {
+        "Typography": "One geometric sans; bold two-line card headings, small grey metadata, no display sizes.",
+        "Layout": "An inset white panel with a two-thirds featured story against a one-third latest-posts list, then a three-up row.",
+        "Colour": "Flat beige surround and white panel with a rust accent for chips and buttons.",
+        "Motion": "Cards lift a little on hover; the pagination row steps in place."
+      },
+      "prompt": "Full-page website screenshot of a SaaS company blog, flat beige background framing an inset white panel with very large rounded corners, small wordmark with a thin nav and a rust pill button, featured story as a rounded desert landscape photograph with a dark scrim gradient at the bottom carrying a white two-line headline a white category chip with a rust dot and small date metadata, a right sidebar listing four posts as small square thumbnails beside two-line titles, hairline rule, a founders section with three rounded photo cards each with a category chip a bold heading and grey copy, circular arrow buttons and numbered pagination with one filled dark, warm natural photography, 1440px desktop viewport"
+    },
+    {
+      "id": "pastel-block-agency",
+      "title": "Pastel Block Agency",
+      "category": "maximal",
+      "image": "resources/a4550a4662bf049aac77117ff5232b58.jpg",
+      "short": "A cream agency template with mint, peach and yellow cards that carry a hard offset border on two sides.",
+      "long": "Service cards are flat pastel rectangles with a solid black rule doubled on the left and bottom edges, which reads as an offset shadow drawn rather than blurred. The page then swings between full-width colour bands — a black logo strip, a mustard why-us block, a mint testimonial band, a peach contact band — each holding a cut-out photograph of a person with hand-drawn hatch marks radiating off them. Headings are a bold rounded sans in navy, and the photographs in the project rows sit inside offset frames matching the card treatment.",
+      "keywords": [
+        "offset hard border",
+        "pastel service cards",
+        "hatch mark doodles",
+        "cut-out portraits",
+        "arch photo mask",
+        "colour band sections",
+        "navy rounded sans"
+      ],
+      "palette": [
+        "#fbf3e2",
+        "#1b2a4a",
+        "#f7c23c",
+        "#9ed6d2",
+        "#f6c2b4"
+      ],
+      "traits": {
+        "Typography": "Bold rounded sans in deep navy for headings; small grey body; tiny caps for chips.",
+        "Layout": "Cream base with full-width colour bands; cards and photographs carrying doubled borders on two edges.",
+        "Colour": "Cream ground with mint, peach and mustard blocks against deep navy type and a black logo strip.",
+        "Motion": "Cards shift toward their offset border on hover; the testimonial band pages sideways."
+      },
+      "prompt": "Full-page website screenshot for a digital agency, cream background, bold navy rounded sans headline with an inline arrow and a mustard pill button, two arch-masked portrait photographs in orange and blue overlapping each other with a rotating circular agency badge and two flat arrows beside them, black band with five greyed partner logotypes, three flat pastel service cards in mint peach and mustard each with a circular icon and a solid black rule doubled along the left and bottom edges, mustard band with a cut-out photograph of a man pointing and white hand-drawn hatch marks beside three large statistics, project rows pairing small tag chips and outlined buttons with photographs in offset frames, mint testimonial band and peach contact band, 1440px desktop viewport"
+    },
+    {
+      "id": "olive-serif-wellness",
+      "title": "Olive Serif Wellness",
+      "category": "organic",
+      "image": "resources/a92c52fa40a3dd534828ea272fa17694.jpg",
+      "short": "A cream wellness site set almost entirely in a transitional serif, with olive rules, hairline cards and a leaf watermark.",
+      "long": "There is no sans anywhere: headings, body copy, buttons and even the tiny caps labels are all cut from one transitional serif, with an italic used for subtitles. Structure comes from hairlines — three service cards are thin ruled rectangles with an olive filled bar as their only solid element, and section content is centred on a narrow measure. Behind the upper sections a pale botanical watermark of overlapping fronds is laid at very low opacity, and the hero splits an ocean photograph against a flat sage panel with a small palm glyph above the title.",
+      "keywords": [
+        "all serif setting",
+        "hairline outlined cards",
+        "olive bar button",
+        "botanical watermark",
+        "split hero panel",
+        "narrow centred measure",
+        "italic subtitles"
+      ],
+      "palette": [
+        "#f2efe6",
+        "#5a5c34",
+        "#dfe2cf",
+        "#2b2b22",
+        "#ffffff"
+      ],
+      "traits": {
+        "Typography": "One transitional serif for everything including buttons and labels, with its italic used for subtitles.",
+        "Layout": "Split hero, then centred narrow-measure text and a three-up row of hairline-outlined cards.",
+        "Colour": "Cream and sage with deep olive type and one filled olive bar per card.",
+        "Motion": "Very little; the botanical watermark drifts slowly behind the content."
+      },
+      "prompt": "Full-page website screenshot for a holistic wellness practice, cream background, olive announcement bar across the top, centred serif wordmark with a script subtitle, split hero with a photograph of waves breaking on pale rocks beside a flat sage panel carrying a small palm glyph a tiny caps label a large transitional serif headline and an italic line beneath, a pale botanical watermark of overlapping fronds at low opacity behind the next section, a centred serif section title with an italic subtitle and a short narrow-measure paragraph, three hairline-outlined cards each with a serif service title small justified copy an outlined question button and a filled olive bar at the bottom, a two-column list of plan details in small caps and serif copy, 1440px desktop viewport"
+    },
+    {
+      "id": "taupe-gradient-furnishing",
+      "title": "Taupe Gradient Furnishing",
+      "category": "organic",
+      "image": "resources/b0cefd70495563d68bc614074a9d47d5.jpg",
+      "short": "Warm taupe gradients and rounded cards, with single words in headings tinted bronze to carry the emphasis.",
+      "long": "Headings are plain sans, and emphasis is done by recolouring one or two words in bronze rather than by changing weight — the same trick repeats in every section title. Cards are filled with soft taupe-to-cream gradients and given very large radii; some are photographs cropped into circles or arch shapes that push past the card edge. The process section is drawn as a stack of layered sheets peeling back, the topmost holding a ghosted step numeral and the copy, which turns a list into an object.",
+      "keywords": [
+        "bronze word tinting",
+        "taupe gradient card",
+        "layered sheet stack",
+        "arch photo crop",
+        "ghost step numeral",
+        "warm interior photography",
+        "large radii"
+      ],
+      "palette": [
+        "#fbf8f2",
+        "#a08a6f",
+        "#5c4632",
+        "#e6ddd0",
+        "#ffffff"
+      ],
+      "traits": {
+        "Typography": "One neutral sans; emphasis by tinting single words bronze; large ghosted numerals in the process stack.",
+        "Layout": "Rounded panels on a warm surround; a layered sheet stack for process; a mixed-size card grid to close.",
+        "Colour": "Warm taupe and cream gradients with bronze accents and near-black photography.",
+        "Motion": "Process sheets peel back as you step through them; cards raise gently."
+      },
+      "prompt": "Full-page website screenshot for a hotel furnishing company, warm taupe surround with an inset cream page, rounded hero photograph of a softly lit minimal living room with a floating white pill navigation bar and a white headline with one word tinted bronze, a small caption block and a pale button at the right, a two-card row where a taupe gradient card holds two statistics and an abstract line glyph and a cream card holds copy beside a circular photo crop, a section heading with two words tinted bronze, a stack of layered white sheets peeling back with the topmost carrying a large ghosted step numeral a bronze-tinted heading and a photograph of a hotel lobby, a mixed grid of gradient and photographic cards with white captions, warm interior lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "map-mask-charity",
+      "title": "Map-Mask Charity",
+      "category": "minimal",
+      "image": "resources/b5ff9a4612545ffff30d401ecbc5be66.jpg",
+      "short": "A white charity page where photographs are masked into continent shapes over a faint dotted world map.",
+      "long": "The recurring device is geographic: the hero photograph is clipped to the outline of a continent, a second block masks portraits into overlapping circles, and behind both a very pale world map sits as a watermark with small coloured dots scattered over it as if plotting locations. Headlines are a light serif mixed with bold sans in the same line; section eyebrows are set in orange caps above centred titles. Campaign cards are white with a hard progress row — raised, percentage, target — laid across the image seam, and a small orange square button hangs off the bottom-right corner of each.",
+      "keywords": [
+        "continent photo mask",
+        "dotted world map",
+        "serif sans mixed headline",
+        "orange caps eyebrow",
+        "progress row",
+        "corner square button",
+        "circle portrait cluster"
+      ],
+      "palette": [
+        "#ffffff",
+        "#f5a623",
+        "#1a1a1a",
+        "#efeae2",
+        "#2fa96b"
+      ],
+      "traits": {
+        "Typography": "A light serif interleaved with bold sans in the same headline; orange letterspaced caps for eyebrows.",
+        "Layout": "Centred sections over a faint map watermark; four-up icon cards; three-up campaign cards with corner buttons.",
+        "Colour": "White with a pale sand map watermark; orange as the accent and one green for confirmations.",
+        "Motion": "Location dots pulse on the map; progress bars fill as their cards appear."
+      },
+      "prompt": "Full-page website screenshot for a charity organisation, white background with a very pale dotted world map watermark and small scattered coloured dots, hero headline mixing a light serif with bold sans in the same lines beside a photograph of smiling children masked into the outline of a continent, a black donate pill button, orange letterspaced caps eyebrow above a centred section title, four white icon cards with soft shadows and tiny grey captions, a cluster of circular portrait crops with a halftone dot pattern beside a mixed serif and sans heading and dark and green pill buttons, three campaign cards each with a photograph a progress row of raised percentage and target figures a bold title and a small orange square button hanging off the bottom-right corner, 1440px desktop viewport"
+    },
+    {
+      "id": "iridescent-blob-security",
+      "title": "Iridescent Blob Security",
+      "category": "future",
+      "image": "resources/b696f67fd753adce35170477240b5111.jpg",
+      "short": "Pure black security site where soft iridescent 3D blobs pass in front of and behind the headline words.",
+      "long": "The headline is broken across three lines and the rendered blobs are composited between them, so some words are fully legible, some are half-occluded and one is dimmed to near-invisibility where a blob sits over it. The blobs themselves are smooth closed forms lit from inside with orange, blue and teal rim light against pure black, and the rest of the page keeps that darkness — logo tiles are barely-lighter rectangles with a faint gradient edge, and benefit cards are near-black with a hairline border. Type is a light lowercase sans throughout, including the headline, which keeps the contrast entirely in the imagery.",
+      "keywords": [
+        "iridescent 3d blob",
+        "type behind object",
+        "pure black ground",
+        "rim lighting",
+        "hairline dark cards",
+        "lowercase display",
+        "occluded headline"
+      ],
+      "palette": [
+        "#050505",
+        "#f26a1b",
+        "#2a5cf0",
+        "#ffffff",
+        "#1a1a1a"
+      ],
+      "traits": {
+        "Typography": "Light lowercase sans at every size including display; no caps and no serifs anywhere.",
+        "Layout": "Free composition in the hero with type and renders interleaved by depth; a plain three-card row below.",
+        "Colour": "Pure black with white text; colour only from the orange, blue and teal rim light on the renders.",
+        "Motion": "Blobs rotate and deform slowly; the headline occlusion shifts as they move."
+      },
+      "prompt": "Full-page website screenshot for a data security platform, pure black background, three-line lowercase white sans headline with smooth iridescent 3D blob renders composited between the lines so some words sit in front and others are half occluded, the blobs lit from within with orange blue and teal rim light, small floating statistics in the corners, a dark pill with an orange try-demo button, a row of four barely-lighter logo tiles with faint gradient edges, a centred lowercase paragraph with a thin outlined orange button, three near-black benefit cards with hairline borders and small white copy with a rendered blob inside the middle card, 1440px desktop viewport"
+    },
+    {
+      "id": "macro-render-ai-theme",
+      "title": "Macro-Render AI Theme",
+      "category": "future",
+      "image": "resources/c8125b799ffc2a9553772575421ab9f9.jpg",
+      "short": "Pale grey AI theme where coloured words break black headlines and a red diagonal ticker slices between sections.",
+      "long": "Headlines are set in a plain sans and made to shift colour mid-phrase — a red word, then a violet word, then back to black — so the emphasis reads as a gradient across the sentence. Imagery is abstract macro renders of red bubbles, filament strands and ridged surfaces, cropped into wide banners and card fills rather than shown as objects. Between the light sections a pair of red and black ticker bars run at opposing diagonals, overlapping each other, which is the only place the page breaks its horizontal grid.",
+      "keywords": [
+        "coloured word runs",
+        "macro abstract render",
+        "diagonal ticker bars",
+        "pale grey ground",
+        "wide banner crop",
+        "card fill imagery",
+        "plain sans headings"
+      ],
+      "palette": [
+        "#f4f4f6",
+        "#ffffff",
+        "#e8342a",
+        "#8a6fd8",
+        "#141414"
+      ],
+      "traits": {
+        "Typography": "Plain grotesque with individual words recoloured red and violet mid-sentence; no display face.",
+        "Layout": "Wide banner crops, a mixed-size feature card grid, then crossed diagonal ticker bars before a dark section.",
+        "Colour": "Pale grey and white with red and violet accents; near-black sections below the fold.",
+        "Motion": "The crossed tickers scroll in opposite directions; card images loop subtly."
+      },
+      "prompt": "Full-page website screenshot for an AI services theme, pale grey background, floating rounded navigation bar, plain black sans headline with individual words recoloured red and violet mid-sentence, a wide banner crop of an abstract macro render of red bubbles and blue filaments with a small logo lockup centred on it and a watch-video link, a second large heading with coloured word runs above a greyed client logo row and pale abstract shapes, a mixed-size feature card grid where cards are filled edge to edge with macro renders of orange strands dark ridged surfaces and fingerprint whorls with white captions and circular play buttons, two red and black ticker bars crossing at opposing diagonals, a near-black section below with a ghosted wordmark, 1440px desktop viewport"
+    },
+    {
+      "id": "navy-mountain-guide",
+      "title": "Navy Mountain Guide",
+      "category": "cinematic",
+      "image": "resources/d2430c7a2b9300e369ab9a2a47cb37d7.jpg",
+      "short": "Deep navy-teal ground under a full-bleed alpine hero, with serif headings, gold eyebrows and ghosted step numerals.",
+      "long": "The hero photograph fades directly into the navy page colour at its lower edge, so there is no seam between image and ground. Each article block then pairs a serif heading with an oversized step numeral set in a barely-lighter navy behind it, and a short gold rule joins that numeral to a letterspaced caps eyebrow. Photographs are placed as plain portrait rectangles opposite the text and alternate sides down the page; the only interactive marks are gold read-more links with a long arrow, which repeat the rule motif.",
+      "keywords": [
+        "fade to ground hero",
+        "ghost step numeral",
+        "gold eyebrow rule",
+        "serif headings",
+        "alternating portrait photos",
+        "navy teal ground",
+        "arrow links"
+      ],
+      "palette": [
+        "#0f2430",
+        "#ffffff",
+        "#c8a24a",
+        "#1c3a45",
+        "#8fa3aa"
+      ],
+      "traits": {
+        "Typography": "A light serif for headings and small sans for body; letterspaced caps eyebrows in gold.",
+        "Layout": "Full-bleed hero fading into the ground colour, then alternating text and portrait photo pairs.",
+        "Colour": "Deep navy-teal with white text and a muted gold accent; cool desaturated landscape photography.",
+        "Motion": "Slow parallax on the hero; the ghost numerals shift a little slower than the text."
+      },
+      "prompt": "Full-page website screenshot for a hiking guide site, deep navy-teal background, full-bleed photograph of a lone figure on a green ridge before snow-capped mountains fading directly into the page colour at its lower edge, a small gold letterspaced caps eyebrow above a white light-serif headline and a scroll-down cue, a vertical slide index and social links pinned to the edges, article blocks pairing a white serif heading with an oversized ghosted step numeral in a barely-lighter navy behind it a short gold rule joining a caps eyebrow small grey body copy and a gold read-more link with a long arrow, plain portrait photographs of hikers alternating sides down the page, cool desaturated mountain photography, 1440px desktop viewport"
+    },
+    {
+      "id": "greige-greek-tours",
+      "title": "Greige Greek Tours",
+      "category": "organic",
+      "image": "resources/d5a9d7b69e01dfc23b6660f7c8b8c8da.jpg",
+      "short": "A greige travel page where the brand name is half italic and half roman and every photo is a soft-cornered rectangle.",
+      "long": "The masthead sets the tone: the company name is split across two lines, the first in a bold italic and the second upright, both in a deep forest green that recurs on every active element. Photography of Greek landscape and ruins is cropped into soft-cornered rectangles of varying proportion and laid out as a loose editorial grid — a wide banner, then a tall and a square side by side. The service selector is a plain stack of rounded rows with the active one filled green, and small icon glyphs sit beside labels rather than inside them.",
+      "keywords": [
+        "italic roman split wordmark",
+        "forest green accents",
+        "soft corner crops",
+        "editorial photo grid",
+        "filled active row",
+        "greige ground",
+        "small glyph labels"
+      ],
+      "palette": [
+        "#e8e5da",
+        "#1f4023",
+        "#ffffff",
+        "#c8b98f",
+        "#3a3a34"
+      ],
+      "traits": {
+        "Typography": "A bold grotesque split between italic and roman in the wordmark; plain sans for headings and body.",
+        "Layout": "A rounded page sheet with a wide hero banner, then mixed tall and square crops in a loose editorial grid.",
+        "Colour": "Greige ground with deep forest green type and buttons; warm stone tones from the photography.",
+        "Motion": "Service rows swap the featured photograph; images scale slightly inside their crops."
+      },
+      "prompt": "Full-page website screenshot for a Greek travel agency, greige background with a rounded page sheet, wordmark split across two lines with the first in a bold italic and the second upright in deep forest green, a short right-aligned description and an explore link with a diagonal arrow, wide soft-cornered photograph of a hilltop temple, a three-column row pairing a tall photograph of a green gorge with a heading and paragraph and a square photograph of stone columns, a why-choose-us pair of hairline-separated benefit blocks with small glyphs, a centred services heading, a stack of rounded selector rows with the active one filled green beside a photograph of a van on a coast road and a description mixing bold italic and roman, warm hazy daylight, 1440px desktop viewport"
+    },
+    {
+      "id": "teal-hero-architecture",
+      "title": "Teal Hero Architecture",
+      "category": "minimal",
+      "image": "resources/d74133d4e00a84694707e067add43450.jpg",
+      "short": "A flat teal hero with a cropped building at one corner, then a white sheet that curves up over it.",
+      "long": "The hero is a single flat teal field with a photograph of a curved metal facade bleeding in from the top right corner, so the image behaves as a corner element rather than a background. A white sheet with very large top radii rises over the lower edge of that panel and carries the rest of the page, which stays almost entirely white: a greyed client logo row, three identical light-grey stat cards, and section blocks that alternate a plain heading against squircle-cropped photographs of people working. Type is a light geometric sans and never gets loud.",
+      "keywords": [
+        "flat teal panel",
+        "corner photo bleed",
+        "curved white sheet",
+        "grey stat cards",
+        "squircle crops",
+        "light geometric sans",
+        "pill nav"
+      ],
+      "palette": [
+        "#ffffff",
+        "#4a8a96",
+        "#f4f4f4",
+        "#141414",
+        "#9a9a9a"
+      ],
+      "traits": {
+        "Typography": "Light geometric sans throughout; headings large but low contrast, tiny letterspaced caps for labels.",
+        "Layout": "Flat colour hero with a corner image bleed, then a white sheet with large top radii holding plain sections.",
+        "Colour": "White and pale grey with one muted teal panel; greyscale photography.",
+        "Motion": "The white sheet slides up over the hero on scroll; nothing else moves."
+      },
+      "prompt": "Full-page website screenshot for an architecture firm, flat muted teal hero panel with a photograph of a curved metal building facade bleeding in from the top right corner, a floating dark pill navigation bar and small social icons, a large white light-geometric-sans headline with a two-line grey subtitle at the left, a white sheet with very large rounded top corners rising over the lower edge of the teal panel, a row of six greyed client logotypes, three identical light grey stat cards with a large figure a tiny caps label and small grey copy, a centred services eyebrow, a two-column block with a plain heading and paragraphs beside two squircle-cropped photographs of architects working with a small circular play button, 1440px desktop viewport"
+    },
+    {
+      "id": "mossy-cgi-card",
+      "title": "Mossy CGI Card Launch",
+      "category": "cinematic",
+      "image": "resources/d8e64a3d4be46ad449a7b4cb54212732.jpg",
+      "short": "A pale green payment card rendered floating in a nocturnal moss-and-water scene, above a bright white product page.",
+      "long": "The launch hero is a fully rendered environment — glowing stones, pond water, night flowers — with the card standing upright in the middle of it, lit as a real object. That single dark image carries all the drama, and the rest of the page resets to white with a high-contrast display serif that swaps to an italic for one word per heading. Partner content sits in pastel gradient cards with small 3D product renders, and the page closes on a deep forest-green band and a mint gradient panel showing two cards face and back, so the rendered treatment bookends the flat middle.",
+      "keywords": [
+        "cgi environment hero",
+        "italic word swap",
+        "display serif",
+        "pastel gradient cards",
+        "3d product render",
+        "forest green band",
+        "mint gradient closer"
+      ],
+      "palette": [
+        "#0d3428",
+        "#a8d68a",
+        "#ffffff",
+        "#1a1a1a",
+        "#e8f2d8"
+      ],
+      "traits": {
+        "Typography": "A high-contrast display serif with one word per heading swapped to its italic; small sans for body copy.",
+        "Layout": "A cinematic full-bleed render, then centred white sections, a horizontal card rail, and two closing colour bands.",
+        "Colour": "White page with a nocturnal green render at the top and a deep forest band plus a mint gradient at the foot.",
+        "Motion": "The hero render pans slowly; the partner rail scrolls horizontally."
+      },
+      "prompt": "Full-page website screenshot for a wellness credit card launch, full-bleed nocturnal 3D render of a pale green payment card standing upright among glowing stones pond water and night flowers, a white display serif headline with one word swapped to italic laid over it, a greyed press logo strip, white section with a centred display serif heading two pill buttons and a row of three benefit statistics, a horizontal rail of pastel gradient partner cards containing small 3D renders of supplements and yoga blocks, a deep forest green band with a centred serif heading and a pink rendered object, a mint gradient closing panel showing two payment cards face and back with a centred display serif call to action, cinematic render lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "highlighter-nature-editorial",
+      "title": "Highlighter Nature Editorial",
+      "category": "organic",
+      "image": "resources/e4b522134c3b2135fbc2e56ce23066cc.jpg",
+      "short": "Cream nature magazine where key phrases sit inside pale green highlighter blocks and photos live in soft-cornered cards.",
+      "long": "Headlines are broken across lines and individual phrases are given a pale green highlighter fill, as if marked up by hand, which is how the page carries emphasis without changing type size. Photographs of mossy gorges and green hills are cropped into soft-cornered cards, with small pill labels and circular arrow buttons floated over their corners; some cards overlap into the next block. Between sections a mint marquee strip runs a list of single words separated by four-pointed sparkles, and author rows put a circular avatar, a name and a date on one hairline-separated line.",
+      "keywords": [
+        "highlighter phrase fill",
+        "soft corner photo cards",
+        "mint marquee strip",
+        "floating pill labels",
+        "circular arrow button",
+        "avatar author rows",
+        "cream ground"
+      ],
+      "palette": [
+        "#f4f2ea",
+        "#1a1a1a",
+        "#b8d8a8",
+        "#ffffff",
+        "#6a7a5a"
+      ],
+      "traits": {
+        "Typography": "A plain grotesque with pale green highlighter blocks behind selected phrases; tiny caps for metadata.",
+        "Layout": "Cream canvas with overlapping soft-cornered photo cards, floated label pills and hairline-separated author rows.",
+        "Colour": "Cream and white with mossy green photography and pale mint highlight blocks.",
+        "Motion": "The marquee strip scrolls; highlight blocks wipe in behind their phrases."
+      },
+      "prompt": "Full-page website screenshot for a nature conservation magazine, cream background, tiny caps mission statement at the top left with pill category filters, a large grotesque headline broken across three lines with a small globe glyph inline and one phrase sitting inside a pale green highlighter block, an avatar row with a follower count, a tall soft-cornered photograph of a mossy river gorge with small white label pills and a circular arrow button floated over its corners, a mint marquee strip listing single words separated by four-pointed sparkles, alternating blocks pairing highlighted headlines with photo cards a dark quote card and small author rows carrying a circular avatar a name and a date on hairline-separated lines, a footer grid of green landscape cards, 1440px desktop viewport"
+    },
+    {
+      "id": "bubble-red-coffee",
+      "title": "Bubble Red Coffee Journal",
+      "category": "editorial",
+      "image": "resources/ea0e936738ee8328ece46d8e5656c17a.jpg",
+      "short": "White coffee blog with a giant inflated red display word across the top and a hairline red grid holding the stories.",
+      "long": "The page opens with one word set in a hugely inflated rounded display face, red, filling the full width above the fold — no image, no paragraph. Everything under it is ruled: thin red hairlines divide a four-column grid, and each cell holds a square photograph directly above a red serif headline with no gap or metadata. The serif for captions and the bubble face for display are the only two type styles on the page, and red is the only colour, used for rules, type and one solid tile in the grid.",
+      "keywords": [
+        "inflated bubble display",
+        "red hairline grid",
+        "single accent colour",
+        "square photo cells",
+        "serif captions",
+        "acknowledgement bar",
+        "no metadata"
+      ],
+      "palette": [
+        "#ffffff",
+        "#f01e28",
+        "#fdd8d8",
+        "#1a1a1a",
+        "#f7f7f7"
+      ],
+      "traits": {
+        "Typography": "A hugely inflated rounded display face for the page title with a transitional serif for every caption.",
+        "Layout": "A four-column grid ruled with red hairlines, each cell a square image directly above its headline.",
+        "Colour": "White with one red used for rules, type, a solid tile and the footer bar.",
+        "Motion": "Images swap to a second frame on hover; nothing else moves."
+      },
+      "prompt": "Full-page website screenshot for a speciality coffee roaster's blog, white background, one enormous inflated rounded red display word filling the full page width beneath a small red wordmark and evenly spaced nav links, a four-column grid divided by thin red hairlines where each cell holds a square photograph of espresso machines coffee cherries producers and packaging directly above a red transitional serif headline with no metadata, one cell filled solid red with a product photograph, red pagination numerals, a large serif subscribe line above an outlined email field and a reveal-code button, a four-column red serif footer and a solid red acknowledgement bar with payment icons, natural documentary photography, 1440px desktop viewport"
+    },
+    {
+      "id": "liquid-blob-typography",
+      "title": "Liquid Blob Typography",
+      "category": "experimental",
+      "image": "resources/ed019c234a6f2c155f3bb62a942121df.jpg",
+      "short": "A serif headline read through a spreading orange liquid blob, with the same words ghosted underneath in pale grey.",
+      "long": "The project title is set twice in the same position: once in pale grey at a larger size as a background layer, once in black on top, and an organic orange liquid shape is laid between them. Where the blob covers the black text the letters stay legible against the orange; where it does not, the words drop out into the grey ghost. The rest of the screen is empty white with a right-hand metadata rail — date, type, platform, role — set in tiny caps against hairline rules, so the composition is one gesture and nothing else.",
+      "keywords": [
+        "liquid blob mask",
+        "ghosted duplicate type",
+        "metadata rail",
+        "hairline rules",
+        "serif over colour",
+        "single gesture layout",
+        "orange surround"
+      ],
+      "palette": [
+        "#ffffff",
+        "#e0410f",
+        "#141414",
+        "#f2f2f2",
+        "#c8c8c8"
+      ],
+      "traits": {
+        "Typography": "A high-contrast serif set twice at two sizes and two tones, one layer ghosted behind the other.",
+        "Layout": "One white plate on an orange surround, display type at the left and a thin metadata rail down the right.",
+        "Colour": "White and near-black with a single spreading orange; grey only for the ghosted layer.",
+        "Motion": "The liquid shape flows and drips slowly, changing which words are legible as it moves."
+      },
+      "prompt": "Full-page website screenshot of a design portfolio project page, deep orange surround with a white plate floating on it, a project title set in a high-contrast serif twice in the same position once large and pale grey as a ghost layer and once in black on top, an organic spreading orange liquid shape with detached droplets laid between the two layers so parts of the black type read against the orange and the rest falls into the grey ghost, a small script wordmark and thin nav at the top, a right-hand metadata rail listing date type platform and role in tiny caps separated by hairline rules with a large index numeral above it, a black circular scroll button, 1440px viewport"
+    },
+    {
+      "id": "retro-script-yoga",
+      "title": "Retro Script Yoga Studio",
+      "category": "retro",
+      "image": "resources/f25bfc1fa8052ea2a783cf5ac18c5ef2.jpg",
+      "short": "Cream studio page with an orange seventies script laid over photographs and every block outlined in a thin rule.",
+      "long": "Section titles are set in a heavy orange brush script and positioned so they overlap the photographs beneath them, with the descenders crossing into the image. The whole page is divided by thin rules into outlined panels, including a mustard block for the pricing accordion, which gives the layout a printed-sheet quality. Photographs are cropped into soft-cornered rectangles of differing proportions and packed into a tight collage, and a short list of studio values is set in the same script in orange, separated by double slashes.",
+      "keywords": [
+        "seventies brush script",
+        "script over photo",
+        "outlined panels",
+        "mustard accordion block",
+        "soft corner collage",
+        "double slash list",
+        "cream ground"
+      ],
+      "palette": [
+        "#f7f2e2",
+        "#e8461e",
+        "#f5c518",
+        "#1a1a1a",
+        "#d8cfc0"
+      ],
+      "traits": {
+        "Typography": "A heavy orange brush script for titles overlapping imagery, with a plain sans for body and list rows.",
+        "Layout": "Thin-ruled outlined panels stacked down the page; a tight collage of soft-cornered photo crops.",
+        "Colour": "Cream ground with a hot orange script, one mustard panel and near-black body text.",
+        "Motion": "Accordion rows expand under the plus signs; script titles slide in from the left."
+      },
+      "prompt": "Full-page website screenshot for a yoga studio, cream background divided into outlined panels by thin rules, an orange seventies brush script section title laid across two soft-cornered photographs of a yoga practitioner so the descenders cross into the images, a paragraph and an orange pill button at the left, a short list of studio values in the same orange script separated by double slashes, a mustard block with the offer heading in black script beside three plain accordion rows with plus signs, a tight collage of soft-cornered photographic crops in mixed proportions, a small circular logo mark and a red contact pill in the header, warm indoor photography, 1440px desktop viewport"
+    },
+    {
+      "id": "inline-chip-crypto",
+      "title": "Inline-Chip Crypto",
+      "category": "future",
+      "image": "resources/f3977744a51c7e55c91eeca3007909f2.jpg",
+      "short": "Near-black crypto page where small pills, glyphs and logos are set inline inside the sentences themselves.",
+      "long": "The trick that defines this page is putting interface objects into the running text: a headline contains a lightning glyph and an orange pill, a paragraph contains a small brand chip and a circular avatar, so the sentence and the UI occupy one line. Behind the hero, three thin concentric rings and a dark red sphere give depth without imagery. Feature cards are pale mint squares holding schematic diagrams drawn in orange and grey rather than screenshots, and investor logos sit in large outlined circles with one filled solid orange.",
+      "keywords": [
+        "inline pill chips",
+        "glyphs in running text",
+        "concentric rings",
+        "mint schematic cards",
+        "outlined logo circles",
+        "orange accent",
+        "near-black ground"
+      ],
+      "palette": [
+        "#101010",
+        "#f4441e",
+        "#dfe8e6",
+        "#ffffff",
+        "#1e1e1e"
+      ],
+      "traits": {
+        "Typography": "A light grotesque with inline pills, chips, glyphs and avatars set at text size inside the sentences.",
+        "Layout": "Centred hero over concentric rings, then left-aligned numbered sections and a three-up card row.",
+        "Colour": "Near-black with one hot orange; pale mint used only inside the feature cards.",
+        "Motion": "The rings rotate slowly; the investor row pages sideways."
+      },
+      "prompt": "Full-page website screenshot for a crypto and fintech company, near-black background, three thin concentric rings and a dark red sphere behind a centred light grotesque headline that contains an inline lightning glyph and a small orange pill, four corner statistics with tiny grey labels, a row of pill widgets with one filled orange, numbered section labels inside white chips, a large paragraph with a small orange brand chip and a circular avatar set inline in the sentence, three pale mint square cards holding schematic diagrams drawn in orange and grey with white captions beneath, a row of large outlined circles containing investor logotypes with one filled solid orange, circular arrow buttons at the row ends, 1440px desktop viewport"
+    },
+    {
+      "id": "offset-card-studio",
+      "title": "Offset Card Studio",
+      "category": "minimal",
+      "image": "resources/f50427498f1577d317edc119b333e86b.jpg",
+      "short": "An off-white studio site where every image sits on a hard black offset rectangle and keywords orbit in a circle.",
+      "long": "Images are never framed — instead each one is pasted over a solid black rectangle shifted a few pixels down and right, so the black reads as a printed shadow. The hero pairs a light italic wordmark with a ring of rotated keywords running around a circular path, which is the only curved element on an otherwise strictly rectangular page. Sections are numbered in bold two-digit figures, and thin vertical rails carrying rotated scroll and back-to-top labels sit hard against the left and right edges of the viewport.",
+      "keywords": [
+        "black offset rectangle",
+        "circular keyword ring",
+        "numbered sections",
+        "rotated edge rails",
+        "italic light wordmark",
+        "long arrow links",
+        "off-white ground"
+      ],
+      "palette": [
+        "#f2f1ee",
+        "#141414",
+        "#ffffff",
+        "#8a8a8a",
+        "#d8d6d0"
+      ],
+      "traits": {
+        "Typography": "A light italic sans for the wordmark against a regular sans for everything else; bold two-digit section numbers.",
+        "Layout": "Wide off-white margins with images pasted on offset black rectangles; thin rotated rails on both viewport edges.",
+        "Colour": "Off-white and black only; colour arrives solely through the photographs.",
+        "Motion": "The keyword ring rotates continuously; long arrow links extend on hover."
+      },
+      "prompt": "Full-page website screenshot for a web design studio, off-white background, a large light italic sans wordmark at the left with a short bilingual paragraph and a solid black button, a dark abstract paint photograph pasted over a solid black rectangle shifted down and right, a ring of rotated keywords running around a circular path beside it, thin vertical rails at the left and right viewport edges carrying rotated scroll and page-top labels, a services heading in letterspaced caps, three rows each pairing a photograph on an offset black rectangle with a bold two-digit section number a heading small body copy a price note and a long arrow link, a centred black button, flat even light, 1440px desktop viewport"
+    },
+    {
+      "id": "moody-navy-travel",
+      "title": "Moody Navy Travel",
+      "category": "cinematic",
+      "image": "resources/f5049d576c1c03cc1ce79fe8ff835b37.jpg",
+      "short": "Overcast travel photography on a deep navy ground, with heavy condensed caps and one orange marker as the only colour.",
+      "long": "The hero is a long-exposure shot of a torii gate under grey cloud, darkened toward the edges so the white condensed caps headline sits comfortably on it. Below it a three-column teaser row is separated by hairline verticals and topped by a thin orange progress rule, and the page then drops to solid navy for a tour grid of tall photo cards with centred caps captions laid over their lower third. A second full-bleed image — a starfield over mountains — closes the page with a play control, keeping the whole thing in a low, cool key.",
+      "keywords": [
+        "long exposure hero",
+        "heavy condensed caps",
+        "orange progress rule",
+        "tall photo cards",
+        "hairline column dividers",
+        "starfield band",
+        "deep navy ground"
+      ],
+      "palette": [
+        "#151d2e",
+        "#ffffff",
+        "#e8721c",
+        "#2a3550",
+        "#8a94a8"
+      ],
+      "traits": {
+        "Typography": "Very heavy condensed sans caps for headlines, small letterspaced caps for navigation and card captions.",
+        "Layout": "Full-bleed hero with a slide index, a three-column teaser row on hairlines, then a four-up tall card grid.",
+        "Colour": "Deep navy with cool overcast photography and a single warm orange for progress and markers.",
+        "Motion": "The hero cross-fades between slides while the orange rule advances beneath it."
+      },
+      "prompt": "Full-page website screenshot for a travel agency, deep navy background, full-bleed long-exposure photograph of a torii gate standing in still water under heavy grey cloud darkened toward the edges, a very heavy white condensed caps headline at the left with small icon glyphs beneath it, a numbered slide index at the right, three columns of small teaser copy separated by hairline verticals under a thin orange progress rule, a centred caps section title on solid navy above a four-up grid of tall photographic cards with centred white caps captions laid over their lower third, a full-bleed starfield over mountains with a bold caps headline a circular play button and two small video thumbnails, cool overcast lighting, 1440px desktop viewport"
+    },
+    {
+      "id": "painted-landscape-saas",
+      "title": "Painted Landscape SaaS",
+      "category": "organic",
+      "image": "resources/f7f251a01dafb3d943492fb653422be4.jpg",
+      "short": "A soft painted valley illustration dissolving into white, above a compliance product page kept almost entirely plain.",
+      "long": "The hero is a wide gouache-style landscape — apricot sky, layered hills, a still river — that fades to nothing where the copy begins, so the illustration hands the page over to white space rather than ending at a border. Everything after it is deliberately unstyled: a centred sans headline, a greyed logo row, three statistics separated by hairline verticals, and a three-column feature row with small line icons. The only place the painting returns is inside a testimonial card, where a cropped sky is used as a card fill.",
+      "keywords": [
+        "gouache landscape",
+        "fade to white hero",
+        "hairline stat dividers",
+        "line icons",
+        "painted card fill",
+        "centred sans headline",
+        "restrained body"
+      ],
+      "palette": [
+        "#ffffff",
+        "#f6b98a",
+        "#a8c98a",
+        "#c8a8d8",
+        "#1a1a1a"
+      ],
+      "traits": {
+        "Typography": "One plain grotesque at modest sizes, centred in the hero and left-aligned below; no display face.",
+        "Layout": "A wide painted hero dissolving into white, then centred and three-column blocks on a generous measure.",
+        "Colour": "White page with apricot, sage and lilac drawn only from the illustration.",
+        "Motion": "Subtle drift in the painted clouds; nothing else animates."
+      },
+      "prompt": "Full-page website screenshot for a business compliance platform, white background, a wide gouache-style painted landscape of an apricot sky layered green and violet hills and a still reflecting river filling the top of the page and dissolving to white where the copy begins, a centred two-line grotesque headline a short grey subtitle and a black pill button, a row of six greyed client logotypes, three statistics separated by hairline verticals with small grey captions, a left-aligned section heading above three columns each with a small line icon a short bold label and grey body copy, a trusted-by section with three cards where one is filled with a cropped painted sky carrying a white testimonial, soft painterly texture, 1440px desktop viewport"
+    },
+    {
+      "id": "mustard-modernist-cafe",
+      "title": "Mustard Modernist Café",
+      "category": "retro",
+      "image": "resources/fcb3de580b967c16ee28aaf2a481dcb0.jpg",
+      "short": "A mustard and cream café site built from flat mid-century colour blocks, a geometric emblem and notched section edges.",
+      "long": "The identity is a linear diamond emblem drawn from a single stroke weight, and the layout repeats that geometry: section edges are cut with notches and triangular tabs instead of straight lines, and a diamond wedge points down out of the header into the event listing. Blocks are flat saturated blue, green, black and red with no gradients or shadows, and the poster inside the events block uses offset display lettering in layered colours as if misregistered on press. Merchandise is shown as flat colour tiles with barcode strips and price figures set in the same caps as the navigation.",
+      "keywords": [
+        "linear diamond emblem",
+        "notched section edges",
+        "flat mid-century blocks",
+        "misregistered lettering",
+        "barcode strips",
+        "mustard surround",
+        "triangular tabs"
+      ],
+      "palette": [
+        "#f0a81e",
+        "#e8e2cf",
+        "#1a4fd8",
+        "#e03a26",
+        "#141414"
+      ],
+      "traits": {
+        "Typography": "Condensed caps throughout with a layered offset display face used once on the event poster.",
+        "Layout": "Full-width flat colour blocks whose edges are cut with notches and triangular tabs; a two-column event list.",
+        "Colour": "Mustard surround with cream, flat blue, green, red and black blocks; no gradients anywhere.",
+        "Motion": "The date ticker scrolls; blocks slide up along their notched edges."
+      },
+      "prompt": "Full-page website screenshot for a Moscow café and event space, mustard surround with a cream page, a linear diamond emblem drawn in a single stroke weight centred in the header above address lines in condensed caps and a red triangular tab pointing down, a black scrolling date ticker, a flat saturated blue block listing three events in condensed caps with dates at the left and a tilted riso-style poster at the right using layered offset display lettering as if misregistered on press, a black band with flat cut-out citrus shapes, a green vertical menu tab beside a cream two-column drinks list, a merchandise grid of flat blue green red and tan tiles each showing a garment with a barcode strip and a price in caps, no gradients, 1440px desktop viewport"
     }
   ]
 }
