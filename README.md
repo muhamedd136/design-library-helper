@@ -4,7 +4,7 @@ A browsable reference library of web design languages. Every card is one style:
 a sample screenshot, a name, a short description, keywords, a category, and a
 ready-to-paste **higgsfield.ai image prompt**.
 
-**86 styles · 12 categories · 74 reference screenshots**
+**147 styles · 12 categories · 135 reference screenshots**
 
 ---
 
