@@ -42,10 +42,16 @@ them, this is the job:
   ("dual shadow", "arch mask", "ghost numerals"), not vague ("modern", "clean").
 - `palette` — 4–5 hex values, ground colour first.
 - `traits` — exactly the keys `Typography`, `Layout`, `Colour`, `Motion`.
-- `prompt` — one long comma-delimited paragraph describing a **website
-  screenshot** in that style, ending with `1440px desktop viewport` (or
-  `1440px viewport` for poster-format styles). Name specific type
-  classifications, layout mechanics and colours; don't name real brands.
+- `prompt` — one long comma-delimited paragraph describing the **hero artwork**
+  for that style: the image that belongs in the hero, not a screenshot of the
+  page. Read the whole design, then distil it — subject, materials, lighting,
+  composition, colour. Leave out the interface: no nav, buttons, cards, form
+  fields or body copy. Close with `no text and no interface elements` where that
+  applies. Where the hero genuinely *is* typography (specimen, kinetic,
+  brutalist, an oversized wordmark), describe the lettering as artwork rather
+  than pretending there is no type. Name specific colours, materials and
+  lighting; don't name real brands. End on the description itself — there is no
+  fixed suffix, and no trailing full stop.
 
 Match the voice of the existing entries: plain, specific, no marketing language,
 no em-dash-heavy prose, no "elevate" / "seamless" / "stunning".

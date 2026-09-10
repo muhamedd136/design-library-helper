@@ -121,7 +121,7 @@ straight off the filesystem — `fetch()` of a local JSON file is blocked under
   "traits": {
     "Typography": "…", "Layout": "…", "Colour": "…", "Motion": "…"
   },
-  "prompt": "Full-page website UI screenshot in …, 1440px desktop viewport"
+  "prompt": "Soft rounded volumes extruded from one light grey surface, …, no text and no interface elements"
 }
 ```
 
@@ -146,12 +146,17 @@ Empty categories are hidden from the filter bar automatically.
 
 ## Prompt conventions
 
-Every `prompt` is written to describe **a screenshot of a website**, not an
-abstract artwork, and ends with a viewport hint so the generator frames it as a
-page. When you use one on higgsfield.ai:
+Every `prompt` describes **the hero artwork** for a style — the image that would
+sit in the hero — not a screenshot of the page. Each one is distilled from the
+whole design (subject, materials, lighting, composition, colour) with the
+interface left out, so most end on `no text and no interface elements`. Where a
+style's hero genuinely is typography — Type Specimen, Kinetic Typography,
+Helvetica Brutalist — the lettering is described as artwork instead.
+
+When you use one on higgsfield.ai:
 
 - append your own subject or brand at the end,
-- set a wide ratio (16:9) for desktop layouts or a tall one (2:3) for the
-  poster-format styles,
-- keep the closing viewport phrase — it's what stops the model producing a
-  poster instead of a page.
+- set a wide ratio (16:9) for a full-bleed hero image, or a square/tall one if
+  you want the artwork as a standalone graphic,
+- keep the `no text` clause unless you actually want lettering — generators will
+  otherwise fill the frame with unreadable pseudo-text.
