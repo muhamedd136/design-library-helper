@@ -360,7 +360,7 @@
     box.append(el('pre', null, style.prompt || 'No prompt written yet for this style.'));
     promptBlock.append(box);
     promptBlock.append(el('p', 'prompt-note',
-      'Paste into higgsfield.ai. Add your subject/brand at the end, and set a wide (16:9) or tall (2:3) ratio to match the layout.'));
+      'Hero artwork, not a page screenshot. Paste into higgsfield.ai, add your subject/brand at the end, and set a wide (16:9) ratio for a full-bleed hero.'));
     left.append(promptBlock);
 
     /* right column */
