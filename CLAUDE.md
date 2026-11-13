@@ -11,6 +11,7 @@ See `README.md` for how a human uses it.
 - `scripts/sync.mjs` — scans `resources/`, appends drafts, regenerates `styles.js`.
 - `scripts/serve.mjs` — static server (`npm start`, port 4321) that syncs on request.
 - `index.html`, `assets/app.css`, `assets/app.js` — the app.
+- `shared/lib.js` — data logic (search, brief, clipboard, theme) used by the app.
 
 After any edit to `data/styles.json`, run:
 

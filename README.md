@@ -97,7 +97,8 @@ scripts/sync.mjs      scans resources/, merges into styles.json, writes styles.j
 scripts/serve.mjs     static server that runs sync on each data request
 index.html            the page
 assets/app.css        styling
-assets/app.js         filtering, search, cards, modal, clipboard
+assets/app.js         categories, mosaic, detail sheet
+shared/lib.js         search, brief, clipboard, theme
 ```
 
 `styles.js` (rather than fetching `styles.json`) is what lets `index.html` work

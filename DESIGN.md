@@ -1,244 +1,285 @@
 ---
 name: Design Style Library
-description: A warm-paper reference library of web design languages, set in a quiet serif and sans pairing.
+description: A tomato-red and cream lookbook of web design languages, set in a high-contrast serif with a brush logotype.
 colors:
-  paper: "#f6f4f0"
-  paper-deep: "#efece6"
-  card-white: "#ffffff"
-  card-warm: "#faf9f7"
-  ink: "#14130f"
-  ink-soft: "#514c44"
-  ink-faint: "#8b8479"
-  rule: "#e2ddd4"
-  rule-strong: "#d2ccc0"
-  draft-orange: "#ff8a3d"
-  copied-green: "#2e7d54"
-  match-yellow: "#f5c518"
+  cream: "#f4efe4"
+  cream-deep: "#e9e2d2"
+  tomato: "#c53a26"
+  on-tomato: "#f8f1e3"
+  ink: "#1a1a1a"
+  mute: "#6d675d"
+  hairline: "rgba(26, 26, 26, .2)"
+  hero-black: "#1a1210"
 typography:
   display:
-    fontFamily: "Instrument Serif, Georgia, serif"
-    fontSize: "clamp(30px, 4.2vw, 46px)"
+    fontFamily: "Knewave, Marker Felt, cursive"
+    fontSize: "clamp(56px, 17.5vw, 290px)"
+    fontWeight: 400
+    lineHeight: 0.8
+  backdrop:
+    fontFamily: "Playfair Display, Times New Roman, serif"
+    fontSize: "24vw"
+    fontWeight: 500
+    lineHeight: 0.86
+    letterSpacing: "-0.045em"
+  headline:
+    fontFamily: "Playfair Display, Times New Roman, serif"
+    fontSize: "clamp(36px, 4.9vw, 78px)"
+    fontWeight: 400
+    lineHeight: 1
+    letterSpacing: "-0.035em"
+  title:
+    fontFamily: "Playfair Display, Times New Roman, serif"
+    fontSize: "clamp(21px, 2.3vw, 37px)"
     fontWeight: 400
     lineHeight: 1.02
-    letterSpacing: "-0.015em"
-  headline:
-    fontFamily: "Instrument Serif, Georgia, serif"
-    fontSize: "clamp(28px, 3.4vw, 40px)"
+    letterSpacing: "-0.025em"
+  accent:
+    fontFamily: "Playfair Display, Times New Roman, serif"
+    fontSize: "19px"
     fontWeight: 400
-    lineHeight: 1.08
-    letterSpacing: "-0.015em"
-  title:
-    fontFamily: "Instrument Serif, Georgia, serif"
-    fontSize: "25px"
-    fontWeight: 400
-    lineHeight: 1.14
-    letterSpacing: "-0.012em"
+    lineHeight: 1.2
+    letterSpacing: "-0.01em"
   body:
-    fontFamily: "Inter, system-ui, sans-serif"
+    fontFamily: "DM Sans, Helvetica Neue, sans-serif"
     fontSize: "15px"
     fontWeight: 400
-    lineHeight: 1.6
+    lineHeight: 1.5
   label:
-    fontFamily: "Inter, system-ui, sans-serif"
-    fontSize: "11.5px"
-    fontWeight: 600
-    lineHeight: 1.4
-    letterSpacing: "0.09em"
-  mono:
-    fontFamily: "JetBrains Mono, ui-monospace, monospace"
-    fontSize: "12.5px"
-    fontWeight: 400
-    lineHeight: 1.65
+    fontFamily: "DM Sans, Helvetica Neue, sans-serif"
+    fontSize: "10.5px"
+    fontWeight: 500
+    lineHeight: 1.2
+    letterSpacing: "0.16em"
 rounded:
-  sm: "9px"
-  md: "12px"
-  lg: "14px"
-  xl: "18px"
+  none: "0"
   pill: "999px"
 spacing:
-  xs: "6px"
-  sm: "10px"
-  md: "18px"
-  lg: "30px"
-  page-gutter: "28px"
+  page-gutter: "4vw"
+  page-gutter-mobile: "16px"
+  tile-padding: "clamp(16px, 2.2vw, 38px)"
+  sheet-padding: "5vw"
+  stack: "10px"
 components:
-  button:
-    backgroundColor: "{colors.card-white}"
-    textColor: "{colors.ink}"
+  pill:
+    backgroundColor: "{colors.tomato}"
+    textColor: "{colors.on-tomato}"
+    typography: "{typography.accent}"
+    rounded: "{rounded.pill}"
+    padding: "7px 18px"
+  button-primary:
+    backgroundColor: "{colors.tomato}"
+    textColor: "{colors.on-tomato}"
     typography: "{typography.body}"
     rounded: "{rounded.pill}"
-    padding: "10px 20px"
-  button-primary:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.paper}"
-    rounded: "{rounded.pill}"
-    padding: "10px 20px"
+    padding: "12px 24px"
   button-primary-hover:
-    backgroundColor: "{colors.ink-soft}"
-    textColor: "{colors.paper}"
-  chip:
-    backgroundColor: "{colors.card-white}"
-    textColor: "{colors.ink-soft}"
-    rounded: "{rounded.pill}"
-    padding: "8px 15px"
-  chip-selected:
     backgroundColor: "{colors.ink}"
-    textColor: "{colors.paper}"
-  tag:
-    backgroundColor: "{colors.paper-deep}"
-    textColor: "{colors.ink-soft}"
+    textColor: "{colors.cream}"
+  button-outline:
+    backgroundColor: "{colors.cream}"
+    textColor: "{colors.tomato}"
+    typography: "{typography.body}"
     rounded: "{rounded.pill}"
-    padding: "4.5px 10px"
+    padding: "12px 24px"
+  button-outline-hover:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.cream}"
+  button-close:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.cream}"
+    rounded: "{rounded.pill}"
+    padding: "9px 18px"
+  category-link:
+    backgroundColor: "{colors.cream}"
+    textColor: "{colors.ink}"
+    typography: "{typography.accent}"
+  category-link-selected:
+    backgroundColor: "{colors.cream}"
+    textColor: "{colors.tomato}"
+    typography: "{typography.accent}"
   search-input:
-    backgroundColor: "{colors.card-white}"
+    backgroundColor: "{colors.cream}"
     textColor: "{colors.ink}"
+    rounded: "{rounded.none}"
+    padding: "6px 0 10px"
+  tile-red:
+    backgroundColor: "{colors.tomato}"
+    textColor: "{colors.on-tomato}"
+    typography: "{typography.title}"
+    rounded: "{rounded.none}"
+    padding: "{spacing.tile-padding}"
+  tile-cream:
+    backgroundColor: "{colors.cream}"
+    textColor: "{colors.tomato}"
+    typography: "{typography.title}"
+    rounded: "{rounded.none}"
+    padding: "{spacing.tile-padding}"
+  announcement-tape:
+    backgroundColor: "{colors.tomato}"
+    textColor: "{colors.on-tomato}"
+    typography: "{typography.label}"
+    padding: "7px 0"
+  sheet-head:
+    backgroundColor: "{colors.tomato}"
+    textColor: "{colors.on-tomato}"
+    typography: "{typography.headline}"
+    padding: "72px 5vw 40px"
+  toast:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.cream}"
+    typography: "{typography.accent}"
     rounded: "{rounded.pill}"
-    padding: "11px 34px 11px 38px"
-  card:
-    backgroundColor: "{colors.card-white}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.lg}"
-  modal-panel:
-    backgroundColor: "{colors.card-white}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.xl}"
-  prompt-box:
-    backgroundColor: "{colors.paper-deep}"
-    textColor: "{colors.ink-soft}"
-    typography: "{typography.mono}"
-    rounded: "{rounded.md}"
-    padding: "15px 16px"
+    padding: "11px 22px"
 ---
 
 # Design System: Design Style Library
 
 ## Overview
 
-**Creative North Star: "The Reading Room"**
+**Creative North Star: "The Red-Letter Lookbook"**
 
-A calm room with warm paper walls and a serif voice. The library is a place to read about design languages, not to be dazzled by one, so the interface is a quiet frame: off-white paper, one near-black ink, hairline rules, and Instrument Serif for every title. Reference screenshots supply all of the colour; the chrome around them stays neutral so no entry competes with another.
+A fashion lookbook that happens to file web design languages. Two colours do all the work: tomato red and cream, laid down as hard-edged blocks with no gutters between them. A brush-script logotype shouts once at the top over a strip of greyscale screenshots, then a high-contrast serif takes over, mixing roman and italic inside the same line. The library's own screenshots are the photography, some in colour and some in greyscale, set edge to edge with red and cream text cells in a checkerboard.
 
-Density is moderate: a three-column grid of cards on desktop, with a sticky chip bar for filtering and a modal for the full entry. Everything is rounded and soft (pills, 14px cards) and lifts slightly on hover. The result is coherent and tidy, and the owner calls it generic and safe: it has no point of view of its own beyond staying out of the way. That is the incumbent state, recorded here as a baseline for the redesign rather than as a standard to keep.
+Density is high and the surface is flat. There are no cards, no shadows and no rounded panels: a style is a pair of square cells, one image and one block of text. An oversized cropped serif word sits behind the top of the mosaic and names the current category. A fine paper grain covers the whole page so the flat colour never looks like a screen fill. Light and dark share the same structure; dark swaps cream for a warm near-black and keeps the red.
 
-The visual anti-reference for the redesign is the template SaaS look: gradient heroes, feature-card rows and stock marketing patterns.
+The confirmed visual anti-references are: purple gradients, glossy 3D renders, untextured stock photography, rounded-everything friendliness, icon-grid feature rows, Inter or system-font-only typography, evenly distributed colourful palettes, and the template SaaS look.
 
 **Key Characteristics:**
-- Warm off-white ground with a single near-black ink; no brand accent in the chrome.
-- Serif titles over a neutral sans body, with small uppercase tracked labels for metadata.
-- Pill-shaped controls (buttons, chips, tags, search) and 14px to 18px rounded surfaces.
-- Hairline borders plus one soft shadow recipe; depth is modest and only grows on hover.
+- Tomato red and cream as flat, hard-edged blocks; ink only for text and small controls.
+- A brush logotype used once, then a serif that mixes roman and italic.
+- A gutterless checkerboard mosaic of screenshot cells and text cells.
+- An oversized, cropped serif word as a background layer behind the grid.
+- Square corners everywhere except pill-shaped actions.
+- No shadows; a paper grain overlay supplies the texture.
 - Light and dark are both first-class; dark is a warm near-black, not blue-black.
 
 ## Colors
 
-A restrained warm-neutral palette with no chromatic accent in the interface; colour belongs to the content.
+Two colours and an ink. Red and cream trade places as ground and figure; nothing else is added to the chrome.
 
 ### Primary
-- **Library Ink** (#14130f): text, the selected chip, the primary button and the toast. It is also the `--accent` token, so the "accent" is simply ink. In dark mode it becomes Parchment (#f4f1ea).
+- **Tomato Red**: the colour blocks (announcement tape, the red intro block, every other text cell, the head of the detail sheet, the backdrop behind the sheet), all serif headings set on cream, the search underline, primary buttons and pills. Dark mode lifts it slightly (#cf4029).
+- **Red-Block Cream**: text and outlines that sit on Tomato Red. Dark: #fff3e2.
 
 ### Neutral
-- **Warm Paper** (#f6f4f0): page ground and masthead. Dark: Soot (#100f0d).
-- **Deep Paper** (#efece6): tags, code chips, the prompt box, image placeholders. Dark: #171512.
-- **Card White** (#ffffff): cards, inputs, chips, the modal panel. Dark: #1b1916.
-- **Warm Card** (#faf9f7): the modal action bar and swatch trays. Dark: #211e1a.
-- **Soft Ink** (#514c44): secondary text and descriptions. Dark: #b8b1a5.
-- **Faint Ink** (#8b8479): metadata, placeholders, counts. Dark: #847d71.
-- **Hairline** (#e2ddd4): default borders and dividers. Dark: #2c2823.
-- **Strong Hairline** (#d2ccc0): hover and modal borders. Dark: #3a352e.
+- **Cream**: the page ground, cream text cells, the category bar. Dark: Warm Soot (#16100e).
+- **Deep Cream**: the screenshot tray in the detail sheet and image placeholders. Dark: #211815.
+- **Ink**: body text, the close button, the toast, search highlights, focus rings. Dark: it becomes Cream (#f4efe4).
+- **Mute**: captions, counts, placeholder text, small labels. Dark: #a79d90.
+- **Hairline**: 1px rules around the category bar, trait rows and image frames, drawn as 20% ink. Dark: 22% cream.
+- **Hero Black**: the ground under the hero strip, behind the greyscale screenshots. It stays dark in both themes.
 
-### Signal
-- **Draft Orange** (#ff8a3d): the flag on unclassified cards and the Unsorted category.
-- **Copied Green** (#2e7d54): a copy button's confirmed state.
-- **Match Yellow** (#f5c518, at 55% mix): search highlight.
-
-Each of the twelve categories also carries its own accent in `data/styles.json` (for example #5b8def for Minimal, #e0533d for Editorial, #00d3a7 for Futuristic). It appears only as a small dot beside a category name, never as a surface.
+Category accent colours from `data/styles.json` are not used in the interface.
 
 ### Named Rules
-**The Content Owns Colour Rule.** Chrome stays neutral; hue comes only from screenshots, palette swatches and the small category dots.
+**The Two Colours Rule.** The chrome is Tomato Red, Cream and Ink. Any other hue on screen comes from a screenshot or a palette swatch.
 
-**The One Ink Rule.** There is a single dark ink for text, selected states and primary actions. A second accent colour is not introduced for emphasis.
+**The Trade Places Rule.** Red on cream and cream on red are the only two pairings. A selected or hovered control inverts to the other pairing, or to ink; it never gains a new colour.
 
 ## Typography
 
-**Display Font:** Instrument Serif (with Georgia, serif)
-**Body Font:** Inter (with system-ui, sans-serif)
-**Label/Mono Font:** JetBrains Mono (with ui-monospace), used for prompts, code chips and swatch hex values; labels use Inter.
+**Display Font:** Knewave (with Marker Felt, cursive)
+**Serif Font:** Playfair Display (with Times New Roman, serif)
+**Body Font:** DM Sans (with Helvetica Neue, sans-serif)
 
-**Character:** An editorial serif for names and an invisible sans for everything else. Titles are regular weight with slightly tight tracking, so they read as a catalogue of names. Metadata is set in small uppercase tracked sans, which makes it recede.
+**Character:** A loud brush logotype over a composed, high-contrast serif. The serif sets tight (negative tracking, line-height at or under 1) and switches to italic mid-line for attitude; the sans stays small and plain underneath.
 
 ### Hierarchy
-- **Display** (400, clamp(30px, 4.2vw, 46px), 1.02): the page title, with "Library" in italic Soft Ink.
-- **Headline** (400, clamp(28px, 3.4vw, 40px), 1.08): the style name in the detail modal.
-- **Title** (400, 25px, 1.14): the style name on each card.
-- **Body** (400, 15px, 1.6): descriptions; the modal long text runs at 14.5px and 1.72 line height.
-- **Label** (600 at 11.5px, 0.09em tracking, uppercase): section heads in the modal, category lines, result count. The masthead sub-line is the same style at 500.
+- **Display** (400, clamp(56px, 17.5vw, 290px), 0.8, uppercase, rotated -4deg): the hero logotype. The same face appears small in the "start typing" note and at the foot of the page, nowhere else.
+- **Backdrop** (500, 24vw, 0.86, uppercase, -0.045em): the cropped category word behind the mosaic. It runs off both edges and is covered by the first row of tiles.
+- **Headline** (400, clamp(36px, 4.9vw, 78px), 1.0, -0.035em): the page headline; the style name in the detail sheet uses the same voice at clamp(40px, 5.2vw, 88px) and 0.95.
+- **Title** (400, clamp(21px, 2.3vw, 37px), 1.02, -0.025em): style names in the mosaic and trait names in the sheet.
+- **Accent** (400 italic, 15px to 20px, 1.2): pills, the selected category, section heads in the sheet, the search field (up to 32px), keywords, the toast and the result count.
+- **Body** (400, 15px, 1.5): descriptions. The long description in the sheet is 16px at 1.62 with a 62ch measure; tile descriptions drop to 12px to 14px and clamp at four lines.
+- **Label** (500, 10px to 11px, 0.16em, uppercase): category lines on tiles, the search label, the announcement tape.
 
 ### Named Rules
-**The Serif Names Rule.** Serif is for names and the page title only. Descriptions, controls and metadata stay in the sans.
+**The Italic Last Word Rule.** A style name is set roman with its last word in italic. The page headline does the same thing by hand, italicising single letters and words. Italic is never applied to a whole heading.
+
+**The Brush Once Rule.** The brush face belongs to the logotype and two small hand-written asides. It is never used for content, labels or controls.
 
 ## Layout
 
-A single centred column capped at 1500px with 28px side gutters. The masthead puts title and tools (search, theme toggle) on one row that wraps on narrow screens. A sticky, blurred filter bar sits under it and scrolls sideways with edge fades when chips overflow. Cards sit in a grid of three columns, two at 1080px and below, one at 680px and below, with 30px gaps (24px on mobile). The detail modal is up to 1120px wide, with the screenshot on top (scrollable, up to 56vh) and a two-column text area beneath (1.45fr and 1fr, one column under 860px). Spacing is ad hoc rather than a strict scale, and clusters around 6, 10, 18 and 30px.
+Full-bleed bands stacked with no gaps: announcement tape, hero strip, a two-part intro (38% red block, 62% cream with the headline and search), a sticky category bar, then the mosaic.
+
+The mosaic is a two-column grid with no gutters. Each style is one tile, twice as wide as it is tall, split into two square cells: screenshot and text. The image side swaps every other row and the text cells alternate red and cream, so the page reads as a four-column checkerboard. The backdrop word sits above the grid and the grid is pulled up over its lower third (-8.5vw).
+
+The detail sheet fills the viewport. The screenshot holds the left 5/11 as a sticky, independently scrolling tray; the text scrolls on the right, opening with a red head block and closing with a sticky action bar.
+
+Side padding is fluid (4vw on the page, 5vw in the sheet, 16px on phones). At 1000px and below the mosaic becomes one tile per row with red and cream alternating by row, and the sheet stacks. At 620px and below the intro stacks and each tile becomes an image over text.
+
+### Named Rules
+**The No Gutter Rule.** Blocks touch. Separation comes from the change of colour or from an image edge, never from whitespace between cells.
 
 ## Elevation & Depth
 
-Hybrid: hairline borders carry structure, and one soft shadow adds lift. Cards rest with a small shadow and rise 4px with a larger shadow on hover. The modal uses the large shadow over a blurred, darkened scrim, and the filter bar uses a translucent blurred background rather than a shadow.
-
-### Shadow Vocabulary
-- **Rest** (`box-shadow: 0 1px 2px rgba(20,19,15,.05), 0 12px 28px -18px rgba(20,19,15,.35)`): cards at rest.
-- **Lifted** (`box-shadow: 0 24px 70px -20px rgba(20,19,15,.42)`): hovered cards, the modal panel and the toast.
+Flat. There are no shadows anywhere. Depth comes from overlap: tiles cover the backdrop word, the logotype sits over the photo strip, and a small colour screenshot overlaps the edge of the intro. A fractal-noise grain overlay (13% opacity, multiply in light and screen in dark) lies over the whole page to give the flat colour a printed surface.
 
 ### Named Rules
-**The Hover-Lift Rule.** Elevation changes only in response to pointer state; at rest the page is nearly flat.
+**The Flat Paper Rule.** Nothing lifts off the page. Hover changes colour, crop or saturation, never elevation.
 
 ## Shapes
 
-Soft and pill-based. Controls (buttons, chips, tags, search, category dots) are fully rounded (999px). Surfaces step through 9px (swatches), 12px (prompt box), 14px (cards) and 18px (the modal). Images are cropped to the top of the screenshot (`object-position: top center`) in a 4:3 frame. Borders are 1px hairlines; the prompt box and the "+N more" tag use a dashed border to signal an overflow or a note.
+Square by default. Tiles, images, colour blocks, swatches and the sheet all have 0 radius. The one exception is the pill (999px), reserved for things you press or small count badges. Borders are 1px hairlines; the search field is an underline only (2px, 4px on focus) and the prompt carries a 3px red rule down its left edge. Screenshots are always cropped from the top (`object-position: top`). The detail sheet opens with a diagonal wipe from the bottom-left corner.
+
+### Named Rules
+**The Square Or Pill Rule.** A corner is either 0 or fully round. There are no small radii.
 
 ## Components
 
 ### Buttons
-- **Shape:** pill (999px), 10px by 20px padding, 13.5px weight 500.
-- **Primary:** Library Ink fill with Warm Paper text ("Copy brief", "Copy image prompt").
-- **Default:** Card White fill, Strong Hairline border ("Close").
-- **Hover / Focus:** the primary lightens to Soft Ink; the default darkens to Deep Paper with a stronger border. Active presses down 1px. After a copy, the button turns Copied Green.
-- **Icon button:** a 40px circle; the theme toggle rotates 180 degrees on hover.
+- **Shape:** pill (999px).
+- **Primary:** Tomato Red fill with Red-Block Cream text, 12px by 24px padding, 13px medium sans ("Copy brief").
+- **Outline:** 1px Tomato Red border and red text on the ground colour ("Copy image prompt").
+- **Hover / Done:** both invert to Ink with Cream text; after a copy the label reads "Copied" for 1.4s.
+- **Close:** a small Ink pill fixed to the top-right of the sheet.
+- **Tile action:** a 1px outlined pill ("Read it →") at the foot of each text cell; it fills on hover with the opposite colour of its cell.
 
-### Chips
-- **Style:** pill, Card White with a Hairline border, Soft Ink text, a category dot and a tabular count.
-- **State:** selected chips invert to Library Ink with Warm Paper text. Hover strengthens the border.
+### Pills
+- **Style:** Tomato Red with italic serif text and a roman figure, used for the two counts under the logotype.
 
-### Tags
-- **Style:** small pill (11.5px) on Deep Paper with a Hairline border. A dashed transparent variant reads "+N more".
+### Category Links
+- **Style:** plain serif text in a sticky, horizontally scrolling bar with a superscript count in the sans.
+- **State:** hover turns red; the selected link is red, italic and underlined (2px, 6px offset).
 
-### Cards / Containers
-- **Corner Style:** 14px.
-- **Background:** Card White, with a Hairline border and a Deep Paper image area separated by a rule.
-- **Shadow Strategy:** Rest, then Lifted with a 4px rise on hover; the screenshot zooms 3.5%.
-- **Internal Padding:** 20px 22px; the category line sits at the bottom behind a top rule.
-- **Flags:** a pill in Draft Orange on unclassified cards; a neutral outlined pill when there is no image.
+### Mosaic Tiles
+- **Corner Style:** square.
+- **Background:** the text cell is Tomato Red or Cream in a checkerboard; cream cells carry a half-pixel inset hairline.
+- **Image:** fills its cell, cropped from the top. Every third image is greyscale; hover or focus restores colour and zooms 4%.
+- **Internal Padding:** clamp(16px, 2.2vw, 38px).
+- **Content:** uppercase category label, serif title with an italic last word, a short description clamped to four lines, the tile action.
+- **Flags:** a draft is marked in the category label; a style with no screenshot shows palette bands and a small Ink pill reading "palette only".
 
 ### Inputs / Fields
-- **Style:** pill search field with a leading magnifier, Card White, Hairline border, and an inline clear button.
-- **Focus:** the border shifts to Faint Ink and a 3px ring of 8% ink appears.
+- **Style:** an underlined field with no box, italic serif text, a small uppercase label above.
+- **Focus:** the underline thickens from 2px to 4px.
 
 ### Navigation
-- **Style:** a sticky chip bar with a blurred translucent ground and a bottom rule, draggable and edge-faded. There is no other navigation; the page title is plain text.
+- **Style:** the category bar is the only navigation. An announcement tape above the hero scrolls continuously (60s loop) and stops under reduced motion.
 
-### Detail Modal
-Centred panel with a scrim, a pop-in animation (220ms) and a 36px circular close button. It holds the screenshot, an eyebrow with category dot, a serif title, a lede, a long description, a palette of swatch tiles with hex labels, a traits list and a mono prompt box, over an action bar in Warm Card.
+### Detail Sheet
+A full-viewport dialog over a red backdrop. Left: the full screenshot in a Deep Cream tray. Right: a red head block (label, serif title, italic summary), then sections headed in red italic serif: the long description, a two-column trait list under hairlines, palette bars with hex labels (the ground colour twice as wide, each bar rising on hover and copying on click), keywords as italic links separated by red slashes (a click searches for that keyword), and the image prompt behind a red left rule. A sticky bar at the bottom holds the two copy buttons.
+
+### Toast
+An Ink pill with italic serif text, centred at the bottom, shown for 1.9s.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** keep chrome neutral and let screenshots and swatches provide colour.
-- **Do** use Instrument Serif only for the page title and style names.
+- **Do** build with Tomato Red, Cream and Ink only, and let screenshots and swatches supply every other colour.
+- **Do** set serif headings tight and put the last word of a style name in italic.
+- **Do** keep blocks edge to edge with square corners; use the pill only for actions and count badges.
+- **Do** mix greyscale and colour screenshots deliberately, and crop them from the top.
+- **Do** keep the grain overlay on any new full-page surface.
 - **Do** define every colour as a CSS variable in `:root`, and redefine it for `prefers-color-scheme: dark` and `[data-theme="dark"]`.
-- **Do** keep light and dark both fully designed.
-- **Do** respect `prefers-reduced-motion` for entrance and hover motion.
+- **Do** respect `prefers-reduced-motion` for the tape, the logotype wipe, the sheet wipe and image zoom.
 
 ### Don't:
-- **Don't** introduce a second accent colour for emphasis; selection is expressed by inverting to ink.
-- **Don't** use a template SaaS look: gradient heroes, feature-card rows, stock marketing patterns. This is a confirmed visual anti-reference.
-- **Don't** treat the current look as the target of the redesign; it is recorded as the incumbent baseline.
+- **Don't** add a third chrome colour, including the per-category accents in the data.
+- **Don't** use shadows, gradients, blur or small corner radii.
+- **Don't** use the brush face for anything but the logotype and short hand-written asides.
+- **Don't** put gutters between mosaic cells or wrap entries in cards.
+- **Don't** use purple gradients, glossy 3D renders, untextured stock photography, rounded-everything friendliness, icon-grid feature rows, Inter or system-font-only typography, or evenly distributed colourful palettes. These are confirmed visual anti-references.
+- **Don't** use a template SaaS look: gradient heroes, feature-card rows, stock marketing patterns.
 - **Don't** load anything external except Google Fonts, and don't add a build step or dependency (see PRODUCT.md).
