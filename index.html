@@ -6,63 +6,71 @@
 <title>Design Style Library</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Knewave&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/app.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23c53a26'/><text x='16' y='24' font-family='Georgia,serif' font-style='italic' font-size='24' text-anchor='middle' fill='%23f4efe4'>S</text></svg>">
+<script src="data/styles.js"></script>
+<script>window.DL_BASE = '';</script>
+<script src="shared/lib.js"></script>
 </head>
 <body>
 
-<header class="masthead">
-  <div class="masthead__inner">
-    <div class="masthead__title">
-      <h1>Design Style <em>Library</em></h1>
-      <p class="masthead__sub">
-        <span id="countStyles">0</span> design languages &middot;
-        <span id="countCats">0</span> categories &middot;
-        <span id="countShots">0</span> reference screenshots
-      </p>
-    </div>
-    <div class="masthead__tools">
-      <div class="search">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-        <input id="search" type="search" placeholder="Search styles, keywords, traits…" autocomplete="off" spellcheck="false">
-        <button id="searchClear" class="search__clear" type="button" aria-label="Clear search" hidden>&times;</button>
-      </div>
-      <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle theme" title="Toggle theme">◐</button>
-    </div>
+<div class="tape" aria-hidden="true"><div class="tape__run" id="tape"></div></div>
+
+<header class="hero">
+  <div class="hero__strip" id="strip" aria-hidden="true"></div>
+  <div class="hero__bar">
+    <span class="hero__mark">Style Library</span>
+    <button class="plain" id="theme" type="button">Lights</button>
+  </div>
+  <p class="hero__script" aria-hidden="true">Style<br>Library</p>
+  <div class="hero__pills">
+    <span class="pill"><b id="nStyles">0</b> design languages</span>
+    <span class="pill"><b id="nShots">0</b> reference screenshots</span>
   </div>
 </header>
 
-<nav class="filters" aria-label="Filter by category">
-  <div class="filters__inner" id="filters"></div>
-</nav>
+<section class="intro">
+  <div class="intro__red">
+    <figure class="intro__photo" id="introPhoto"></figure>
+  </div>
+  <div class="intro__cream">
+    <h1>Every Way <em>a</em> Website Can L<em>oo</em>k, Filed <em>&amp;</em> Descri<em>bed</em></h1>
+    <label class="search">
+      <span class="search__label">Search the library</span>
+      <input id="q" type="search" placeholder="a mood, a colour, a trick" autocomplete="off" spellcheck="false">
+    </label>
+    <p class="scribble" aria-hidden="true">
+      <span>start<br>typing</span>
+      <svg viewBox="0 0 60 50" fill="none"><path d="M4 6c22-4 42 8 44 34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M38 31l10 10 6-13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </p>
+    <figure class="intro__small" id="introSmall"></figure>
+  </div>
+</section>
 
-<main>
-  <p class="result-line" id="resultLine"></p>
-  <div class="grid" id="grid"></div>
-  <p class="empty" id="empty" hidden>Nothing matches that. <button type="button" id="resetAll">Reset filters</button></p>
+<nav class="cats" aria-label="Categories"><div class="cats__in" id="cats"></div></nav>
+
+<main class="wall">
+  <p class="wall__word" id="word" aria-hidden="true">Library</p>
+  <p class="wall__count" id="count" aria-live="polite"></p>
+  <div class="mosaic" id="grid"></div>
+  <div class="empty" id="empty" hidden>
+    <p>Nothing <em>filed</em> under that.</p>
+    <button class="pill pill--btn" id="reset" type="button">Clear the search</button>
+  </div>
 </main>
 
 <footer class="foot">
-  <p>Drop new screenshots into <code>/resources</code> and refresh — they appear as drafts. Last generated <span id="genAt">—</span>.</p>
+  <p class="foot__script" aria-hidden="true">fin.</p>
+  <p>Drop new screenshots into <code>/resources</code> and refresh. They show up as drafts until classified. Last synced <span id="genAt">not yet</span>.</p>
 </footer>
 
-<div class="modal" id="modal" hidden>
-  <div class="modal__scrim" data-close></div>
-  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-    <button class="modal__x" type="button" data-close aria-label="Close">&times;</button>
-    <div class="modal__body" id="modalBody"></div>
-    <div class="modal__actions">
-      <button class="btn btn--primary" type="button" id="copyBrief">Copy brief</button>
-      <button class="btn btn--primary" type="button" id="copyPrompt">Copy image prompt</button>
-      <button class="btn" type="button" data-close>Close</button>
-    </div>
-  </div>
-</div>
+<dialog class="sheet" id="sheet" aria-labelledby="dTitle">
+  <button class="sheet__x" id="sheetX" type="button">Close</button>
+  <div class="sheet__body" id="sheetBody"></div>
+</dialog>
 
-<div class="toast" id="toast" hidden></div>
-
-<script src="data/styles.js"></script>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
 <script src="assets/app.js"></script>
 </body>
 </html>

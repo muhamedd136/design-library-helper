@@ -12,3 +12,9 @@
 # node (none used, but keep it safe)
 node_modules/
 npm-debug.log*
+
+# impeccable engine binary (platform-specific, re-downloaded on demand)
+.claude/skills/impeccable/scripts/bin/
+
+# taste-skill (39 MB of bundled assets; reinstall from github.com/leonxlnx/taste-skill)
+.claude/skills/design-taste-frontend/

@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T20:58:06Z",
+  "title": "Design System: Design Style Library",
+  "extensions": {
+    "colorMeta": {
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream",
+        "canonical": "#f4efe4",
+        "tonalRamp": [
+          "#2e291f",
+          "#564a31",
+          "#826d3f",
+          "#b29149",
+          "#bea877",
+          "#ccbfa4",
+          "#ded8cc",
+          "#f4f3f1"
+        ]
+      },
+      "cream-deep": {
+        "role": "neutral",
+        "displayName": "Deep Cream",
+        "canonical": "#e9e2d2",
+        "tonalRamp": [
+          "#2c2920",
+          "#524934",
+          "#7c6b45",
+          "#a88e53",
+          "#b8a67e",
+          "#c8bea8",
+          "#dcd8ce",
+          "#f4f3f1"
+        ]
+      },
+      "tomato": {
+        "role": "primary",
+        "displayName": "Tomato Red",
+        "canonical": "#c53a26",
+        "tonalRamp": [
+          "#331d1a",
+          "#612d26",
+          "#96392b",
+          "#d23f2a",
+          "#d47062",
+          "#d8a098",
+          "#e3cbc7",
+          "#f5f0ef"
+        ]
+      },
+      "on-tomato": {
+        "role": "primary",
+        "displayName": "Red-Block Cream",
+        "canonical": "#f8f1e3",
+        "tonalRamp": [
+          "#312a1b",
+          "#5e4c29",
+          "#907031",
+          "#c89733",
+          "#cdac68",
+          "#d4c19b",
+          "#e2d9c9",
+          "#f5f3f0"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#1a1a1a",
+        "tonalRamp": [
+          "#262626",
+          "#434343",
+          "#616161",
+          "#7e7e7e",
+          "#9b9b9b",
+          "#b8b8b8",
+          "#d5d5d5",
+          "#f2f2f2"
+        ]
+      },
+      "mute": {
+        "role": "neutral",
+        "displayName": "Mute",
+        "canonical": "#6d675d",
+        "tonalRamp": [
+          "#282725",
+          "#474440",
+          "#67625a",
+          "#888074",
+          "#a19c94",
+          "#bcb9b4",
+          "#d7d6d3",
+          "#f3f2f2"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(26, 26, 26, .2)",
+        "tonalRamp": [
+          "#262626",
+          "#434343",
+          "#616161",
+          "#7e7e7e",
+          "#9b9b9b",
+          "#b8b8b8",
+          "#d5d5d5",
+          "#f2f2f2"
+        ]
+      },
+      "hero-black": {
+        "role": "neutral",
+        "displayName": "Hero Black",
+        "canonical": "#1a1210",
+        "tonalRamp": [
+          "#2b2422",
+          "#4e3d39",
+          "#73554e",
+          "#9b6c60",
+          "#af8f87",
+          "#c3b1ad",
+          "#dad2d0",
+          "#f3f2f1"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Brush logotype in the hero; also the two small hand-written asides."
+      },
+      "backdrop": {
+        "displayName": "Backdrop",
+        "purpose": "Cropped category word behind the mosaic."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page headline and the style name in the detail sheet."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Style names in the mosaic and trait names in the sheet."
+      },
+      "accent": {
+        "displayName": "Accent",
+        "purpose": "Italic serif for pills, the selected category, section heads, search, keywords and the toast."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Descriptions and general text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase tracked category lines, the search label and the announcement tape."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.2,.7,.2,1)",
+        "purpose": "Logotype wipe (.9s), sheet wipe (.35s) and image zoom (.6s)."
+      },
+      {
+        "name": "tape-loop",
+        "value": "60s linear infinite",
+        "purpose": "Announcement tape scroll."
+      },
+      {
+        "name": "fast",
+        "value": ".2s",
+        "purpose": "Colour changes on pills, buttons and the toast."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mosaic-1",
+        "value": "1000px"
+      },
+      {
+        "name": "stack",
+        "value": "620px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main copy action in the detail sheet.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Copy brief</button>",
+      "css": ".ds-btn{padding:12px 24px;border-radius:999px;border:1px solid #c53a26;cursor:pointer;min-width:13em;font:500 13px/1 'DM Sans','Helvetica Neue',sans-serif;transition:background .2s,color .2s,border-color .2s}.ds-btn:hover{background:#1a1a1a;border-color:#1a1a1a;color:#f4efe4}.ds-btn:focus-visible{outline:3px solid #1a1a1a;outline-offset:2px}.ds-btn-primary{background:#c53a26;color:#f8f1e3}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Second copy action beside the primary button.",
+      "html": "<button class=\"ds-btn ds-btn-outline\">Copy image prompt</button>",
+      "css": ".ds-btn{padding:12px 24px;border-radius:999px;border:1px solid #c53a26;cursor:pointer;min-width:13em;font:500 13px/1 'DM Sans','Helvetica Neue',sans-serif;transition:background .2s,color .2s,border-color .2s}.ds-btn:hover{background:#1a1a1a;border-color:#1a1a1a;color:#f4efe4}.ds-btn:focus-visible{outline:3px solid #1a1a1a;outline-offset:2px}.ds-btn-outline{background:#f4efe4;color:#c53a26}"
+    },
+    {
+      "name": "Count Pill",
+      "kind": "chip",
+      "refersTo": "pill",
+      "description": "Red pill with an italic serif label, used for the counts under the logotype.",
+      "html": "<span class=\"ds-pill\"><b>147</b> design languages</span>",
+      "css": ".ds-pill{display:inline-block;padding:7px 18px;border-radius:999px;background:#c53a26;color:#f8f1e3;font:italic 400 15px/1.2 'Playfair Display','Times New Roman',serif}.ds-pill b{font-weight:500;font-style:normal}"
+    },
+    {
+      "name": "Category Links",
+      "kind": "nav",
+      "refersTo": "category-link",
+      "description": "Sticky category bar: serif links with superscript counts; the selected one is red italic and underlined.",
+      "html": "<nav class=\"ds-cats\"><button class=\"ds-cat ds-on\">Everything<sup>147</sup></button><button class=\"ds-cat\">Editorial &amp; Typographic<sup>18</sup></button><button class=\"ds-cat\">Retro &amp; Nostalgia<sup>18</sup></button></nav>",
+      "css": ".ds-cats{display:flex;gap:28px;padding:14px 20px;background:#f4efe4;border-top:1px solid rgba(26,26,26,.2);border-bottom:1px solid rgba(26,26,26,.2)}.ds-cat{border:0;background:none;padding:0;cursor:pointer;white-space:nowrap;color:#1a1a1a;font:400 19px/1.2 'Playfair Display','Times New Roman',serif;letter-spacing:-.01em}.ds-cat sup{font:500 10px/1 'DM Sans','Helvetica Neue',sans-serif;margin-left:3px;color:#6d675d}.ds-cat:hover{color:#c53a26}.ds-cat:focus-visible{outline:3px solid #1a1a1a;outline-offset:2px}.ds-on{color:#c53a26;font-style:italic;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px}.ds-on sup{color:#c53a26}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Underlined italic serif field with a small uppercase label.",
+      "html": "<label class=\"ds-search\"><span>Search the library</span><input type=\"search\" placeholder=\"a mood, a colour, a trick\"></label>",
+      "css": ".ds-search{display:block;width:420px;background:#f4efe4;padding:16px}.ds-search span{display:block;margin-bottom:6px;color:#6d675d;font:500 10.5px/1 'DM Sans','Helvetica Neue',sans-serif;letter-spacing:.16em;text-transform:uppercase}.ds-search input{width:100%;padding:6px 0 10px;border:0;border-bottom:2px solid #c53a26;border-radius:0;background:none;color:#1a1a1a;outline:none;font:italic 400 28px/1.2 'Playfair Display','Times New Roman',serif}.ds-search input::placeholder{color:#6d675d;opacity:.8}.ds-search input:focus-visible{border-bottom-width:4px;padding-bottom:8px}"
+    },
+    {
+      "name": "Mosaic Tile",
+      "kind": "card",
+      "refersTo": "tile-red",
+      "description": "One library entry: a square screenshot cell beside a square text cell. Text cells alternate red and cream.",
+      "html": "<div class=\"ds-mosaic\"><button class=\"ds-tile\"><span class=\"ds-img\"></span><span class=\"ds-txt\"><span class=\"ds-lab\">Maximalist &amp; Expressive</span><span class=\"ds-title\">Cherry Bold <em>Brand</em></span><span class=\"ds-short\">Brush-script logotype over editorial photography and tomato-red colour blocks.</span><span class=\"ds-go\">Read it →</span></span></button><button class=\"ds-tile ds-cream\"><span class=\"ds-img\"></span><span class=\"ds-txt\"><span class=\"ds-lab\">Retro &amp; Nostalgia</span><span class=\"ds-title\">Vintage <em>Newspaper</em></span><span class=\"ds-short\">A broadsheet moved to the browser: masthead, rules and drop caps.</span><span class=\"ds-go\">Read it →</span></span></button></div>",
+      "css": ".ds-mosaic{display:grid;grid-template-columns:1fr 1fr;width:880px}.ds-tile{display:grid;grid-template-columns:1fr 1fr;aspect-ratio:2/1;padding:0;border:0;text-align:left;cursor:pointer;overflow:hidden;background:none}.ds-img{background:#e9e2d2}.ds-txt{display:flex;flex-direction:column;gap:10px;padding:24px;background:#c53a26;color:#f8f1e3;font-family:'DM Sans','Helvetica Neue',sans-serif}.ds-lab{font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;opacity:.75}.ds-title{font:400 28px/1.02 'Playfair Display','Times New Roman',serif;letter-spacing:-.025em}.ds-title em{font-style:italic}.ds-short{font-size:13px;line-height:1.5}.ds-go{margin-top:auto;align-self:flex-start;padding:6px 14px;border:1px solid currentColor;border-radius:999px;font-size:11px;font-weight:500;transition:background .2s,color .2s}.ds-tile:hover .ds-go{background:#f8f1e3;border-color:#f8f1e3;color:#c53a26}.ds-tile:focus-visible{outline:3px solid #1a1a1a;outline-offset:-4px}.ds-cream .ds-txt{background:#f4efe4;color:#1a1a1a;box-shadow:inset 0 0 0 .5px rgba(26,26,26,.2)}.ds-cream .ds-title{color:#c53a26}.ds-cream:hover .ds-go{background:#c53a26;border-color:#c53a26;color:#f8f1e3}"
+    },
+    {
+      "name": "Sheet Head",
+      "kind": "custom",
+      "refersTo": "sheet-head",
+      "description": "Red block that opens the detail sheet: label, serif title with an italic last word, italic summary.",
+      "html": "<header class=\"ds-head\"><p class=\"ds-hcat\">Maximalist &amp; Expressive</p><h2>Cherry Bold <em>Brand</em></h2><p class=\"ds-hshort\">Brush-script logotype over editorial photography and tomato-red colour blocks.</p></header>",
+      "css": ".ds-head{width:560px;padding:56px 40px 36px;background:#c53a26;color:#f8f1e3}.ds-hcat{margin:0 0 16px;font:500 10.5px/1 'DM Sans','Helvetica Neue',sans-serif;letter-spacing:.18em;text-transform:uppercase}.ds-head h2{margin:0;font:400 64px/.95 'Playfair Display','Times New Roman',serif;letter-spacing:-.04em}.ds-head em{font-style:italic}.ds-hshort{margin:22px 0 0;max-width:34ch;font:italic 400 20px/1.3 'Playfair Display','Times New Roman',serif}"
+    },
+    {
+      "name": "Palette Bars",
+      "kind": "custom",
+      "refersTo": "colors",
+      "description": "Palette row in the detail sheet: square bars with hex labels, the ground colour twice as wide. A click copies the hex.",
+      "html": "<div class=\"ds-pal\"><button><i style=\"background:#c53a26\"></i><span>#C53A26</span></button><button><i style=\"background:#f4efe4\"></i><span>#F4EFE4</span></button><button><i style=\"background:#1a1a1a\"></i><span>#1A1A1A</span></button><button><i style=\"background:#8a8a8a\"></i><span>#8A8A8A</span></button></div>",
+      "css": ".ds-pal{display:flex;width:480px;padding-top:12px;background:#f4efe4}.ds-pal button{flex:1;min-width:0;padding:0;border:0;background:none;text-align:left;cursor:pointer;color:#1a1a1a}.ds-pal button:first-child{flex:2}.ds-pal i{display:block;height:92px;box-shadow:inset 0 0 0 .5px rgba(26,26,26,.2);transition:height .2s,margin .2s}.ds-pal button:hover i{height:104px;margin-top:-12px}.ds-pal span{display:block;margin-top:8px;font:500 11px/1 'DM Sans','Helvetica Neue',sans-serif;letter-spacing:.06em}.ds-pal button:focus-visible{outline:3px solid #1a1a1a;outline-offset:2px}"
+    },
+    {
+      "name": "Prompt Block",
+      "kind": "custom",
+      "refersTo": "colors",
+      "description": "A style's hero image prompt, set in the sans behind a red left rule.",
+      "html": "<p class=\"ds-prompt\">A woman standing behind a white frosted cake studded with red cherries, colour-graded cool grey so only the cherries stay saturated, a thick cream brush-script stroke laid across the middle of the frame, tomato red and cream blocks butting in from the edges, confident editorial light, no interface elements</p>",
+      "css": ".ds-prompt{margin:0;max-width:520px;padding-left:18px;border-left:3px solid #c53a26;color:#1a1a1a;font:400 14.5px/1.68 'DM Sans','Helvetica Neue',sans-serif}"
+    },
+    {
+      "name": "Toast",
+      "kind": "custom",
+      "refersTo": "toast",
+      "description": "Copy confirmation: an ink pill with italic serif text, shown for 1.9s.",
+      "html": "<div class=\"ds-toast\">Design brief copied</div>",
+      "css": ".ds-toast{display:inline-block;padding:11px 22px;border-radius:999px;background:#1a1a1a;color:#f4efe4;white-space:nowrap;font:italic 400 16px/1 'Playfair Display','Times New Roman',serif}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Red-Letter Lookbook",
+    "overview": "A fashion lookbook that happens to file web design languages. Two colours do all the work: tomato red and cream, laid down as hard-edged blocks with no gutters between them. A brush-script logotype shouts once at the top over a strip of greyscale screenshots, then a high-contrast serif takes over, mixing roman and italic inside the same line. The library's own screenshots are the photography, some in colour and some in greyscale, set edge to edge with red and cream text cells in a checkerboard.\n\nDensity is high and the surface is flat. There are no cards, no shadows and no rounded panels: a style is a pair of square cells, one image and one block of text. An oversized cropped serif word sits behind the top of the mosaic and names the current category. A fine paper grain covers the whole page so the flat colour never looks like a screen fill. Light and dark share the same structure; dark swaps cream for a warm near-black and keeps the red.\n\nThe confirmed visual anti-references are: purple gradients, glossy 3D renders, untextured stock photography, rounded-everything friendliness, icon-grid feature rows, Inter or system-font-only typography, evenly distributed colourful palettes, and the template SaaS look.",
+    "keyCharacteristics": [
+      "Tomato red and cream as flat, hard-edged blocks; ink only for text and small controls.",
+      "A brush logotype used once, then a serif that mixes roman and italic.",
+      "A gutterless checkerboard mosaic of screenshot cells and text cells.",
+      "An oversized, cropped serif word as a background layer behind the grid.",
+      "Square corners everywhere except pill-shaped actions.",
+      "No shadows; a paper grain overlay supplies the texture.",
+      "Light and dark are both first-class; dark is a warm near-black, not blue-black."
+    ],
+    "rules": [
+      {
+        "name": "The Two Colours Rule",
+        "body": "The chrome is Tomato Red, Cream and Ink. Any other hue on screen comes from a screenshot or a palette swatch.",
+        "section": "colors"
+      },
+      {
+        "name": "The Trade Places Rule",
+        "body": "Red on cream and cream on red are the only two pairings. A selected or hovered control inverts to the other pairing, or to ink; it never gains a new colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Italic Last Word Rule",
+        "body": "A style name is set roman with its last word in italic. The page headline does the same thing by hand, italicising single letters and words. Italic is never applied to a whole heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Brush Once Rule",
+        "body": "The brush face belongs to the logotype and two small hand-written asides. It is never used for content, labels or controls.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Gutter Rule",
+        "body": "Blocks touch. Separation comes from the change of colour or from an image edge, never from whitespace between cells.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Paper Rule",
+        "body": "Nothing lifts off the page. Hover changes colour, crop or saturation, never elevation.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Or Pill Rule",
+        "body": "A corner is either 0 or fully round. There are no small radii.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do build with Tomato Red, Cream and Ink only, and let screenshots and swatches supply every other colour.",
+      "Do set serif headings tight and put the last word of a style name in italic.",
+      "Do keep blocks edge to edge with square corners; use the pill only for actions and count badges.",
+      "Do mix greyscale and colour screenshots deliberately, and crop them from the top.",
+      "Do keep the grain overlay on any new full-page surface.",
+      "Do define every colour as a CSS variable in `:root`, and redefine it for `prefers-color-scheme: dark` and `[data-theme=\"dark\"]`.",
+      "Do respect `prefers-reduced-motion` for the tape, the logotype wipe, the sheet wipe and image zoom."
+    ],
+    "donts": [
+      "Don't add a third chrome colour, including the per-category accents in the data.",
+      "Don't use shadows, gradients, blur or small corner radii.",
+      "Don't use the brush face for anything but the logotype and short hand-written asides.",
+      "Don't put gutters between mosaic cells or wrap entries in cards.",
+      "Don't use purple gradients, glossy 3D renders, untextured stock photography, rounded-everything friendliness, icon-grid feature rows, Inter or system-font-only typography, or evenly distributed colourful palettes. These are confirmed visual anti-references.",
+      "Don't use a template SaaS look: gradient heroes, feature-card rows, stock marketing patterns.",
+      "Don't load anything external except Google Fonts, and don't add a build step or dependency (see PRODUCT.md)."
+    ]
+  }
+}
