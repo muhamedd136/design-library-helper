@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T20:17:43Z",
+  "title": "Design System: Design Style Library",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#f6f4f0",
+        "tonalRamp": [
+          "#2c2821",
+          "#544933",
+          "#796948",
+          "#9d885e",
+          "#b4a382",
+          "#cabea6",
+          "#e0d9cb",
+          "#f4f3f0"
+        ]
+      },
+      "paper-deep": {
+        "role": "neutral",
+        "displayName": "Deep Paper",
+        "canonical": "#efece6",
+        "tonalRamp": [
+          "#2b2821",
+          "#524835",
+          "#76684b",
+          "#998762",
+          "#b1a285",
+          "#c8bda8",
+          "#ded8cc",
+          "#f4f3f1"
+        ]
+      },
+      "card-white": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#434343",
+          "#616161",
+          "#7e7e7e",
+          "#9b9b9b",
+          "#b8b8b8",
+          "#d5d5d5",
+          "#f2f2f2"
+        ]
+      },
+      "card-warm": {
+        "role": "neutral",
+        "displayName": "Warm Card",
+        "canonical": "#faf9f7",
+        "tonalRamp": [
+          "#2c2821",
+          "#534934",
+          "#77684a",
+          "#9b8761",
+          "#b2a384",
+          "#c8bda8",
+          "#dfd8cb",
+          "#f4f3f0"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Library Ink",
+        "canonical": "#14130f",
+        "tonalRamp": [
+          "#2a2823",
+          "#4d493a",
+          "#6e6953",
+          "#90886c",
+          "#a9a38d",
+          "#c2beae",
+          "#dbd9cf",
+          "#f3f3f1"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#514c44",
+        "tonalRamp": [
+          "#282724",
+          "#49453e",
+          "#696258",
+          "#898073",
+          "#a49d92",
+          "#beb9b2",
+          "#d9d6d1",
+          "#f3f2f2"
+        ]
+      },
+      "ink-faint": {
+        "role": "neutral",
+        "displayName": "Faint Ink",
+        "canonical": "#8b8479",
+        "tonalRamp": [
+          "#282725",
+          "#48443f",
+          "#67625a",
+          "#878075",
+          "#a29c94",
+          "#bdb9b3",
+          "#d8d6d2",
+          "#f3f2f2"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e2ddd4",
+        "tonalRamp": [
+          "#2b2822",
+          "#504736",
+          "#73664e",
+          "#968565",
+          "#aea087",
+          "#c6bcaa",
+          "#ddd7cd",
+          "#f4f3f1"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "#d2ccc0",
+        "tonalRamp": [
+          "#2a2822",
+          "#4f4738",
+          "#716650",
+          "#938569",
+          "#aca08a",
+          "#c4bcac",
+          "#dcd7ce",
+          "#f4f3f1"
+        ]
+      },
+      "draft-orange": {
+        "role": "tertiary",
+        "displayName": "Draft Orange",
+        "canonical": "#ff8a3d",
+        "tonalRamp": [
+          "#3d220f",
+          "#873500",
+          "#c14d00",
+          "#fb6400",
+          "#ff8637",
+          "#ffa971",
+          "#ffccab",
+          "#faf1eb"
+        ]
+      },
+      "copied-green": {
+        "role": "tertiary",
+        "displayName": "Copied Green",
+        "canonical": "#2e7d54",
+        "tonalRamp": [
+          "#1c3126",
+          "#246342",
+          "#348d5f",
+          "#44b87b",
+          "#6dc999",
+          "#97d9b7",
+          "#c2e8d4",
+          "#eff6f2"
+        ]
+      },
+      "match-yellow": {
+        "role": "tertiary",
+        "displayName": "Match Yellow",
+        "canonical": "#f5c518",
+        "tonalRamp": [
+          "#3b3211",
+          "#816606",
+          "#b99308",
+          "#f1bf0a",
+          "#f7cf3f",
+          "#f9dd77",
+          "#fcebaf",
+          "#f9f6eb"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page title only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Style name in the detail modal."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Style name on each card."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Descriptions and general text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase tracked metadata and section heads."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Prompts, code chips and swatch hex values."
+      }
+    },
+    "shadows": [
+      {
+        "name": "rest",
+        "value": "0 1px 2px rgba(20,19,15,.05), 0 12px 28px -18px rgba(20,19,15,.35)",
+        "purpose": "Cards at rest."
+      },
+      {
+        "name": "lifted",
+        "value": "0 24px 70px -20px rgba(20,19,15,.42)",
+        "purpose": "Hovered cards, the modal panel and the toast."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-lift",
+        "value": "cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Card lift and screenshot zoom."
+      },
+      {
+        "name": "ease-pop",
+        "value": "cubic-bezier(.2,.9,.25,1)",
+        "purpose": "Modal and toast entrance (220ms)."
+      },
+      {
+        "name": "fast",
+        "value": ".15s",
+        "purpose": "Colour and border transitions on controls."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "grid-2",
+        "value": "1080px"
+      },
+      {
+        "name": "modal-stack",
+        "value": "860px"
+      },
+      {
+        "name": "grid-1",
+        "value": "680px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Copy actions in the detail modal.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Copy brief</button>",
+      "css": ".ds-btn{padding:10px 20px;border-radius:999px;cursor:pointer;border:1px solid #d2ccc0;background:#fff;color:#14130f;font:500 13.5px/1.2 Inter,system-ui,sans-serif;transition:background .15s,border-color .15s,transform .1s}.ds-btn:hover{background:#efece6;border-color:#8b8479}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:2px solid #14130f;outline-offset:2px}.ds-btn-primary{background:#14130f;border-color:#14130f;color:#f6f4f0}.ds-btn-primary:hover{background:#514c44;border-color:#514c44;color:#f6f4f0}"
+    },
+    {
+      "name": "Default Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Secondary actions such as Close.",
+      "html": "<button class=\"ds-btn\">Close</button>",
+      "css": ".ds-btn{padding:10px 20px;border-radius:999px;cursor:pointer;border:1px solid #d2ccc0;background:#fff;color:#14130f;font:500 13.5px/1.2 Inter,system-ui,sans-serif;transition:background .15s,border-color .15s}.ds-btn:hover{background:#efece6;border-color:#8b8479}.ds-btn:focus-visible{outline:2px solid #14130f;outline-offset:2px}"
+    },
+    {
+      "name": "Category Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Filter chip with a category dot and count; selected inverts to ink.",
+      "html": "<button class=\"ds-chip\"><i class=\"ds-dot\"></i>Editorial &amp; Typographic <span class=\"ds-n\">18</span></button> <button class=\"ds-chip ds-on\"><i class=\"ds-dot\"></i>All <span class=\"ds-n\">147</span></button>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:8px;padding:8px 15px;border-radius:999px;cursor:pointer;white-space:nowrap;border:1px solid #e2ddd4;background:#fff;font:500 13.5px/1.2 Inter,system-ui,sans-serif;color:#514c44;transition:border-color .15s,background .15s,color .15s}.ds-chip:hover{border-color:#d2ccc0;color:#14130f}.ds-chip:focus-visible{outline:2px solid #14130f;outline-offset:2px}.ds-dot{width:8px;height:8px;border-radius:50%;background:currentColor}.ds-n{font-size:11.5px;color:#8b8479}.ds-on{background:#14130f;border-color:#14130f;color:#f6f4f0}.ds-on .ds-n{color:rgba(246,244,240,.65)}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Pill search with a leading magnifier.",
+      "html": "<div class=\"ds-search\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"M20 20l-3.5-3.5\"/></svg><input type=\"search\" placeholder=\"Search styles, keywords, traits…\"></div>",
+      "css": ".ds-search{position:relative;display:flex;align-items:center}.ds-search svg{position:absolute;left:13px;width:16px;height:16px;fill:none;stroke:#8b8479;stroke-width:1.7;stroke-linecap:round}.ds-search input{width:300px;padding:11px 34px 11px 38px;background:#fff;color:#14130f;border:1px solid #e2ddd4;border-radius:999px;font:400 14px/1 Inter,system-ui,sans-serif;outline:none;transition:border-color .15s,box-shadow .15s}.ds-search input::placeholder{color:#8b8479}.ds-search input:focus{border-color:#8b8479;box-shadow:0 0 0 3px rgba(20,19,15,.08)}"
+    },
+    {
+      "name": "Style Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "One library entry: screenshot, serif name, short line, tags and category.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-shot\"></div><div class=\"ds-body\"><h3>Editorial Grid</h3><p>Magazine columns with oversized display type and ruled hierarchy.</p><div class=\"ds-tags\"><span>dual shadow</span><span>ghost numerals</span><span class=\"ds-more\">+4</span></div><div class=\"ds-cat\"><i></i><b>Editorial &amp; Typographic</b></div></div></article>",
+      "css": ".ds-card{width:320px;display:flex;flex-direction:column;background:#fff;border:1px solid #e2ddd4;border-radius:14px;overflow:hidden;box-shadow:0 1px 2px rgba(20,19,15,.05),0 12px 28px -18px rgba(20,19,15,.35);transition:transform .2s cubic-bezier(.2,.8,.2,1),box-shadow .2s,border-color .2s;font-family:Inter,system-ui,sans-serif}.ds-card:hover{transform:translateY(-4px);box-shadow:0 24px 70px -20px rgba(20,19,15,.42);border-color:#d2ccc0}.ds-shot{aspect-ratio:4/3;background:#efece6;border-bottom:1px solid #e2ddd4}.ds-body{padding:20px 22px 21px;display:flex;flex-direction:column;gap:10px}.ds-body h3{margin:0;font:400 25px/1.14 'Instrument Serif',Georgia,serif;letter-spacing:-.012em;color:#14130f}.ds-body p{margin:0;font-size:14.5px;line-height:1.55;color:#514c44}.ds-tags{display:flex;flex-wrap:wrap;gap:6px}.ds-tags span{padding:4.5px 10px;border-radius:999px;font-size:11.5px;font-weight:500;background:#efece6;color:#514c44;border:1px solid #e2ddd4}.ds-tags .ds-more{background:transparent;border-style:dashed;color:#8b8479}.ds-cat{padding-top:15px;border-top:1px solid #e2ddd4;display:flex;align-items:center;gap:8px;font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;color:#8b8479}.ds-cat i{width:9px;height:9px;border-radius:50%;background:#e0533d}.ds-cat b{font-weight:600;color:#514c44}"
+    },
+    {
+      "name": "Prompt Box",
+      "kind": "custom",
+      "refersTo": "prompt-box",
+      "description": "Mono block holding a style's image prompt in the detail modal.",
+      "html": "<div class=\"ds-prompt\"><pre>warm cream paper, an oversized serif wordmark cropped by the frame, soft side light, muted terracotta and ink, no text and no interface elements</pre></div>",
+      "css": ".ds-prompt{background:#efece6;border:1px solid #e2ddd4;border-radius:12px;padding:15px 16px;max-width:420px}.ds-prompt pre{margin:0;white-space:pre-wrap;word-break:break-word;font:400 12.5px/1.65 'JetBrains Mono',ui-monospace,monospace;color:#514c44}"
+    },
+    {
+      "name": "Palette Swatch",
+      "kind": "custom",
+      "refersTo": "colors",
+      "description": "Colour tile with a hex label, as shown in the modal palette row.",
+      "html": "<div class=\"ds-sw\"><i style=\"background:#e0533d\"></i><span>#E0533D</span></div>",
+      "css": ".ds-sw{display:inline-block;width:52px;border-radius:9px;border:1px solid #e2ddd4;overflow:hidden;background:#faf9f7}.ds-sw i{display:block;height:38px}.ds-sw span{display:block;padding:4px 0;text-align:center;font:500 8.5px/1 'JetBrains Mono',ui-monospace,monospace;color:#8b8479}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Reading Room",
+    "overview": "A calm room with warm paper walls and a serif voice. The library is a place to read about design languages, not to be dazzled by one, so the interface is a quiet frame: off-white paper, one near-black ink, hairline rules, and Instrument Serif for every title. Reference screenshots supply all of the colour; the chrome around them stays neutral so no entry competes with another.",
+    "keyCharacteristics": [
+      "Warm off-white ground with a single near-black ink; no brand accent in the chrome.",
+      "Serif titles over a neutral sans body, with small uppercase tracked labels for metadata.",
+      "Pill-shaped controls (buttons, chips, tags, search) and 14px to 18px rounded surfaces.",
+      "Hairline borders plus one soft shadow recipe; depth is modest and only grows on hover.",
+      "Light and dark are both first-class; dark is a warm near-black, not blue-black."
+    ],
+    "rules": [
+      {
+        "name": "The Content Owns Colour Rule",
+        "body": "Chrome stays neutral; hue comes only from screenshots, palette swatches and the small category dots.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Ink Rule",
+        "body": "There is a single dark ink for text, selected states and primary actions. A second accent colour is not introduced for emphasis.",
+        "section": "colors"
+      },
+      {
+        "name": "The Serif Names Rule",
+        "body": "Serif is for names and the page title only. Descriptions, controls and metadata stay in the sans.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hover-Lift Rule",
+        "body": "Elevation changes only in response to pointer state; at rest the page is nearly flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep chrome neutral and let screenshots and swatches provide colour.",
+      "Do use Instrument Serif only for the page title and style names.",
+      "Do define every colour as a CSS variable in `:root`, and redefine it for `prefers-color-scheme: dark` and `[data-theme=\"dark\"]`.",
+      "Do keep light and dark both fully designed.",
+      "Do respect `prefers-reduced-motion` for entrance and hover motion."
+    ],
+    "donts": [
+      "Don't introduce a second accent colour for emphasis; selection is expressed by inverting to ink.",
+      "Don't use a template SaaS look: gradient heroes, feature-card rows, stock marketing patterns. This is a confirmed visual anti-reference.",
+      "Don't treat the current look as the target of the redesign; it is recorded as the incumbent baseline.",
+      "Don't load anything external except Google Fonts, and don't add a build step or dependency (see PRODUCT.md)."
+    ]
+  }
+}
