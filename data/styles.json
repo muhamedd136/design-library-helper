@@ -4569,26 +4569,6 @@
         "Motion": "The date ticker scrolls; blocks slide up along their notched edges."
       },
       "prompt": "Flat saturated blue green red and black blocks butted against a cream field with notched and triangular cut edges, a linear diamond emblem drawn in a single stroke weight, a tilted riso-style poster with layered offset display lettering as if misregistered on press, flat cut-out citrus shapes, a mustard surround, no gradients"
-    },
-    {
-      "id": "0568d2e491f5ed5c86e4a419a985c76c-1",
-      "title": "Untitled — 0568d2e491f5ed5c86e4a419a985c76c-1.jpg",
-      "category": "unsorted",
-      "image": "resources/0568d2e491f5ed5c86e4a419a985c76c-1.jpg",
-      "draft": true,
-      "short": "Not classified yet. Run the classify prompt in README.md to fill this in.",
-      "long": "This screenshot was found in /resources but has not been analysed yet. Ask Claude to classify the drafts and it will write the title, description, keywords, palette, traits and image prompt for you.",
-      "keywords": [
-        "unclassified"
-      ],
-      "palette": [
-        "#d9d9d9",
-        "#a3a3a3",
-        "#6b6b6b",
-        "#2b2b2b"
-      ],
-      "traits": {},
-      "prompt": ""
     }
   ]
 }
