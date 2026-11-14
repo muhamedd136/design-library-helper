@@ -17,24 +17,13 @@
 
 <div class="tape" aria-hidden="true"><div class="tape__run" id="tape"></div></div>
 
-<header class="hero">
-  <div class="hero__strip" id="strip" aria-hidden="true"></div>
-  <div class="hero__bar">
-    <span class="hero__mark">Style Library</span>
-    <button class="plain" id="theme" type="button">Lights</button>
+<header class="cover">
+  <div class="cover__strip">
+    <button class="cover__theme" id="theme" type="button">Lights</button>
+    <div class="cover__shots" id="strip"></div>
+    <p class="cover__script" aria-hidden="true">Style<br>Library</p>
   </div>
-  <p class="hero__script" aria-hidden="true">Style<br>Library</p>
-  <div class="hero__pills">
-    <span class="pill"><b id="nStyles">0</b> design languages</span>
-    <span class="pill"><b id="nShots">0</b> reference screenshots</span>
-  </div>
-</header>
-
-<section class="intro">
-  <div class="intro__red">
-    <figure class="intro__photo" id="introPhoto"></figure>
-  </div>
-  <div class="intro__cream">
+  <div class="cover__panel" id="intro">
     <h1>Every Way <em>a</em> Website Can L<em>oo</em>k, Filed <em>&amp;</em> Descri<em>bed</em></h1>
     <label class="search">
       <span class="search__label">Search the library</span>
@@ -44,19 +33,26 @@
       <span>start<br>typing</span>
       <svg viewBox="0 0 60 50" fill="none"><path d="M4 6c22-4 42 8 44 34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M38 31l10 10 6-13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </p>
-    <figure class="intro__small" id="introSmall"></figure>
   </div>
-</section>
+</header>
 
-<nav class="cats" aria-label="Categories"><div class="cats__in" id="cats"></div></nav>
+<div class="bar" id="bar">
+  <div class="status">
+    <p class="status__text" id="count" aria-live="polite"></p>
+    <button class="status__clear" id="clear" type="button" hidden>Clear</button>
+  </div>
+  <nav class="cats" aria-label="Categories"><div class="cats__in" id="cats"></div></nav>
+</div>
 
 <main class="wall">
   <p class="wall__word" id="word" aria-hidden="true">Library</p>
-  <p class="wall__count" id="count" aria-live="polite"></p>
   <div class="mosaic" id="grid"></div>
   <div class="empty" id="empty" hidden>
-    <p>Nothing <em>filed</em> under that.</p>
-    <button class="pill pill--btn" id="reset" type="button">Clear the search</button>
+    <p id="emptyText">Nothing <em>filed</em> under that.</p>
+    <div class="empty__acts">
+      <button class="pill pill--btn" id="widen" type="button" hidden></button>
+      <button class="pill pill--btn" id="reset" type="button">Clear the search</button>
+    </div>
   </div>
 </main>
 

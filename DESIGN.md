@@ -13,18 +13,18 @@ colors:
 typography:
   display:
     fontFamily: "Knewave, Marker Felt, cursive"
-    fontSize: "clamp(56px, 17.5vw, 290px)"
+    fontSize: "clamp(44px, 9.6vw, 150px)"
     fontWeight: 400
     lineHeight: 0.8
   backdrop:
     fontFamily: "Playfair Display, Times New Roman, serif"
-    fontSize: "24vw"
+    fontSize: "18vw"
     fontWeight: 500
     lineHeight: 0.86
     letterSpacing: "-0.045em"
   headline:
     fontFamily: "Playfair Display, Times New Roman, serif"
-    fontSize: "clamp(36px, 4.9vw, 78px)"
+    fontSize: "clamp(30px, 3.5vw, 56px)"
     fontWeight: 400
     lineHeight: 1
     letterSpacing: "-0.035em"
@@ -159,7 +159,7 @@ The confirmed visual anti-references are: purple gradients, glossy 3D renders, u
 Two colours and an ink. Red and cream trade places as ground and figure; nothing else is added to the chrome.
 
 ### Primary
-- **Tomato Red**: the colour blocks (announcement tape, the red intro block, every other text cell, the head of the detail sheet, the backdrop behind the sheet), all serif headings set on cream, the search underline, primary buttons and pills. Dark mode lifts it slightly (#cf4029).
+- **Tomato Red**: the colour blocks (announcement tape, every other text cell, the head of the detail sheet, the backdrop behind the sheet), all serif headings set on cream, the search underline, primary buttons and pills. Dark mode lifts it slightly (#cf4029).
 - **Red-Block Cream**: text and outlines that sit on Tomato Red. Dark: #fff3e2.
 
 ### Neutral
@@ -168,7 +168,7 @@ Two colours and an ink. Red and cream trade places as ground and figure; nothing
 - **Ink**: body text, the close button, the toast, search highlights, focus rings. Dark: it becomes Cream (#f4efe4).
 - **Mute**: captions, counts, placeholder text, small labels. Dark: #a79d90.
 - **Hairline**: 1px rules around the category bar, trait rows and image frames, drawn as 20% ink. Dark: 22% cream.
-- **Hero Black**: the ground under the hero strip, behind the greyscale screenshots. It stays dark in both themes.
+- **Hero Black**: the ground under the cover strip, behind the greyscale screenshots, and the theme toggle that sits on it. It stays dark in both themes.
 
 Category accent colours from `data/styles.json` are not used in the interface.
 
@@ -186,9 +186,9 @@ Category accent colours from `data/styles.json` are not used in the interface.
 **Character:** A loud brush logotype over a composed, high-contrast serif. The serif sets tight (negative tracking, line-height at or under 1) and switches to italic mid-line for attitude; the sans stays small and plain underneath.
 
 ### Hierarchy
-- **Display** (400, clamp(56px, 17.5vw, 290px), 0.8, uppercase, rotated -4deg): the hero logotype. The same face appears small in the "start typing" note and at the foot of the page, nowhere else.
-- **Backdrop** (500, 24vw, 0.86, uppercase, -0.045em): the cropped category word behind the mosaic. It runs off both edges and is covered by the first row of tiles.
-- **Headline** (400, clamp(36px, 4.9vw, 78px), 1.0, -0.035em): the page headline; the style name in the detail sheet uses the same voice at clamp(40px, 5.2vw, 88px) and 0.95.
+- **Display** (400, clamp(44px, 9.6vw, 150px), 0.8, uppercase, rotated -4deg): the cover logotype. The same face appears small in the "start typing" note and at the foot of the page, nowhere else.
+- **Backdrop** (500, 18vw, 0.86, uppercase, -0.045em): the cropped category word behind the mosaic. It runs off both edges and is covered by the first row of tiles.
+- **Headline** (400, clamp(30px, 3.5vw, 56px), 1.0, -0.035em): the page headline; the style name in the detail sheet uses the same voice at clamp(40px, 5.2vw, 88px) and 0.95.
 - **Title** (400, clamp(21px, 2.3vw, 37px), 1.02, -0.025em): style names in the mosaic and trait names in the sheet.
 - **Accent** (400 italic, 15px to 20px, 1.2): pills, the selected category, section heads in the sheet, the search field (up to 32px), keywords, the toast and the result count.
 - **Body** (400, 15px, 1.5): descriptions. The long description in the sheet is 16px at 1.62 with a 62ch measure; tile descriptions drop to 12px to 14px and clamp at four lines.
@@ -201,27 +201,27 @@ Category accent colours from `data/styles.json` are not used in the interface.
 
 ## Layout
 
-Full-bleed bands stacked with no gaps: announcement tape, hero strip, a two-part intro (38% red block, 62% cream with the headline and search), a sticky category bar, then the mosaic.
+Full-bleed bands stacked with no gaps: announcement tape, one cover band, a sticky bar (result status, then category links), then the mosaic. The cover is half the viewport tall (clamp(340px, 50vh, 540px)) and splits 55/45: a strip of five greyscale entries under the logotype on the left, the headline and search on cream on the right. Search and the top of the first row of tiles are both inside the first viewport.
 
-The mosaic is a two-column grid with no gutters. Each style is one tile, twice as wide as it is tall, split into two square cells: screenshot and text. The image side swaps every other row and the text cells alternate red and cream, so the page reads as a four-column checkerboard. The backdrop word sits above the grid and the grid is pulled up over its lower third (-8.5vw).
+The mosaic is a two-column grid with no gutters. Each style is one tile, twice as wide as it is tall, split into two square cells: screenshot and text. The image side swaps every other row and the text cells alternate red and cream, so the page reads as a four-column checkerboard. The backdrop word sits above the grid and the grid is pulled up over its lower third (-6.4vw).
 
 The detail sheet fills the viewport. The screenshot holds the left 5/11 as a sticky, independently scrolling tray; the text scrolls on the right, opening with a red head block and closing with a sticky action bar.
 
-Side padding is fluid (4vw on the page, 5vw in the sheet, 16px on phones). At 1000px and below the mosaic becomes one tile per row with red and cream alternating by row, and the sheet stacks. At 620px and below the intro stacks and each tile becomes an image over text.
+Side padding is fluid (4vw on the page, 5vw in the sheet, 16px on phones). At 1000px and below the mosaic becomes one tile per row with red and cream alternating by row, and the sheet stacks. At 620px and below the cover stacks (a 150px strip of three entries, then the headline and search) and each tile becomes an image over text.
 
 ### Named Rules
 **The No Gutter Rule.** Blocks touch. Separation comes from the change of colour or from an image edge, never from whitespace between cells.
 
 ## Elevation & Depth
 
-Flat. There are no shadows anywhere. Depth comes from overlap: tiles cover the backdrop word, the logotype sits over the photo strip, and a small colour screenshot overlaps the edge of the intro. A fractal-noise grain overlay (13% opacity, multiply in light and screen in dark) lies over the whole page to give the flat colour a printed surface.
+Flat. There are no shadows anywhere. Depth comes from overlap: tiles cover the backdrop word, and the logotype sits over the photo strip. A fractal-noise grain overlay (13% opacity, multiply in light and screen in dark) lies over the whole page to give the flat colour a printed surface.
 
 ### Named Rules
 **The Flat Paper Rule.** Nothing lifts off the page. Hover changes colour, crop or saturation, never elevation.
 
 ## Shapes
 
-Square by default. Tiles, images, colour blocks, swatches and the sheet all have 0 radius. The one exception is the pill (999px), reserved for things you press or small count badges. Borders are 1px hairlines; the search field is an underline only (2px, 4px on focus) and the prompt carries a 3px red rule down its left edge. Screenshots are always cropped from the top (`object-position: top`). The detail sheet opens with a diagonal wipe from the bottom-left corner.
+Square by default. Tiles, images, colour blocks, swatches and the sheet all have 0 radius. The one exception is the pill (999px), reserved for things you press. Borders are 1px hairlines; the search field is an underline only (2px, 4px on focus) and the prompt carries a 3px red rule down its left edge. Screenshots are always cropped from the top (`object-position: top`). The detail sheet opens with a diagonal wipe from the bottom-left corner.
 
 ### Named Rules
 **The Square Or Pill Rule.** A corner is either 0 or fully round. There are no small radii.
@@ -237,18 +237,30 @@ Square by default. Tiles, images, colour blocks, swatches and the sheet all have
 - **Tile action:** a 1px outlined pill ("Read it →") at the foot of each text cell; it fills on hover with the opposite colour of its cell.
 
 ### Pills
-- **Style:** Tomato Red with italic serif text and a roman figure, used for the two counts under the logotype.
+- **Style:** Tomato Red with italic serif text, used for the actions in the empty state; the second action of a pair is outlined.
+
+### Cover
+- **Strip:** five library entries as greyscale crops under a dark veil. Each is a button that opens its style; hover or focus restores colour, lifts the veil and shows the style's name in a small cream pill.
+- **Logotype:** the brush wordmark sits over the strip and lets clicks through.
+- **Theme toggle:** a small Hero Black pill at the top right of the strip.
+- **Panel:** the headline, the search field and the hand-written "start typing" aside, which hides once a query is typed and on phones.
 
 ### Category Links
 - **Style:** plain serif text in a sticky, horizontally scrolling bar with a superscript count in the sans.
 - **State:** hover turns red; the selected link is red, italic and underlined (2px, 6px offset).
 
-### Mosaic Tiles
+### Result Status
+- **Style:** the left cell of the sticky bar, ahead of the category links and divided from them by a hairline. Red italic serif with a roman figure: the result count, then the active query in quotes. It truncates with an ellipsis before it pushes the links.
+- **Clear:** a small outlined red pill that appears only while a query is active; it clears the query and keeps the category.
+- **Behaviour:** while a query is active the backdrop word drops to clamp(44px, 9vw, 150px) and the first row moves up under the bar. Typing scrolls the search field to the top of the viewport; choosing a category puts the top of the wall directly under the bar.
+- **Phone:** at 620px and below the status takes its own row above the links.
+
 - **Corner Style:** square.
 - **Background:** the text cell is Tomato Red or Cream in a checkerboard; cream cells carry a half-pixel inset hairline.
 - **Image:** fills its cell, cropped from the top. Every third image is greyscale; hover or focus restores colour and zooms 4%.
 - **Internal Padding:** clamp(16px, 2.2vw, 38px).
 - **Content:** uppercase category label, serif title with an italic last word, a short description clamped to four lines, the tile action.
+- **Match line:** when a query hits text the tile does not show, one italic serif line says where ("Filed under …" for a keyword, "Mentioned in …" for the description, trait notes or image prompt).
 - **Flags:** a draft is marked in the category label; a style with no screenshot shows palette bands and a small Ink pill reading "palette only".
 
 ### Inputs / Fields
@@ -256,7 +268,7 @@ Square by default. Tiles, images, colour blocks, swatches and the sheet all have
 - **Focus:** the underline thickens from 2px to 4px.
 
 ### Navigation
-- **Style:** the category bar is the only navigation. An announcement tape above the hero scrolls continuously (60s loop) and stops under reduced motion.
+- **Style:** the category bar is the only navigation. An announcement tape above the cover scrolls continuously (60s loop) and stops under reduced motion.
 
 ### Detail Sheet
 A full-viewport dialog over a red backdrop. Left: the full screenshot in a Deep Cream tray. Right: a red head block (label, serif title, italic summary), then sections headed in red italic serif: the long description, a two-column trait list under hairlines, palette bars with hex labels (the ground colour twice as wide, each bar rising on hover and copying on click), keywords as italic links separated by red slashes (a click searches for that keyword), and the image prompt behind a red left rule. A sticky bar at the bottom holds the two copy buttons.
@@ -269,7 +281,7 @@ An Ink pill with italic serif text, centred at the bottom, shown for 1.9s.
 ### Do:
 - **Do** build with Tomato Red, Cream and Ink only, and let screenshots and swatches supply every other colour.
 - **Do** set serif headings tight and put the last word of a style name in italic.
-- **Do** keep blocks edge to edge with square corners; use the pill only for actions and count badges.
+- **Do** keep blocks edge to edge with square corners; use the pill only for actions.
 - **Do** mix greyscale and colour screenshots deliberately, and crop them from the top.
 - **Do** keep the grain overlay on any new full-page surface.
 - **Do** define every colour as a CSS variable in `:root`, and redefine it for `prefers-color-scheme: dark` and `[data-theme="dark"]`.
