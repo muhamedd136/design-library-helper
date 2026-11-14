@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-13T20:58:06Z",
+  "generatedAt": "2026-11-14T14:34:17Z",
   "title": "Design System: Design Style Library",
   "extensions": {
     "colorMeta": {
@@ -128,7 +128,7 @@
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Brush logotype in the hero; also the two small hand-written asides."
+        "purpose": "Brush logotype on the cover; also the two small hand-written asides."
       },
       "backdrop": {
         "displayName": "Backdrop",
@@ -144,7 +144,7 @@
       },
       "accent": {
         "displayName": "Accent",
-        "purpose": "Italic serif for pills, the selected category, section heads, search, keywords and the toast."
+        "purpose": "Italic serif for the result status, the selected category, section heads, search, keywords and the toast."
       },
       "body": {
         "displayName": "Body",
@@ -202,12 +202,12 @@
       "css": ".ds-btn{padding:12px 24px;border-radius:999px;border:1px solid #c53a26;cursor:pointer;min-width:13em;font:500 13px/1 'DM Sans','Helvetica Neue',sans-serif;transition:background .2s,color .2s,border-color .2s}.ds-btn:hover{background:#1a1a1a;border-color:#1a1a1a;color:#f4efe4}.ds-btn:focus-visible{outline:3px solid #1a1a1a;outline-offset:2px}.ds-btn-outline{background:#f4efe4;color:#c53a26}"
     },
     {
-      "name": "Count Pill",
-      "kind": "chip",
-      "refersTo": "pill",
-      "description": "Red pill with an italic serif label, used for the counts under the logotype.",
-      "html": "<span class=\"ds-pill\"><b>147</b> design languages</span>",
-      "css": ".ds-pill{display:inline-block;padding:7px 18px;border-radius:999px;background:#c53a26;color:#f8f1e3;font:italic 400 15px/1.2 'Playfair Display','Times New Roman',serif}.ds-pill b{font-weight:500;font-style:normal}"
+      "name": "Result Status",
+      "kind": "custom",
+      "refersTo": "category-link",
+      "description": "Left cell of the sticky bar: result count, active query and a Clear pill that appears while a query is active.",
+      "html": "<div class=\"ds-status\"><p><b>7</b> styles for <q>brush</q></p><button>Clear</button></div>",
+      "css": ".ds-status{display:inline-flex;align-items:center;gap:12px;padding:14px 20px;background:#f4efe4;border:1px solid rgba(26,26,26,.2)}.ds-status p{margin:0;color:#c53a26;white-space:nowrap;font:italic 400 19px/1.2 'Playfair Display','Times New Roman',serif;letter-spacing:-.01em}.ds-status b{font-style:normal;font-weight:500}.ds-status q{quotes:'“' '”'}.ds-status button{padding:6px 13px;border:1px solid #c53a26;border-radius:999px;background:none;color:#c53a26;cursor:pointer;font:500 11px/1 'DM Sans','Helvetica Neue',sans-serif;letter-spacing:.04em;transition:background .2s,color .2s,border-color .2s}.ds-status button:hover{background:#1a1a1a;border-color:#1a1a1a;color:#f4efe4}.ds-status button:focus-visible{outline:3px solid #1a1a1a;outline-offset:2px}"
     },
     {
       "name": "Category Links",
@@ -318,7 +318,7 @@
     "dos": [
       "Do build with Tomato Red, Cream and Ink only, and let screenshots and swatches supply every other colour.",
       "Do set serif headings tight and put the last word of a style name in italic.",
-      "Do keep blocks edge to edge with square corners; use the pill only for actions and count badges.",
+      "Do keep blocks edge to edge with square corners; use the pill only for actions.",
       "Do mix greyscale and colour screenshots deliberately, and crop them from the top.",
       "Do keep the grain overlay on any new full-page surface.",
       "Do define every colour as a CSS variable in `:root`, and redefine it for `prefers-color-scheme: dark` and `[data-theme=\"dark\"]`.",

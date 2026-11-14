@@ -89,6 +89,41 @@
     });
   }
 
+  const termsOf = (q) => (q || '').trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const has = (text, t) => (text || '').toLowerCase().includes(t);
+
+  // Order results by where the query hits: title first, then summary, then keywords.
+  // Ties keep library order.
+  function rank(list, q) {
+    const terms = termsOf(q);
+    if (!terms.length) return list;
+    const score = (s) => terms.reduce((n, t) => n + (
+      has(s.title, t) ? 8
+        : has(s.short, t) ? 5
+          : (s.keywords || []).some((k) => has(k, t)) ? 4
+            : has(catName(s), t) ? 2 : 1), 0);
+    return list
+      .map((s, i) => [score(s), i, s])
+      .sort((a, b) => b[0] - a[0] || a[1] - b[1])
+      .map((x) => x[2]);
+  }
+
+  // When a query matches only in text a tile does not show (it shows title, summary
+  // and category), say where: the matching keywords, or the part of the entry.
+  function hiddenHit(s, q) {
+    const shown = [s.title, s.short, catName(s)].join(' ').toLowerCase();
+    const missing = termsOf(q).filter((t) => !shown.includes(t));
+    if (!missing.length) return null;
+    const kw = (s.keywords || []).filter((k) => missing.some((t) => has(k, t)));
+    if (kw.length) return { keywords: kw.slice(0, 2) };
+    for (const [k, v] of Object.entries(s.traits || {})) {
+      if (missing.some((t) => has(v, t))) return { place: `the ${k.toLowerCase()} notes` };
+    }
+    if (missing.some((t) => has(s.long, t))) return { place: 'the description' };
+    if (missing.some((t) => has(s.prompt, t))) return { place: 'the image prompt' };
+    return { place: 'the entry' };
+  }
+
   // Text with matched search terms wrapped in <mark>.
   function mark(text, q) {
     const terms = (q || '').trim().toLowerCase().split(/\s+/).filter((t) => t.length > 1);
@@ -327,7 +362,7 @@
     shots: styles.filter((s) => s.image && !s.missing).length,
     generatedAt: DB.generatedAt || null,
     el, src, shot, bands, lum, inkOn,
-    search, mark, brief, copy, copyWith, toast,
+    search, rank, hiddenHit, mark, brief, copy, copyWith, toast,
     isDark, setTheme, toggleTheme, hash, slashFocus, detail,
   };
 })();
